@@ -72,7 +72,7 @@ h1{font-size:67px;letter-spacing:-3.9px;line-height:1;margin:0;font-weight:800}h
  <footer class="footer"><div class="legend"><div class="group"><span class="name">Tees</span><span class="item"><i class="symbol short"></i>Short / Brown</span><span class="item"><i class="symbol long"></i>Long / Green</span></div><div class="group"><span class="name">Baskets</span><span class="item"><i class="symbol yellow"></i>Yellow</span><span class="item"><i class="symbol orange"></i>Orange</span></div></div><div class="totals" id="totals"></div></footer>
 </main></div>
 <script src="label-placement-v2.js?v=directed-3"></script>
-<script src="course-display-v2.js?v=2"></script>
+<script src="course-display-v2.js?v=3"></script>
 <script>
 const NS='http://www.w3.org/2000/svg';
 const ART={href:'Images/illustrated-course-river-corrected-v3.svg',width:1152,height:1120};
@@ -80,7 +80,7 @@ const WIDTH=1600,HEIGHT=1066;
 let geometry,palette,affine,labelPlacement;
 function arrangeLabels(){
  const pins=new Map(geometry.main18.flatMap(h=>h.baskets.map(b=>[b.pinId,b])));
- labelPlacement=CourseLabelPlacement.place(geometry.main18.map(h=>({id:String(h.slot),anchor:project((h.tees.find(t=>t.type==='Short')||h.tees[0]).markedPx),routes:h.routes.map(r=>r.vertices.map(v=>project(v.markedPx))),markers:[...h.tees.map(t=>({id:t.teeId,...project(t.markedPx),radius:8})),...[...new Set(h.routes.map(r=>r.pinId))].map(id=>({id,...project(pins.get(id).markedPx),radius:6.8}))]})));
+ labelPlacement=CourseLabelPlacement.place(geometry.main18.map(h=>({id:String(h.slot),anchor:project((h.tees.find(t=>t.type==='Short')||h.tees[0]).markedPx),routes:[...CourseDisplay.routes(h,affine,pins).values()],markers:[...h.tees.map(t=>({id:t.teeId,...project(t.markedPx),radius:8})),...[...new Set(h.routes.map(r=>r.pinId))].map(id=>({id,...project(pins.get(id).markedPx),radius:6.8}))]})));
  window.__labelPlacementReport=labelPlacement.report;
 }
 const element=(tag,attributes={})=>{const e=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attributes))e.setAttribute(k,v);return e;};
@@ -94,8 +94,9 @@ function renderMap(svg,holes){
  // Keep every approved route vertex; the new art direction changes appearance only.
  for(const hole of holes){
   const group=element('g',{'data-hole':hole.slot});
+  const displayRoutes=CourseDisplay.routes(hole,affine,pinIndex);
   for(const route of hole.routes){
-   const ps=route.vertices.map(v=>project(v.markedPx));points.push(...ps);const orange=pinIndex.get(route.pinId)?.type==='Orange';const d=ps.map((p,i)=>`${i?'L':'M'}${p.x.toFixed(2)} ${p.y.toFixed(2)}`).join(' ');
+   const ps=displayRoutes.get(route.pathId);points.push(...ps);const orange=pinIndex.get(route.pinId)?.type==='Orange';const d=ps.map((p,i)=>`${i?'L':'M'}${p.x.toFixed(2)} ${p.y.toFixed(2)}`).join(' ');
    const lineStyle={d,fill:'none','stroke-linecap':'round','stroke-linejoin':'round',...(orange?{'stroke-dasharray':'8 3'}:{})};
    group.append(element('path',{...lineStyle,stroke:palette.ink,'stroke-width':2.9,'data-route-outline':route.pathId}));
    group.append(element('path',{...lineStyle,stroke:orange?palette.orange:palette.yellow,'stroke-width':1.9,'data-route':route.pathId}));
