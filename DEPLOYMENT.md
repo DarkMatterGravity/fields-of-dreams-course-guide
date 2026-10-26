@@ -61,6 +61,8 @@
 
 ## Validation Checklist
 
+Current route treatment: 1.9px yellow/orange strokes over a 2.9px title-ink outline. The hole 6 orange basket and hole 10 long tee have illustration offsets in `course-display-v2.js`; the coincident route vertices use the same offsets. Source coordinates and distance data remain intact.
+
 After each deployment, verify:
 
 - [ ] 18 hole labels visible on maps (woodland loop 1-14, field loop 15-18)

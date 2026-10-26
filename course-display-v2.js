@@ -9,6 +9,10 @@
   // Hole 5 long tee QkDw: separate it from hole 4's finishing lines.
   // The same adjustment also moves the coincident route starting vertices.
   if(Math.abs(p.x-559.08)<.01&&Math.abs(p.y-293.52)<.01){result.x-=16;result.y-=3;}
+  // Keep the hole 6 orange basket clear of the illustrated riverbank.
+  if(Math.abs(p.x-285.92)<.01&&Math.abs(p.y-76.17)<.01){result.y+=22;}
+  // Hole 10 long tee: move onto woodland, clear of the short tee and hole 9 basket.
+  if(Math.abs(p.x-616.17)<.01&&Math.abs(p.y-94.32)<.01){result.x+=26;result.y+=26;}
   return result;
  }
  return {project};

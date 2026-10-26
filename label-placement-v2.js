@@ -4,7 +4,7 @@
  else root.CourseLabelPlacement=factory();
 })(typeof globalThis!=='undefined'?globalThis:this,function(){
  'use strict';
- const RADIUS=10.5,OUTLINE=.8,ROUTE_WIDTH=3.4;
+ const RADIUS=10.5,OUTLINE=.8,ROUTE_WIDTH=2.9;
  const distance=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
  function pointSegment(p,a,b){const dx=b.x-a.x,dy=b.y-a.y,t=Math.max(0,Math.min(1,((p.x-a.x)*dx+(p.y-a.y)*dy)/(dx*dx+dy*dy||1)));return distance(p,{x:a.x+t*dx,y:a.y+t*dy});}
  function cross(a,b,c){return(b.x-a.x)*(c.y-a.y)-(b.y-a.y)*(c.x-a.x);}

@@ -71,8 +71,8 @@ h1{font-size:67px;letter-spacing:-3.9px;line-height:1;margin:0;font-weight:800}h
  <section class="directory" aria-labelledby="distance-title"><div class="directory-heading"><h2 id="distance-title">Distance guide</h2></div><div class="scorecards" id="scorecards"><p class="loading">Loading reference layout data…</p></div><p class="directory-note">Holes 3 and 15 use the yellow basket for both basket layouts.</p></section>
  <footer class="footer"><div class="legend"><div class="group"><span class="name">Tees</span><span class="item"><i class="symbol short"></i>Short / Brown</span><span class="item"><i class="symbol long"></i>Long / Green</span></div><div class="group"><span class="name">Baskets</span><span class="item"><i class="symbol yellow"></i>Yellow</span><span class="item"><i class="symbol orange"></i>Orange</span></div></div><div class="totals" id="totals"></div></footer>
 </main></div>
-<script src="label-placement-v2.js?v=directed-2"></script>
-<script src="course-display-v2.js?v=1"></script>
+<script src="label-placement-v2.js?v=directed-3"></script>
+<script src="course-display-v2.js?v=2"></script>
 <script>
 const NS='http://www.w3.org/2000/svg';
 const ART={href:'Images/illustrated-course-river-corrected-v3.svg',width:1152,height:1120};
@@ -96,7 +96,9 @@ function renderMap(svg,holes){
   const group=element('g',{'data-hole':hole.slot});
   for(const route of hole.routes){
    const ps=route.vertices.map(v=>project(v.markedPx));points.push(...ps);const orange=pinIndex.get(route.pinId)?.type==='Orange';const d=ps.map((p,i)=>`${i?'L':'M'}${p.x.toFixed(2)} ${p.y.toFixed(2)}`).join(' ');
-   group.append(element('path',{d,fill:'none',stroke:orange?palette.orange:palette.yellow,'stroke-width':3.4,'stroke-linecap':'round','stroke-linejoin':'round',...(orange?{'stroke-dasharray':'8 3'}:{}),'data-route':route.pathId}));
+   const lineStyle={d,fill:'none','stroke-linecap':'round','stroke-linejoin':'round',...(orange?{'stroke-dasharray':'8 3'}:{})};
+   group.append(element('path',{...lineStyle,stroke:palette.ink,'stroke-width':2.9,'data-route-outline':route.pathId}));
+   group.append(element('path',{...lineStyle,stroke:orange?palette.orange:palette.yellow,'stroke-width':1.9,'data-route':route.pathId}));
    const basket=pinIndex.get(route.pinId);if(basket)baskets.set(route.pinId,basket);
   }
   routes.append(group);
