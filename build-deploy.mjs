@@ -58,10 +58,11 @@ const sourceHtml = fs.readFileSync(path.join(SRC, 'sign-design-v2.html'), 'utf8'
 
 // Inject zoom viewport wrapper and controls
 const zoomStyles = `
-/* Zoom viewport styles */
-.zoom-viewport{position:relative;overflow:auto;width:100%;height:calc(100vh - 56px);max-width:100vw;cursor:grab;background:#D9E0D9}
+/* Zoom viewport styles - override body grid to fixed viewport */
+body{display:block;overflow:hidden;padding:0;height:100vh;width:100vw}
+.zoom-viewport{position:fixed;top:0;left:0;right:0;bottom:0;overflow:auto;cursor:grab;background:#D9E0D9;padding:28px}
 .zoom-viewport:active{cursor:grabbing}
-.zoom-content{transform-origin:0 0;position:relative;display:inline-block;min-width:max-content;min-height:max-content}
+.zoom-content{transform-origin:0 0;position:relative;display:inline-block}
 .zoom-controls{position:fixed;bottom:24px;right:24px;display:flex;gap:8px;z-index:100;font-family:Inter,Arial,sans-serif}
 .zoom-controls button{width:40px;height:40px;border:none;border-radius:8px;background:var(--paper,#F4F3ED);color:var(--ink,#20383C);font-size:18px;font-weight:600;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.15);transition:background .15s,transform .1s}
 .zoom-controls button:hover{background:#E8E7E1}
@@ -151,7 +152,7 @@ outputHtml = outputHtml.replace('</style>', zoomStyles + '</style>');
 // Match from @media print{ to the final }} (the line ends with }})
 outputHtml = outputHtml.replace(
   /@media print\{[^]*?print-color-adjust:exact\}\}/,
-  `@media print{@page{size:48in 32in;margin:0}body{padding:0;background:white;display:block}.zoom-viewport{overflow:visible;height:auto;max-width:none;cursor:auto}.zoom-content{transform:none!important;width:auto!important;height:auto!important}.proof-stage{width:48in!important;height:32in!important}.sign{transform:scale(2.88)!important;transform-origin:top left}.zoom-controls{display:none!important}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}`
+  `@media print{@page{size:48in 32in;margin:0}body{display:block;overflow:visible;padding:0;height:auto;width:auto;background:white}.zoom-viewport{position:static;overflow:visible;height:auto;width:auto;padding:0;cursor:auto}.zoom-content{transform:none!important;width:auto!important;height:auto!important}.proof-stage{width:48in!important;height:32in!important}.sign{transform:scale(2.88)!important;transform-origin:top left}.zoom-controls{display:none!important}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}`
 );
 
 // Wrap proof-stage in zoom viewport
@@ -166,6 +167,9 @@ outputHtml = outputHtml.replace(
 
 // Remove the old scaleProof function completely
 outputHtml = outputHtml.replace(/function scaleProof\(\)\{[^}]+\}/, '');
+
+// Replace scaleProof() call inside load() with fitToViewport()
+outputHtml = outputHtml.replace(/;scaleProof\(\);document\.documentElement\.dataset\.ready/, ';fitToViewport();document.documentElement.dataset.ready');
 
 // Inject zoom script before load() call
 outputHtml = outputHtml.replace(
