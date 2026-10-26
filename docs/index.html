@@ -54,24 +54,10 @@ h1{font-size:67px;letter-spacing:-3.9px;line-height:1;margin:0;font-weight:800}h
 .totals{display:flex;gap:13px;font-size:8px;line-height:1.5;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
 .totals strong{color:var(--ink);font-size:10px;font-weight:650;display:block}.totals .mode{display:block;font-size:7px;letter-spacing:.5px;text-transform:uppercase}
 .error{color:#9C3A29;font-size:15px;padding:24px}.loading{font-size:12px;color:var(--muted);padding:20px}
-@media print{@page{size:48in 32in;margin:0}body{display:block;overflow:visible;padding:0;height:auto;width:auto;background:white}.zoom-viewport{position:static;overflow:visible;height:auto;width:auto;padding:0;cursor:auto}.zoom-content{transform:none!important;width:auto!important;height:auto!important}.proof-stage{width:48in!important;height:32in!important}.sign{transform:scale(2.88)!important;transform-origin:top left}.zoom-controls{display:none!important}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
-
-/* Zoom viewport styles - override body grid to fixed viewport */
-body{display:block;overflow:hidden;padding:0;height:100vh;width:100vw}
-.zoom-viewport{position:fixed;top:0;left:0;right:0;bottom:0;overflow:auto;cursor:grab;background:#D9E0D9;padding:28px}
-.zoom-viewport:active{cursor:grabbing}
-.zoom-content{transform-origin:0 0;position:relative;display:inline-block}
-.zoom-content .sign{position:absolute;top:0;left:0}
-.zoom-controls{position:fixed;bottom:24px;right:24px;display:flex;gap:8px;z-index:100;font-family:Inter,Arial,sans-serif}
-.zoom-controls button{width:40px;height:40px;border:none;border-radius:8px;background:var(--paper,#F4F3ED);color:var(--ink,#20383C);font-size:18px;font-weight:600;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.15);transition:background .15s,transform .1s}
-.zoom-controls button:hover{background:#E8E7E1}
-.zoom-controls button:active{transform:scale(.95)}
-.zoom-controls .zoom-level{min-width:52px;height:40px;display:flex;align-items:center;justify-content:center;background:var(--paper,#F4F3ED);border-radius:8px;font-size:12px;font-weight:600;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+@media print{@page{size:48in 32in;margin:0}body{padding:0;background:white;display:block}.proof-stage{width:48in!important;height:32in!important}.sign{transform:scale(2.88)!important;transform-origin:top left}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 </style>
 </head>
 <body>
-<div class="zoom-viewport" id="zoom-viewport">
-<div class="zoom-content" id="zoom-content">
 <div class="proof-stage" id="proof-stage">
 <main class="sign" id="sign">
  <header class="header">
@@ -85,14 +71,6 @@ body{display:block;overflow:hidden;padding:0;height:100vh;width:100vw}
  <section class="directory" aria-labelledby="distance-title"><div class="directory-heading"><h2 id="distance-title">Distance guide</h2></div><div class="scorecards" id="scorecards"><p class="loading">Loading reference layout data…</p></div><p class="directory-note">Holes 3 and 15 use the yellow basket for both basket layouts.</p></section>
  <footer class="footer"><div class="legend"><div class="group"><span class="name">Tees</span><span class="item"><i class="symbol short"></i>Short / Brown</span><span class="item"><i class="symbol long"></i>Long / Green</span></div><div class="group"><span class="name">Baskets</span><span class="item"><i class="symbol yellow"></i>Yellow</span><span class="item"><i class="symbol orange"></i>Orange</span></div></div><div class="totals" id="totals"></div></footer>
 </main></div>
-</div>
-</div>
-<div class="zoom-controls" id="zoom-controls">
- <button id="zoom-out" title="Zoom out">−</button>
- <div class="zoom-level" id="zoom-level">100%</div>
- <button id="zoom-in" title="Zoom in">+</button>
- <button id="zoom-reset" title="Reset zoom">⟲</button>
-</div>
 <script src="label-placement-v2.js?v=directed-2"></script>
 <script src="course-display-v2.js?v=1"></script>
 <script>
@@ -107,6 +85,7 @@ function arrangeLabels(){
 }
 const element=(tag,attributes={})=>{const e=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attributes))e.setAttribute(k,v);return e;};
 function project(p){return CourseDisplay.project(p,affine);}
+function scaleProof(){const ratio=Math.min((innerWidth-56)/WIDTH,(innerHeight-56)/HEIGHT,1);const scale=Math.max(.2,ratio);document.querySelector('#sign').style.transform=`scale(${scale})`;document.querySelector('#sign').style.transformOrigin='top left';const stage=document.querySelector('#proof-stage');stage.style.width=`${WIDTH*scale}px`;stage.style.height=`${HEIGHT*scale}px`;}
 function renderMap(svg,holes){
  svg.replaceChildren(element('image',{href:ART.href,x:0,y:0,width:ART.width,height:ART.height,preserveAspectRatio:'none'}));
  const points=[],baskets=new Map(),users=new Map(),pinIndex=new Map(geometry.main18.flatMap(h=>h.baskets.map(b=>[b.pinId,b])));
@@ -137,77 +116,7 @@ function renderDirectory(){
  document.querySelector('#scorecards').innerHTML=table(1,9)+table(10,18);
  document.querySelector('#totals').innerHTML=layouts.map((l,i)=>{const total=l.referenceTotals||l.serverTotals;return `<div><span class="mode">${i<2?'Short':'Long'} / ${i%2?'Orange':'Yellow'}</span><strong>${total.distanceFt.toLocaleString()} ft</strong>Par ${total.par}</div>`;}).join('');
 }
-
-// Zoom and pan controls
-const zoomState = { scale: 1, minScale: 0.1, maxScale: 4 };
-const viewport = document.getElementById('zoom-viewport');
-const content = document.getElementById('zoom-content');
-const zoomLevelEl = document.getElementById('zoom-level');
-
-function updateZoom(newScale, centerX, centerY) {
-  const oldScale = zoomState.scale;
-  zoomState.scale = Math.max(zoomState.minScale, Math.min(zoomState.maxScale, newScale));
-  document.getElementById('sign').style.transform = `scale(${zoomState.scale})`;
-  document.getElementById('sign').style.transformOrigin = 'top left';
-  const stage = document.getElementById('proof-stage');
-  stage.style.width = (WIDTH * zoomState.scale) + 'px';
-  stage.style.height = (HEIGHT * zoomState.scale) + 'px';
-  // Set explicit dimensions so scrollable area grows with zoom
-  content.style.width = (WIDTH * zoomState.scale) + 'px';
-  content.style.height = (HEIGHT * zoomState.scale) + 'px';
-  zoomLevelEl.textContent = Math.round(zoomState.scale * 100) + '%';
-  if (centerX !== undefined && centerY !== undefined) {
-    const ratio = zoomState.scale / oldScale;
-    viewport.scrollLeft = centerX * ratio - (centerX - viewport.scrollLeft);
-    viewport.scrollTop = centerY * ratio - (centerY - viewport.scrollTop);
-  }
-}
-
-function fitToViewport() {
-  const vw = viewport.clientWidth - 56;
-  const vh = viewport.clientHeight - 56;
-  const scale = Math.min(vw / WIDTH, vh / HEIGHT, 1);
-  updateZoom(scale);
-  setTimeout(() => {
-    const contentW = WIDTH * zoomState.scale;
-    const contentH = HEIGHT * zoomState.scale;
-    viewport.scrollLeft = Math.max(0, (contentW - vw) / 2);
-    viewport.scrollTop = Math.max(0, (contentH - vh) / 2);
-  }, 0);
-}
-
-document.getElementById('zoom-in').addEventListener('click', () => updateZoom(zoomState.scale * 1.25));
-document.getElementById('zoom-out').addEventListener('click', () => updateZoom(zoomState.scale / 1.25));
-document.getElementById('zoom-reset').addEventListener('click', fitToViewport);
-
-viewport.addEventListener('wheel', e => {
-  if (e.ctrlKey || e.metaKey) {
-    e.preventDefault();
-    const rect = viewport.getBoundingClientRect();
-    const centerX = e.clientX - rect.left + viewport.scrollLeft;
-    const centerY = e.clientY - rect.top + viewport.scrollTop;
-    const delta = e.deltaY > 0 ? 0.9 : 1.1;
-    updateZoom(zoomState.scale * delta, centerX, centerY);
-  }
-}, { passive: false });
-
-let lastTouchDist = 0;
-viewport.addEventListener('touchstart', e => {
-  if (e.touches.length === 2) {
-    lastTouchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
-  }
-});
-viewport.addEventListener('touchmove', e => {
-  if (e.touches.length === 2) {
-    e.preventDefault();
-    const dist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
-    if (lastTouchDist > 0) updateZoom(zoomState.scale * (dist / lastTouchDist));
-    lastTouchDist = dist;
-  }
-}, { passive: false });
-
-async function load(){try{const responses=await Promise.all([fetch('course-geometry-reference.json'),fetch('course-data.json'),fetch('design-tokens-v2.json')]);if(responses.some(r=>!r.ok))throw Error('Course assets unavailable');const [g,r,p]=await Promise.all(responses.map(r=>r.json()));geometry=g;palette=p;affine=r.registration.markedToClean.affine;for(const [k,v]of Object.entries(p))document.documentElement.style.setProperty(`--${k}`,v);arrangeLabels();renderDirectory();renderMap(document.querySelector('#main-map'),geometry.main18.filter(h=>h.slot<=14));renderMap(document.querySelector('#field-map'),geometry.main18.filter(h=>h.slot>=15));fitToViewport();document.documentElement.dataset.ready='true';}catch(e){document.querySelector('#scorecards').innerHTML=`<p class="error">${e.message}</p>`;}}
-addEventListener('resize', fitToViewport);
-load();
+async function load(){try{const responses=await Promise.all([fetch('course-geometry-reference.json'),fetch('course-data.json'),fetch('design-tokens-v2.json')]);if(responses.some(r=>!r.ok))throw Error('Course assets unavailable');const [g,r,p]=await Promise.all(responses.map(r=>r.json()));geometry=g;palette=p;affine=r.registration.markedToClean.affine;for(const [k,v]of Object.entries(p))document.documentElement.style.setProperty(`--${k}`,v);arrangeLabels();renderDirectory();renderMap(document.querySelector('#main-map'),geometry.main18.filter(h=>h.slot<=14));renderMap(document.querySelector('#field-map'),geometry.main18.filter(h=>h.slot>=15));scaleProof();document.documentElement.dataset.ready='true';}catch(e){document.querySelector('#scorecards').innerHTML=`<p class="error">${e.message}</p>`;}}
+addEventListener('resize',scaleProof);scaleProof();load();
 </script>
 </body></html>

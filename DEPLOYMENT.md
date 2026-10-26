@@ -12,7 +12,7 @@
 | File | Purpose |
 |------|---------|
 | `sign-design-v2.html` | Editable source design proof |
-| `build-deploy.mjs` | Build script - transforms source into zoom-enabled deployment |
+| `build-deploy.mjs` | Build script - copies the approved centered proof into deployment |
 | `course-geometry-reference.json` | Full course geometry (sanitized for deployment) |
 | `course-data.json` | Registration transform data |
 | `design-tokens-v2.json` | Color palette |
@@ -23,7 +23,7 @@
 ### Deployed (`docs/` folder - GitHub Pages source)
 | File | Purpose |
 |------|---------|
-| `index.html` | Zoom-enabled proof (generated from sign-design-v2.html) |
+| `index.html` | Centered proof (generated from sign-design-v2.html) |
 | `course-geometry-reference.json` | Sanitized geometry (only consumed fields) |
 | `course-data.json` | Sanitized to registration affine only |
 | `design-tokens-v2.json` | Color palette (unchanged) |
@@ -65,11 +65,7 @@ After each deployment, verify:
 
 - [ ] 18 hole labels visible on maps (woodland loop 1-14, field loop 15-18)
 - [ ] 72 distance entries in scorecards (4 layouts × 18 holes)
-- [ ] Zoom controls work (+ / - / reset buttons)
-- [ ] Ctrl+scroll wheel zoom works
-- [ ] Pan/scroll works at all zoom levels
-- [ ] Print preview hides zoom controls
-- [ ] Mobile pinch-to-zoom works
+- [ ] Proof is centered and fits the browser with no custom zoom controls
 
 ## Excluded from Repository
 
@@ -84,5 +80,5 @@ The following are explicitly NOT published:
 
 - Static HTML/CSS/JavaScript (no build framework)
 - GitHub Pages hosting from `docs/` folder
-- Responsive zoom with scroll/pan support
+- Responsive centered proof, automatically sized to fit the browser
 - Print-optimized at 48×32 inches
