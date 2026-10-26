@@ -63,6 +63,7 @@ body{display:block;overflow:hidden;padding:0;height:100vh;width:100vw}
 .zoom-viewport{position:fixed;top:0;left:0;right:0;bottom:0;overflow:auto;cursor:grab;background:#D9E0D9;padding:28px}
 .zoom-viewport:active{cursor:grabbing}
 .zoom-content{transform-origin:0 0;position:relative;display:inline-block}
+.zoom-content .sign{position:absolute;top:0;left:0}
 .zoom-controls{position:fixed;bottom:24px;right:24px;display:flex;gap:8px;z-index:100;font-family:Inter,Arial,sans-serif}
 .zoom-controls button{width:40px;height:40px;border:none;border-radius:8px;background:var(--paper,#F4F3ED);color:var(--ink,#20383C);font-size:18px;font-weight:600;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.15);transition:background .15s,transform .1s}
 .zoom-controls button:hover{background:#E8E7E1}
@@ -79,7 +80,7 @@ const zoomControlsHtml = `<div class="zoom-controls" id="zoom-controls">
 
 const zoomScript = `
 // Zoom and pan controls
-const zoomState = { scale: 1, minScale: 0.25, maxScale: 4 };
+const zoomState = { scale: 1, minScale: 0.1, maxScale: 4 };
 const viewport = document.getElementById('zoom-viewport');
 const content = document.getElementById('zoom-content');
 const zoomLevelEl = document.getElementById('zoom-level');
@@ -87,7 +88,11 @@ const zoomLevelEl = document.getElementById('zoom-level');
 function updateZoom(newScale, centerX, centerY) {
   const oldScale = zoomState.scale;
   zoomState.scale = Math.max(zoomState.minScale, Math.min(zoomState.maxScale, newScale));
-  content.style.transform = \`scale(\${zoomState.scale})\`;
+  document.getElementById('sign').style.transform = \`scale(\${zoomState.scale})\`;
+  document.getElementById('sign').style.transformOrigin = 'top left';
+  const stage = document.getElementById('proof-stage');
+  stage.style.width = (WIDTH * zoomState.scale) + 'px';
+  stage.style.height = (HEIGHT * zoomState.scale) + 'px';
   // Set explicit dimensions so scrollable area grows with zoom
   content.style.width = (WIDTH * zoomState.scale) + 'px';
   content.style.height = (HEIGHT * zoomState.scale) + 'px';
@@ -100,8 +105,8 @@ function updateZoom(newScale, centerX, centerY) {
 }
 
 function fitToViewport() {
-  const vw = viewport.clientWidth;
-  const vh = viewport.clientHeight;
+  const vw = viewport.clientWidth - 56;
+  const vh = viewport.clientHeight - 56;
   const scale = Math.min(vw / WIDTH, vh / HEIGHT, 1);
   updateZoom(scale);
   setTimeout(() => {
