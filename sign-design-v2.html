@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fields of Dreams — illustrated course guide</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700;750;800;850;900&display=swap');
+*{box-sizing:border-box}html,body{margin:0}body{background:#D9E0D9;min-height:100vh;display:grid;place-items:center;padding:28px;font-family:Inter,Arial,sans-serif;color:var(--ink,#20383C)}
+:root{--paper:#F4F3ED;--ink:#20383C;--muted:#617578;--rule:#CDD5CD;--sage:#E3E9DF;--yellow:#F0C83E;--orange:#EA7547;--shortTee:#89644D;--longTee:#427565}
+.proof-stage{position:relative;width:1600px;height:1066px;flex:none}
+.sign{width:1600px;height:1066px;display:grid;grid-template-rows:132px 550px 322px 62px;background:var(--paper);overflow:hidden}
+.header{display:flex;justify-content:space-between;align-items:center;padding:27px 42px 22px 26px;gap:28px}
+.eyebrow{font-size:10px;letter-spacing:2.3px;font-weight:650;text-transform:uppercase;margin:0 0 8px;color:var(--muted)}
+h1{font-size:67px;letter-spacing:-3.9px;line-height:1;margin:0;font-weight:800}h1 span{font-weight:450}
+.header-meta{min-width:222px;border-left:1px solid var(--rule);padding:4px 0 4px 24px;align-self:center}
+.header-meta strong{display:block;font-size:17px;letter-spacing:-.3px;font-weight:650;margin-bottom:8px}
+.header-meta p{font-size:11px;line-height:1.6;margin:0;color:var(--muted)}
+.maps{display:grid;grid-template-columns:1.7fr 1fr;gap:20px;padding:0 26px}
+.map-panel{display:grid;grid-template-rows:42px 1fr;min-width:0;min-height:0;position:relative}
+.panel-heading{display:flex;align-items:baseline;gap:12px;padding:3px 0 7px;border-top:1px solid transparent;position:relative}
+.panel-heading::before{content:'';position:absolute;left:0;right:0;top:-4px;border-top:1px solid var(--ink)}
+.panel-heading strong{font-size:27px;line-height:1.15;letter-spacing:-1.1px;font-weight:550;font-variant-numeric:tabular-nums}
+.panel-heading span{font-size:11px;color:var(--muted);font-weight:500;letter-spacing:.1px}
+.map-art{position:relative;background:#C4D0BC;overflow:hidden;min-height:0}
+.map-art svg{width:100%;height:100%;display:block}
+.directory{padding:15px 26px 0;display:grid;grid-template-rows:32px 1fr 18px;min-height:0}
+.directory-heading{display:flex;align-items:baseline;justify-content:space-between}
+.directory-heading h2{font-size:19px;letter-spacing:-.6px;font-weight:650;margin:0}
+.directory-heading p{font-size:10px;color:var(--muted);margin:0}
+.scorecards{display:grid;grid-template-columns:1fr 1fr;gap:20px;min-height:0}
+.scorecard{width:100%;border-collapse:collapse;table-layout:fixed;font-variant-numeric:tabular-nums;background:#F0ECE2}
+.scorecard col:first-child{width:46px}
+.scorecard th{font-size:10px;font-weight:550;text-align:center;padding:3px 5px;color:var(--muted)}
+.scorecard th.hole-heading{text-align:left;font-weight:500;color:var(--muted);font-size:10px;padding-left:12px}
+.scorecard .tee-heading{font-size:12px;color:var(--ink);font-weight:600;padding-top:4px;padding-bottom:5px}
+.tee-key{display:inline-block;width:7px;height:7px;margin-right:6px;vertical-align:1px}
+.tee-key.short{background:var(--shortTee)}.tee-key.long{background:var(--longTee)}
+.basket-key{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:5px;vertical-align:1px}
+.basket-key.yellow{background:var(--yellow);box-shadow:0 0 0 .5px #BD9C28}.basket-key.orange{background:var(--orange)}
+.scorecard thead tr:last-child th{border-bottom:1px solid var(--rule);padding-bottom:5px}
+.scorecard tbody tr{height:22px}
+.scorecard tbody td{border-bottom:1px solid #DDE3DA;text-align:center;white-space:nowrap;font-size:13px;font-weight:550;padding:3px 4px;line-height:1}
+.scorecard tbody tr:last-child td{border-bottom:1px solid var(--ink)}
+.scorecard td.hole{font-size:14px;letter-spacing:-.4px;font-weight:700;text-align:left;color:var(--ink);padding-left:12px}
+.scorecard td .par{font-size:10px;font-weight:450;color:var(--muted);margin-left:4px}
+.scorecard td.group-start,.scorecard th.group-start{border-left:14px solid #F0ECE2}
+.directory-note{font-size:8.5px;color:var(--muted);margin:5px 0 0;line-height:1.35}
+.footer{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:13px 26px 14px}
+.legend{display:flex;gap:17px;align-items:center;font-size:10px;color:var(--ink);white-space:nowrap}
+.legend .group{display:flex;align-items:center;gap:10px}.legend .name{font-size:8px;letter-spacing:1.3px;text-transform:uppercase;color:var(--muted);margin-right:1px}
+.legend .item{display:flex;align-items:center;gap:5px}.legend .symbol{width:9px;height:9px;border:1px solid var(--paper);outline:1px solid var(--rule)}
+.legend .symbol.short{background:var(--shortTee)}.legend .symbol.long{background:var(--longTee)}.legend .symbol.yellow{background:var(--yellow);border-radius:50%}.legend .symbol.orange{background:var(--orange);border-radius:50%}
+.totals{display:flex;gap:13px;font-size:8px;line-height:1.5;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+.totals strong{color:var(--ink);font-size:10px;font-weight:650;display:block}.totals .mode{display:block;font-size:7px;letter-spacing:.5px;text-transform:uppercase}
+.error{color:#9C3A29;font-size:15px;padding:24px}.loading{font-size:12px;color:var(--muted);padding:20px}
+@media print{@page{size:48in 32in;margin:0}body{padding:0;background:white;display:block}.proof-stage{width:48in!important;height:32in!important}.sign{transform:scale(2.88)!important;transform-origin:top left}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<div class="proof-stage" id="proof-stage">
+<main class="sign" id="sign">
+ <header class="header">
+  <div><p class="eyebrow">Independence Township · New Jersey</p><h1>Fields of <span>Dreams</span></h1></div>
+  <div class="header-meta"><strong>Disc golf course</strong><p>18 holes / 4 layouts<br>Choose your tee. Choose your basket.</p></div>
+ </header>
+ <section class="maps" aria-label="Illustrated course maps">
+  <article class="map-panel"><div class="panel-heading"><strong>01—14</strong><span>Woodland loop</span></div><div class="map-art" id="main-art"><svg id="main-map" role="img" aria-label="Holes 1 through 14, woodland loop"></svg></div></article>
+  <article class="map-panel"><div class="panel-heading"><strong>15—18</strong><span>Field loop</span></div><div class="map-art" id="field-art"><svg id="field-map" role="img" aria-label="Holes 15 through 18, field loop"></svg></div></article>
+ </section>
+ <section class="directory" aria-labelledby="distance-title"><div class="directory-heading"><h2 id="distance-title">Distance guide</h2></div><div class="scorecards" id="scorecards"><p class="loading">Loading reference layout data…</p></div><p class="directory-note">Holes 3 and 15 use the yellow basket for both basket layouts.</p></section>
+ <footer class="footer"><div class="legend"><div class="group"><span class="name">Tees</span><span class="item"><i class="symbol short"></i>Short / Brown</span><span class="item"><i class="symbol long"></i>Long / Green</span></div><div class="group"><span class="name">Baskets</span><span class="item"><i class="symbol yellow"></i>Yellow</span><span class="item"><i class="symbol orange"></i>Orange</span></div></div><div class="totals" id="totals"></div></footer>
+</main></div>
+<script src="label-placement-v2.js?v=directed-2"></script>
+<script src="course-display-v2.js?v=1"></script>
+<script>
+const NS='http://www.w3.org/2000/svg';
+const ART={href:'Images/illustrated-course-river-corrected-v3.svg',width:1152,height:1120};
+const WIDTH=1600,HEIGHT=1066;
+let geometry,palette,affine,labelPlacement;
+function arrangeLabels(){
+ const pins=new Map(geometry.main18.flatMap(h=>h.baskets.map(b=>[b.pinId,b])));
+ labelPlacement=CourseLabelPlacement.place(geometry.main18.map(h=>({id:String(h.slot),anchor:project((h.tees.find(t=>t.type==='Short')||h.tees[0]).markedPx),routes:h.routes.map(r=>r.vertices.map(v=>project(v.markedPx))),markers:[...h.tees.map(t=>({id:t.teeId,...project(t.markedPx),radius:8})),...[...new Set(h.routes.map(r=>r.pinId))].map(id=>({id,...project(pins.get(id).markedPx),radius:6.8}))]})));
+ window.__labelPlacementReport=labelPlacement.report;
+}
+const element=(tag,attributes={})=>{const e=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attributes))e.setAttribute(k,v);return e;};
+function project(p){return CourseDisplay.project(p,affine);}
+function scaleProof(){const ratio=Math.min((innerWidth-56)/WIDTH,(innerHeight-56)/HEIGHT,1);const scale=Math.max(.2,ratio);document.querySelector('#sign').style.transform=`scale(${scale})`;document.querySelector('#sign').style.transformOrigin='top left';const stage=document.querySelector('#proof-stage');stage.style.width=`${WIDTH*scale}px`;stage.style.height=`${HEIGHT*scale}px`;}
+function renderMap(svg,holes){
+ svg.replaceChildren(element('image',{href:ART.href,x:0,y:0,width:ART.width,height:ART.height,preserveAspectRatio:'none'}));
+ const points=[],baskets=new Map(),users=new Map(),pinIndex=new Map(geometry.main18.flatMap(h=>h.baskets.map(b=>[b.pinId,b])));
+ for(const hole of geometry.main18)for(const r of hole.routes){if(!users.has(r.pinId))users.set(r.pinId,new Set());users.get(r.pinId).add(hole.slot);}
+ const routes=element('g',{'data-layer':'routes'}),markers=element('g',{'data-layer':'markers'}),numbers=element('g',{'data-layer':'hole-numbers'});
+ // Keep every approved route vertex; the new art direction changes appearance only.
+ for(const hole of holes){
+  const group=element('g',{'data-hole':hole.slot});
+  for(const route of hole.routes){
+   const ps=route.vertices.map(v=>project(v.markedPx));points.push(...ps);const orange=pinIndex.get(route.pinId)?.type==='Orange';const d=ps.map((p,i)=>`${i?'L':'M'}${p.x.toFixed(2)} ${p.y.toFixed(2)}`).join(' ');
+   group.append(element('path',{d,fill:'none',stroke:orange?palette.orange:palette.yellow,'stroke-width':3.4,'stroke-linecap':'round','stroke-linejoin':'round',...(orange?{'stroke-dasharray':'8 3'}:{}),'data-route':route.pathId}));
+   const basket=pinIndex.get(route.pinId);if(basket)baskets.set(route.pinId,basket);
+  }
+  routes.append(group);
+  for(const tee of hole.tees){const p=project(tee.markedPx);points.push(p);markers.append(element('rect',{x:p.x-4.8,y:p.y-4.8,width:9.6,height:9.6,fill:tee.type==='Short'?palette.shortTee:palette.longTee,stroke:palette.paper,'stroke-width':1.6,'data-tee':tee.teeId}));}
+  const placement=labelPlacement.labels[String(hole.slot)];if(placement){const {x,y}=placement;points.push({x:x-12,y:y-12},{x:x+12,y:y+12});if(placement.showLeader){const {start,end}=placement.leader;numbers.append(element('line',{x1:start.x,y1:start.y,x2:end.x,y2:end.y,stroke:palette.muted,'stroke-width':1.1,'data-label-leader':hole.slot}));}numbers.append(element('circle',{cx:x,cy:y,r:10.5,fill:palette.ink,stroke:palette.paper,'stroke-width':1.6,'data-hole-label':hole.slot}));const text=element('text',{x,y:y+.4,fill:palette.paper,'font-size':11.5,'font-family':'Inter, Arial, sans-serif','font-weight':700,'text-anchor':'middle','dominant-baseline':'central'});text.textContent=hole.slot;numbers.append(text);}
+ }
+ for(const [id,basket]of baskets){const p=project(basket.markedPx);points.push(p);markers.append(element('circle',{cx:p.x,cy:p.y,r:6,fill:basket.type==='Orange'?palette.orange:palette.yellow,stroke:palette.paper,'stroke-width':1.6,'data-basket':id}));if(users.get(id)?.size>1){const label=element('text',{x:p.x+9,y:p.y+12,fill:palette.ink,'font-family':'Inter, Arial, sans-serif','font-size':8.5,'font-weight':700,stroke:palette.paper,'stroke-width':2.3,'paint-order':'stroke'});label.textContent=[...users.get(id)].join('/');markers.append(label);}}
+ svg.append(routes,markers,numbers);
+ const minX=Math.min(...points.map(p=>p.x))-22,maxX=Math.max(...points.map(p=>p.x))+22,minY=Math.min(...points.map(p=>p.y))-22,maxY=Math.max(...points.map(p=>p.y))+22;
+ const area=svg.parentElement,ratio=area.clientWidth/area.clientHeight;let w=maxX-minX,h=maxY-minY;if(w/h<ratio)w=h*ratio;else h=w/ratio;
+ svg.setAttribute('viewBox',`${(minX+maxX-w)/2} ${(minY+maxY-h)/2} ${w} ${h}`);
+ svg.dataset.routeCount=holes.reduce((n,h)=>n+h.routes.length,0);
+}
+function renderDirectory(){
+ const ids=[171979,171980,171977,171978],layouts=ids.map(id=>geometry.layouts.find(l=>l.layoutId===id));
+ const table=(start,end)=>`<table class="scorecard"><colgroup><col><col><col><col><col></colgroup><thead><tr><th aria-hidden="true"></th><th colspan="2" class="tee-heading"><i class="tee-key short"></i>Short tee</th><th colspan="2" class="tee-heading group-start"><i class="tee-key long"></i>Long tee</th></tr><tr><th class="hole-heading">Hole</th>${['yellow','orange','yellow','orange'].map((c,i)=>`<th class="${i===2?'group-start':''}"><i class="basket-key ${c}"></i>${c[0].toUpperCase()+c.slice(1)}</th>`).join('')}</tr></thead><tbody>${Array.from({length:end-start+1},(_,i)=>{const slot=start+i;return `<tr><td class="hole">${String(slot).padStart(2,'0')}</td>${layouts.map((l,i)=>{const h=l.holes.find(h=>h.slot===slot);return `<td class="${i===2?'group-start':''}" data-hole="${slot}" data-layout="${l.layoutId}">${h.effectiveDistanceFt}<span class="par">/ Par ${h.par}</span></td>`;}).join('')}</tr>`;}).join('')}</tbody></table>`;
+ document.querySelector('#scorecards').innerHTML=table(1,9)+table(10,18);
+ document.querySelector('#totals').innerHTML=layouts.map((l,i)=>{const total=l.referenceTotals||l.serverTotals;return `<div><span class="mode">${i<2?'Short':'Long'} / ${i%2?'Orange':'Yellow'}</span><strong>${total.distanceFt.toLocaleString()} ft</strong>Par ${total.par}</div>`;}).join('');
+}
+async function load(){try{const responses=await Promise.all([fetch('course-geometry-reference.json'),fetch('course-data.json'),fetch('design-tokens-v2.json')]);if(responses.some(r=>!r.ok))throw Error('Course assets unavailable');const [g,r,p]=await Promise.all(responses.map(r=>r.json()));geometry=g;palette=p;affine=r.registration.markedToClean.affine;for(const [k,v]of Object.entries(p))document.documentElement.style.setProperty(`--${k}`,v);arrangeLabels();renderDirectory();renderMap(document.querySelector('#main-map'),geometry.main18.filter(h=>h.slot<=14));renderMap(document.querySelector('#field-map'),geometry.main18.filter(h=>h.slot>=15));scaleProof();document.documentElement.dataset.ready='true';}catch(e){document.querySelector('#scorecards').innerHTML=`<p class="error">${e.message}</p>`;}}
+addEventListener('resize',scaleProof);scaleProof();load();
+</script>
+</body></html>

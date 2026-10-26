@@ -1,0 +1,18 @@
+# Sensitive and non-publishable content
+.claude/
+research/
+*.credentials
+*.env
+node_modules/
+
+# Session history and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Raw UDisc responses (may contain account data)
+*-raw.json
+*_raw.json
+
+# Keep only allowlisted assets in docs/

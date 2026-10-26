@@ -1,0 +1,2824 @@
+{
+  "main18": [
+    {
+      "slot": 1,
+      "tees": [
+        {
+          "teeId": "JhRp",
+          "type": "Short",
+          "markedPx": {
+            "x": 543.27,
+            "y": 339.01
+          }
+        },
+        {
+          "teeId": "gXIN",
+          "type": "Long",
+          "markedPx": {
+            "x": 523.08,
+            "y": 322.1
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "IuKX",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 677.75,
+            "y": 242.6
+          }
+        },
+        {
+          "pinId": "8POd",
+          "type": "Orange",
+          "markedPx": {
+            "x": 662.8,
+            "y": 235.69
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "3NZc",
+          "teeId": "JhRp",
+          "pinId": "IuKX",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 543.27,
+                "y": 339.01
+              }
+            },
+            {
+              "markedPx": {
+                "x": 613.08,
+                "y": 335.57
+              }
+            },
+            {
+              "markedPx": {
+                "x": 677.75,
+                "y": 242.6
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "x2Wl",
+          "teeId": "JhRp",
+          "pinId": "8POd",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 543.27,
+                "y": 339.01
+              }
+            },
+            {
+              "markedPx": {
+                "x": 585.92,
+                "y": 341.89
+              }
+            },
+            {
+              "markedPx": {
+                "x": 670.09,
+                "y": 259.36
+              }
+            },
+            {
+              "markedPx": {
+                "x": 662.8,
+                "y": 235.69
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "gXGb",
+          "teeId": "gXIN",
+          "pinId": "IuKX",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 523.08,
+                "y": 322.1
+              }
+            },
+            {
+              "markedPx": {
+                "x": 612.97,
+                "y": 335.46
+              }
+            },
+            {
+              "markedPx": {
+                "x": 677.75,
+                "y": 242.6
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "1DK1",
+          "teeId": "gXIN",
+          "pinId": "8POd",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 523.08,
+                "y": 322.1
+              }
+            },
+            {
+              "markedPx": {
+                "x": 612.52,
+                "y": 335.64
+              }
+            },
+            {
+              "markedPx": {
+                "x": 670.08,
+                "y": 260.93
+              }
+            },
+            {
+              "markedPx": {
+                "x": 662.8,
+                "y": 235.69
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "tees": [
+        {
+          "teeId": "UhCs",
+          "type": "Short",
+          "markedPx": {
+            "x": 816.61,
+            "y": 287.32
+          }
+        },
+        {
+          "teeId": "MVNh",
+          "type": "Long",
+          "markedPx": {
+            "x": 839.87,
+            "y": 317.02
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "yQAJ",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 739.69,
+            "y": 224.7
+          }
+        },
+        {
+          "pinId": "yoDL",
+          "type": "Orange",
+          "markedPx": {
+            "x": 743.14,
+            "y": 165.43
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "8CSD",
+          "teeId": "UhCs",
+          "pinId": "yQAJ",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 816.61,
+                "y": 287.32
+              }
+            },
+            {
+              "markedPx": {
+                "x": 780.08,
+                "y": 198.9
+              }
+            },
+            {
+              "markedPx": {
+                "x": 739.69,
+                "y": 224.7
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "6hVb",
+          "teeId": "UhCs",
+          "pinId": "yoDL",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 816.61,
+                "y": 287.32
+              }
+            },
+            {
+              "markedPx": {
+                "x": 775.89,
+                "y": 181.87
+              }
+            },
+            {
+              "markedPx": {
+                "x": 743.14,
+                "y": 165.43
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "39WT",
+          "teeId": "MVNh",
+          "pinId": "yQAJ",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 839.87,
+                "y": 317.02
+              }
+            },
+            {
+              "markedPx": {
+                "x": 818.1,
+                "y": 292.29
+              }
+            },
+            {
+              "markedPx": {
+                "x": 779.36,
+                "y": 201.62
+              }
+            },
+            {
+              "markedPx": {
+                "x": 739.69,
+                "y": 224.7
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "TYOd",
+          "teeId": "MVNh",
+          "pinId": "yoDL",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 839.87,
+                "y": 317.02
+              }
+            },
+            {
+              "markedPx": {
+                "x": 816.57,
+                "y": 290.36
+              }
+            },
+            {
+              "markedPx": {
+                "x": 776.92,
+                "y": 181.2
+              }
+            },
+            {
+              "markedPx": {
+                "x": 743.14,
+                "y": 165.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "tees": [
+        {
+          "teeId": "RiJa",
+          "type": "Short",
+          "markedPx": {
+            "x": 714.59,
+            "y": 236.74
+          }
+        },
+        {
+          "teeId": "jM70",
+          "type": "Long",
+          "markedPx": {
+            "x": 743.84,
+            "y": 252.03
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "A7bv",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 637.29,
+            "y": 195.8
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "mdEt",
+          "teeId": "RiJa",
+          "pinId": "A7bv",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 714.59,
+                "y": 236.74
+              }
+            },
+            {
+              "markedPx": {
+                "x": 637.29,
+                "y": 195.8
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "52kb",
+          "teeId": "jM70",
+          "pinId": "A7bv",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 743.84,
+                "y": 252.03
+              }
+            },
+            {
+              "markedPx": {
+                "x": 637.29,
+                "y": 195.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 4,
+      "tees": [
+        {
+          "teeId": "yFQq",
+          "type": "Short",
+          "markedPx": {
+            "x": 599.83,
+            "y": 208.14
+          }
+        },
+        {
+          "teeId": "8DPO",
+          "type": "Long",
+          "markedPx": {
+            "x": 625.36,
+            "y": 236.26
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "xjui",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 563.85,
+            "y": 304.51
+          }
+        },
+        {
+          "pinId": "q9Qt",
+          "type": "Orange",
+          "markedPx": {
+            "x": 580.18,
+            "y": 311.07
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "A4V0",
+          "teeId": "8DPO",
+          "pinId": "xjui",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 625.36,
+                "y": 236.26
+              }
+            },
+            {
+              "markedPx": {
+                "x": 603.08,
+                "y": 271.14
+              }
+            },
+            {
+              "markedPx": {
+                "x": 579.15,
+                "y": 292.06
+              }
+            },
+            {
+              "markedPx": {
+                "x": 563.85,
+                "y": 304.51
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "WNzn",
+          "teeId": "yFQq",
+          "pinId": "xjui",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 599.83,
+                "y": 208.14
+              }
+            },
+            {
+              "markedPx": {
+                "x": 563.85,
+                "y": 304.51
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Pc4j",
+          "teeId": "yFQq",
+          "pinId": "q9Qt",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 599.83,
+                "y": 208.14
+              }
+            },
+            {
+              "markedPx": {
+                "x": 580.18,
+                "y": 311.07
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "DQU7",
+          "teeId": "8DPO",
+          "pinId": "q9Qt",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 625.36,
+                "y": 236.26
+              }
+            },
+            {
+              "markedPx": {
+                "x": 580.18,
+                "y": 311.07
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "tees": [
+        {
+          "teeId": "TINr",
+          "type": "Short",
+          "markedPx": {
+            "x": 543.47,
+            "y": 199.4
+          }
+        },
+        {
+          "teeId": "QkDw",
+          "type": "Long",
+          "markedPx": {
+            "x": 559.08,
+            "y": 293.52
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "XFqd",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 460.21,
+            "y": 220.78
+          }
+        },
+        {
+          "pinId": "vxDt",
+          "type": "Orange",
+          "markedPx": {
+            "x": 466.36,
+            "y": 244.2
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "FqEu",
+          "teeId": "TINr",
+          "pinId": "XFqd",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 543.47,
+                "y": 199.4
+              }
+            },
+            {
+              "markedPx": {
+                "x": 477.37,
+                "y": 208.06
+              }
+            },
+            {
+              "markedPx": {
+                "x": 460.21,
+                "y": 220.78
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Yr5t",
+          "teeId": "TINr",
+          "pinId": "vxDt",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 543.47,
+                "y": 199.4
+              }
+            },
+            {
+              "markedPx": {
+                "x": 481.11,
+                "y": 210.17
+              }
+            },
+            {
+              "markedPx": {
+                "x": 466.36,
+                "y": 244.2
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "bCZ4",
+          "teeId": "QkDw",
+          "pinId": "XFqd",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 559.08,
+                "y": 293.52
+              }
+            },
+            {
+              "markedPx": {
+                "x": 525.36,
+                "y": 198.29
+              }
+            },
+            {
+              "markedPx": {
+                "x": 476.85,
+                "y": 211.57
+              }
+            },
+            {
+              "markedPx": {
+                "x": 460.21,
+                "y": 220.78
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "57qi",
+          "teeId": "QkDw",
+          "pinId": "vxDt",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 559.08,
+                "y": 293.52
+              }
+            },
+            {
+              "markedPx": {
+                "x": 523.98,
+                "y": 200.13
+              }
+            },
+            {
+              "markedPx": {
+                "x": 479.66,
+                "y": 209.33
+              }
+            },
+            {
+              "markedPx": {
+                "x": 466.36,
+                "y": 244.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 6,
+      "tees": [
+        {
+          "teeId": "MWZy",
+          "type": "Short",
+          "markedPx": {
+            "x": 410.45,
+            "y": 217.88
+          }
+        },
+        {
+          "teeId": "Mqfj",
+          "type": "Long",
+          "markedPx": {
+            "x": 439.43,
+            "y": 244.12
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "T2a0",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 335.41,
+            "y": 86.08
+          }
+        },
+        {
+          "pinId": "EiCs",
+          "type": "Orange",
+          "markedPx": {
+            "x": 285.92,
+            "y": 76.17
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "KUhx",
+          "teeId": "MWZy",
+          "pinId": "T2a0",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 410.45,
+                "y": 217.88
+              }
+            },
+            {
+              "markedPx": {
+                "x": 316.09,
+                "y": 191.03
+              }
+            },
+            {
+              "markedPx": {
+                "x": 335.41,
+                "y": 86.08
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "xA8b",
+          "teeId": "MWZy",
+          "pinId": "EiCs",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 410.45,
+                "y": 217.88
+              }
+            },
+            {
+              "markedPx": {
+                "x": 322.07,
+                "y": 180.92
+              }
+            },
+            {
+              "markedPx": {
+                "x": 285.92,
+                "y": 76.17
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "XH3Y",
+          "teeId": "Mqfj",
+          "pinId": "T2a0",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 439.43,
+                "y": 244.12
+              }
+            },
+            {
+              "markedPx": {
+                "x": 318.26,
+                "y": 189.66
+              }
+            },
+            {
+              "markedPx": {
+                "x": 335.41,
+                "y": 86.08
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "cbxL",
+          "teeId": "Mqfj",
+          "pinId": "EiCs",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 439.43,
+                "y": 244.12
+              }
+            },
+            {
+              "markedPx": {
+                "x": 320.46,
+                "y": 182.87
+              }
+            },
+            {
+              "markedPx": {
+                "x": 285.92,
+                "y": 76.17
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 7,
+      "tees": [
+        {
+          "teeId": "gJWC",
+          "type": "Short",
+          "markedPx": {
+            "x": 404.74,
+            "y": 77.86
+          }
+        },
+        {
+          "teeId": "mXU0",
+          "type": "Long",
+          "markedPx": {
+            "x": 380.89,
+            "y": 88.43
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "RRnz",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 435.57,
+            "y": 195.91
+          }
+        },
+        {
+          "pinId": "wTMf",
+          "type": "Orange",
+          "markedPx": {
+            "x": 396.76,
+            "y": 187.55
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "TBh7",
+          "teeId": "gJWC",
+          "pinId": "RRnz",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 404.74,
+                "y": 77.86
+              }
+            },
+            {
+              "markedPx": {
+                "x": 460.14,
+                "y": 166.05
+              }
+            },
+            {
+              "markedPx": {
+                "x": 435.57,
+                "y": 195.91
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "7Cql",
+          "teeId": "gJWC",
+          "pinId": "wTMf",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 404.74,
+                "y": 77.86
+              }
+            },
+            {
+              "markedPx": {
+                "x": 437.59,
+                "y": 157.1
+              }
+            },
+            {
+              "markedPx": {
+                "x": 396.76,
+                "y": 187.55
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "1gCh",
+          "teeId": "mXU0",
+          "pinId": "RRnz",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 380.89,
+                "y": 88.43
+              }
+            },
+            {
+              "markedPx": {
+                "x": 434.34,
+                "y": 120.13
+              }
+            },
+            {
+              "markedPx": {
+                "x": 462.04,
+                "y": 164.92
+              }
+            },
+            {
+              "markedPx": {
+                "x": 435.57,
+                "y": 195.91
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "q1gD",
+          "teeId": "mXU0",
+          "pinId": "wTMf",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 380.89,
+                "y": 88.43
+              }
+            },
+            {
+              "markedPx": {
+                "x": 394.57,
+                "y": 127.79
+              }
+            },
+            {
+              "markedPx": {
+                "x": 396.76,
+                "y": 187.55
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 8,
+      "tees": [
+        {
+          "teeId": "0E6w",
+          "type": "Short",
+          "markedPx": {
+            "x": 491.28,
+            "y": 172.65
+          }
+        },
+        {
+          "teeId": "oJpQ",
+          "type": "Long",
+          "markedPx": {
+            "x": 484.12,
+            "y": 186.63
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "rA8K",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 544.51,
+            "y": 126.05
+          }
+        },
+        {
+          "pinId": "D1AM",
+          "type": "Orange",
+          "markedPx": {
+            "x": 502.39,
+            "y": 110.4
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "7mZ6",
+          "teeId": "0E6w",
+          "pinId": "rA8K",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 491.28,
+                "y": 172.65
+              }
+            },
+            {
+              "markedPx": {
+                "x": 522.54,
+                "y": 125.77
+              }
+            },
+            {
+              "markedPx": {
+                "x": 532.33,
+                "y": 121.28
+              }
+            },
+            {
+              "markedPx": {
+                "x": 544.51,
+                "y": 126.05
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "oCqC",
+          "teeId": "0E6w",
+          "pinId": "D1AM",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 491.28,
+                "y": 172.65
+              }
+            },
+            {
+              "markedPx": {
+                "x": 502.39,
+                "y": 110.4
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "lz3i",
+          "teeId": "oJpQ",
+          "pinId": "rA8K",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 484.12,
+                "y": 186.63
+              }
+            },
+            {
+              "markedPx": {
+                "x": 521.81,
+                "y": 123.89
+              }
+            },
+            {
+              "markedPx": {
+                "x": 532.48,
+                "y": 118.99
+              }
+            },
+            {
+              "markedPx": {
+                "x": 544.51,
+                "y": 126.05
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "4wbU",
+          "teeId": "oJpQ",
+          "pinId": "D1AM",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 484.12,
+                "y": 186.63
+              }
+            },
+            {
+              "markedPx": {
+                "x": 502.39,
+                "y": 110.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 9,
+      "tees": [
+        {
+          "teeId": "N1tJ",
+          "type": "Short",
+          "markedPx": {
+            "x": 505.58,
+            "y": 88.68
+          }
+        },
+        {
+          "teeId": "KJv2",
+          "type": "Long",
+          "markedPx": {
+            "x": 478.83,
+            "y": 79.2
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "8NYm",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 603.87,
+            "y": 125.67
+          }
+        },
+        {
+          "pinId": "b9T7",
+          "type": "Orange",
+          "markedPx": {
+            "x": 594.46,
+            "y": 99.04
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "NgxC",
+          "teeId": "N1tJ",
+          "pinId": "8NYm",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 505.58,
+                "y": 88.68
+              }
+            },
+            {
+              "markedPx": {
+                "x": 603.87,
+                "y": 125.67
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "9ZmG",
+          "teeId": "N1tJ",
+          "pinId": "b9T7",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 505.58,
+                "y": 88.68
+              }
+            },
+            {
+              "markedPx": {
+                "x": 561,
+                "y": 114.27
+              }
+            },
+            {
+              "markedPx": {
+                "x": 594.46,
+                "y": 99.04
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "NKMI",
+          "teeId": "KJv2",
+          "pinId": "8NYm",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 478.83,
+                "y": 79.2
+              }
+            },
+            {
+              "markedPx": {
+                "x": 603.87,
+                "y": 125.67
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "5FlU",
+          "teeId": "KJv2",
+          "pinId": "b9T7",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 478.83,
+                "y": 79.2
+              }
+            },
+            {
+              "markedPx": {
+                "x": 561.66,
+                "y": 115.69
+              }
+            },
+            {
+              "markedPx": {
+                "x": 594.46,
+                "y": 99.04
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 10,
+      "tees": [
+        {
+          "teeId": "LuoC",
+          "type": "Short",
+          "markedPx": {
+            "x": 623.83,
+            "y": 112.87
+          }
+        },
+        {
+          "teeId": "weLE",
+          "type": "Long",
+          "markedPx": {
+            "x": 616.17,
+            "y": 94.32
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "NIdH",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 716.1,
+            "y": 147.89
+          }
+        },
+        {
+          "pinId": "8QY4",
+          "type": "Orange",
+          "markedPx": {
+            "x": 726.26,
+            "y": 175.05
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "O6gm",
+          "teeId": "LuoC",
+          "pinId": "NIdH",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 623.83,
+                "y": 112.87
+              }
+            },
+            {
+              "markedPx": {
+                "x": 716.1,
+                "y": 147.89
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "BNUN",
+          "teeId": "LuoC",
+          "pinId": "8QY4",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 623.83,
+                "y": 112.87
+              }
+            },
+            {
+              "markedPx": {
+                "x": 715.39,
+                "y": 151.35
+              }
+            },
+            {
+              "markedPx": {
+                "x": 726.26,
+                "y": 175.05
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Vhze",
+          "teeId": "weLE",
+          "pinId": "NIdH",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 616.17,
+                "y": 94.32
+              }
+            },
+            {
+              "markedPx": {
+                "x": 716.1,
+                "y": 147.89
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "UYxV",
+          "teeId": "weLE",
+          "pinId": "8QY4",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 616.17,
+                "y": 94.32
+              }
+            },
+            {
+              "markedPx": {
+                "x": 673.13,
+                "y": 127.83
+              }
+            },
+            {
+              "markedPx": {
+                "x": 717.76,
+                "y": 151.34
+              }
+            },
+            {
+              "markedPx": {
+                "x": 726.26,
+                "y": 175.05
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 11,
+      "tees": [
+        {
+          "teeId": "RtJy",
+          "type": "Short",
+          "markedPx": {
+            "x": 756.63,
+            "y": 132.06
+          }
+        },
+        {
+          "teeId": "wgwj",
+          "type": "Long",
+          "markedPx": {
+            "x": 753.82,
+            "y": 97.96
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "NB83",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 853.29,
+            "y": 161.58
+          }
+        },
+        {
+          "pinId": "e2O7",
+          "type": "Orange",
+          "markedPx": {
+            "x": 810.82,
+            "y": 74.55
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "Ddpg",
+          "teeId": "RtJy",
+          "pinId": "NB83",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 756.63,
+                "y": 132.06
+              }
+            },
+            {
+              "markedPx": {
+                "x": 853.29,
+                "y": 161.58
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "atLi",
+          "teeId": "RtJy",
+          "pinId": "e2O7",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 756.63,
+                "y": 132.06
+              }
+            },
+            {
+              "markedPx": {
+                "x": 804.84,
+                "y": 133.84
+              }
+            },
+            {
+              "markedPx": {
+                "x": 810.82,
+                "y": 74.55
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "d6aK",
+          "teeId": "wgwj",
+          "pinId": "NB83",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 753.82,
+                "y": 97.96
+              }
+            },
+            {
+              "markedPx": {
+                "x": 812.39,
+                "y": 153.75
+              }
+            },
+            {
+              "markedPx": {
+                "x": 853.29,
+                "y": 161.58
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Eo4L",
+          "teeId": "wgwj",
+          "pinId": "e2O7",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 753.82,
+                "y": 97.96
+              }
+            },
+            {
+              "markedPx": {
+                "x": 803.46,
+                "y": 132.58
+              }
+            },
+            {
+              "markedPx": {
+                "x": 810.82,
+                "y": 74.55
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 12,
+      "tees": [
+        {
+          "teeId": "CK37",
+          "type": "Short",
+          "markedPx": {
+            "x": 865.07,
+            "y": 117.54
+          }
+        },
+        {
+          "teeId": "U28K",
+          "type": "Long",
+          "markedPx": {
+            "x": 857.67,
+            "y": 76.66
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "56S8",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 881.96,
+            "y": 208.26
+          }
+        },
+        {
+          "pinId": "4pep",
+          "type": "Orange",
+          "markedPx": {
+            "x": 905.4,
+            "y": 199.91
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "bj3g",
+          "teeId": "CK37",
+          "pinId": "56S8",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 865.07,
+                "y": 117.54
+              }
+            },
+            {
+              "markedPx": {
+                "x": 881.96,
+                "y": 208.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Jpr1",
+          "teeId": "CK37",
+          "pinId": "4pep",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 865.07,
+                "y": 117.54
+              }
+            },
+            {
+              "markedPx": {
+                "x": 884.88,
+                "y": 191.32
+              }
+            },
+            {
+              "markedPx": {
+                "x": 905.4,
+                "y": 199.91
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "1Ehx",
+          "teeId": "U28K",
+          "pinId": "56S8",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 857.67,
+                "y": 76.66
+              }
+            },
+            {
+              "markedPx": {
+                "x": 881.96,
+                "y": 208.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Iqdc",
+          "teeId": "U28K",
+          "pinId": "4pep",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 857.67,
+                "y": 76.66
+              }
+            },
+            {
+              "markedPx": {
+                "x": 882.45,
+                "y": 193.69
+              }
+            },
+            {
+              "markedPx": {
+                "x": 905.4,
+                "y": 199.91
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 13,
+      "tees": [
+        {
+          "teeId": "T2QL",
+          "type": "Short",
+          "markedPx": {
+            "x": 880.72,
+            "y": 284.99
+          }
+        },
+        {
+          "teeId": "GTcv",
+          "type": "Long",
+          "markedPx": {
+            "x": 888.85,
+            "y": 230.99
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "1MZe",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 928.87,
+            "y": 362.28
+          }
+        },
+        {
+          "pinId": "AF0h",
+          "type": "Orange",
+          "markedPx": {
+            "x": 912.54,
+            "y": 419.88
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "B1Yg",
+          "teeId": "T2QL",
+          "pinId": "1MZe",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 880.72,
+                "y": 284.99
+              }
+            },
+            {
+              "markedPx": {
+                "x": 937.45,
+                "y": 331.71
+              }
+            },
+            {
+              "markedPx": {
+                "x": 928.87,
+                "y": 362.28
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "JpDc",
+          "teeId": "T2QL",
+          "pinId": "AF0h",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 880.72,
+                "y": 284.99
+              }
+            },
+            {
+              "markedPx": {
+                "x": 927.84,
+                "y": 334.17
+              }
+            },
+            {
+              "markedPx": {
+                "x": 924.51,
+                "y": 357.27
+              }
+            },
+            {
+              "markedPx": {
+                "x": 893.95,
+                "y": 381.91
+              }
+            },
+            {
+              "markedPx": {
+                "x": 912.54,
+                "y": 419.88
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "o0J4",
+          "teeId": "GTcv",
+          "pinId": "1MZe",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 888.85,
+                "y": 230.99
+              }
+            },
+            {
+              "markedPx": {
+                "x": 903.86,
+                "y": 306.95
+              }
+            },
+            {
+              "markedPx": {
+                "x": 934.03,
+                "y": 332.91
+              }
+            },
+            {
+              "markedPx": {
+                "x": 928.87,
+                "y": 362.28
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "WuL3",
+          "teeId": "GTcv",
+          "pinId": "AF0h",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 888.85,
+                "y": 230.99
+              }
+            },
+            {
+              "markedPx": {
+                "x": 902.99,
+                "y": 309.78
+              }
+            },
+            {
+              "markedPx": {
+                "x": 930.55,
+                "y": 334.11
+              }
+            },
+            {
+              "markedPx": {
+                "x": 926.84,
+                "y": 361.01
+              }
+            },
+            {
+              "markedPx": {
+                "x": 896.92,
+                "y": 382.05
+              }
+            },
+            {
+              "markedPx": {
+                "x": 912.54,
+                "y": 419.88
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 14,
+      "tees": [
+        {
+          "teeId": "Oq3z",
+          "type": "Short",
+          "markedPx": {
+            "x": 766.51,
+            "y": 449.8
+          }
+        },
+        {
+          "teeId": "M8CR",
+          "type": "Long",
+          "markedPx": {
+            "x": 755.81,
+            "y": 417.62
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "3QSn",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 883.19,
+            "y": 485.24
+          }
+        },
+        {
+          "pinId": "KdIx",
+          "type": "Orange",
+          "markedPx": {
+            "x": 898.93,
+            "y": 510.34
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "xiyS",
+          "teeId": "Oq3z",
+          "pinId": "3QSn",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 766.51,
+                "y": 449.8
+              }
+            },
+            {
+              "markedPx": {
+                "x": 883.19,
+                "y": 485.24
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "9Phx",
+          "teeId": "Oq3z",
+          "pinId": "KdIx",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 766.51,
+                "y": 449.8
+              }
+            },
+            {
+              "markedPx": {
+                "x": 885.57,
+                "y": 499.75
+              }
+            },
+            {
+              "markedPx": {
+                "x": 898.93,
+                "y": 510.34
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "tqLL",
+          "teeId": "M8CR",
+          "pinId": "3QSn",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 755.81,
+                "y": 417.62
+              }
+            },
+            {
+              "markedPx": {
+                "x": 883.19,
+                "y": 485.24
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "05or",
+          "teeId": "M8CR",
+          "pinId": "KdIx",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 755.81,
+                "y": 417.62
+              }
+            },
+            {
+              "markedPx": {
+                "x": 898.93,
+                "y": 510.34
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 15,
+      "tees": [
+        {
+          "teeId": "Z5It",
+          "type": "Short",
+          "markedPx": {
+            "x": 899.54,
+            "y": 630.76
+          }
+        },
+        {
+          "teeId": "o3wA",
+          "type": "Long",
+          "markedPx": {
+            "x": 894.81,
+            "y": 586.48
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "8gAC",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 902.14,
+            "y": 827.75
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "75kq",
+          "teeId": "Z5It",
+          "pinId": "8gAC",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 899.54,
+                "y": 630.76
+              }
+            },
+            {
+              "markedPx": {
+                "x": 902.14,
+                "y": 827.75
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "AB3t",
+          "teeId": "o3wA",
+          "pinId": "8gAC",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 894.81,
+                "y": 586.48
+              }
+            },
+            {
+              "markedPx": {
+                "x": 902.14,
+                "y": 827.75
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 16,
+      "tees": [
+        {
+          "teeId": "4M3L",
+          "type": "Short",
+          "markedPx": {
+            "x": 675.45,
+            "y": 847.09
+          }
+        },
+        {
+          "teeId": "57YZ",
+          "type": "Long",
+          "markedPx": {
+            "x": 774.39,
+            "y": 906.16
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "KHG8",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 414.74,
+            "y": 892.2
+          }
+        },
+        {
+          "pinId": "QJ8j",
+          "type": "Orange",
+          "markedPx": {
+            "x": 360.79,
+            "y": 860.21
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "KBkQ",
+          "teeId": "4M3L",
+          "pinId": "KHG8",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 675.45,
+                "y": 847.09
+              }
+            },
+            {
+              "markedPx": {
+                "x": 433.79,
+                "y": 893.79
+              }
+            },
+            {
+              "markedPx": {
+                "x": 414.74,
+                "y": 892.2
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "csni",
+          "teeId": "4M3L",
+          "pinId": "QJ8j",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 675.45,
+                "y": 847.09
+              }
+            },
+            {
+              "markedPx": {
+                "x": 381.05,
+                "y": 840.26
+              }
+            },
+            {
+              "markedPx": {
+                "x": 360.79,
+                "y": 860.21
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "HBHY",
+          "teeId": "57YZ",
+          "pinId": "KHG8",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 774.39,
+                "y": 906.16
+              }
+            },
+            {
+              "markedPx": {
+                "x": 495.94,
+                "y": 877.89
+              }
+            },
+            {
+              "markedPx": {
+                "x": 451.35,
+                "y": 898.17
+              }
+            },
+            {
+              "markedPx": {
+                "x": 414.74,
+                "y": 892.2
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Z8xV",
+          "teeId": "57YZ",
+          "pinId": "QJ8j",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 774.39,
+                "y": 906.16
+              }
+            },
+            {
+              "markedPx": {
+                "x": 382.11,
+                "y": 838.56
+              }
+            },
+            {
+              "markedPx": {
+                "x": 360.79,
+                "y": 860.21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 17,
+      "tees": [
+        {
+          "teeId": "yMlk",
+          "type": "Short",
+          "markedPx": {
+            "x": 358.93,
+            "y": 811.1
+          }
+        },
+        {
+          "teeId": "FoE5",
+          "type": "Long",
+          "markedPx": {
+            "x": 339.78,
+            "y": 831.59
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "cNgs",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 415.48,
+            "y": 736.46
+          }
+        },
+        {
+          "pinId": "Qj0g",
+          "type": "Orange",
+          "markedPx": {
+            "x": 461.3,
+            "y": 774.33
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "DXnL",
+          "teeId": "yMlk",
+          "pinId": "cNgs",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 358.93,
+                "y": 811.1
+              }
+            },
+            {
+              "markedPx": {
+                "x": 415.48,
+                "y": 736.46
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "GBjd",
+          "teeId": "yMlk",
+          "pinId": "Qj0g",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 358.93,
+                "y": 811.1
+              }
+            },
+            {
+              "markedPx": {
+                "x": 461.3,
+                "y": 774.33
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "rySR",
+          "teeId": "FoE5",
+          "pinId": "cNgs",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 339.78,
+                "y": 831.59
+              }
+            },
+            {
+              "markedPx": {
+                "x": 415.48,
+                "y": 736.46
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "WCkd",
+          "teeId": "FoE5",
+          "pinId": "Qj0g",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 339.78,
+                "y": 831.59
+              }
+            },
+            {
+              "markedPx": {
+                "x": 461.3,
+                "y": 774.33
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 18,
+      "tees": [
+        {
+          "teeId": "hWSv",
+          "type": "Short",
+          "markedPx": {
+            "x": 426.35,
+            "y": 642.59
+          }
+        },
+        {
+          "teeId": "7wJZ",
+          "type": "Long",
+          "markedPx": {
+            "x": 412.01,
+            "y": 704.52
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "mgG9",
+          "type": "Yellow",
+          "markedPx": {
+            "x": 434.81,
+            "y": 538.26
+          }
+        },
+        {
+          "pinId": "H2zq",
+          "type": "Orange",
+          "markedPx": {
+            "x": 460.89,
+            "y": 451.49
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "w2eB",
+          "teeId": "hWSv",
+          "pinId": "mgG9",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 426.35,
+                "y": 642.59
+              }
+            },
+            {
+              "markedPx": {
+                "x": 446.49,
+                "y": 552.64
+              }
+            },
+            {
+              "markedPx": {
+                "x": 434.81,
+                "y": 538.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "perp",
+          "teeId": "hWSv",
+          "pinId": "H2zq",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 426.35,
+                "y": 642.59
+              }
+            },
+            {
+              "markedPx": {
+                "x": 460.89,
+                "y": 451.49
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "UzYW",
+          "teeId": "7wJZ",
+          "pinId": "mgG9",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 412.01,
+                "y": 704.52
+              }
+            },
+            {
+              "markedPx": {
+                "x": 429.05,
+                "y": 632.32
+              }
+            },
+            {
+              "markedPx": {
+                "x": 445.24,
+                "y": 552.98
+              }
+            },
+            {
+              "markedPx": {
+                "x": 434.81,
+                "y": 538.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Za7E",
+          "teeId": "7wJZ",
+          "pinId": "H2zq",
+          "vertices": [
+            {
+              "markedPx": {
+                "x": 412.01,
+                "y": 704.52
+              }
+            },
+            {
+              "markedPx": {
+                "x": 426.66,
+                "y": 641.94
+              }
+            },
+            {
+              "markedPx": {
+                "x": 437.94,
+                "y": 578.39
+              }
+            },
+            {
+              "markedPx": {
+                "x": 460.89,
+                "y": 451.49
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "layoutId": 171977,
+      "holes": [
+        {
+          "slot": 1,
+          "par": 4,
+          "effectiveDistanceFt": 492
+        },
+        {
+          "slot": 2,
+          "par": 4,
+          "effectiveDistanceFt": 458
+        },
+        {
+          "slot": 3,
+          "par": 3,
+          "effectiveDistanceFt": 285
+        },
+        {
+          "slot": 4,
+          "par": 3,
+          "effectiveDistanceFt": 237
+        },
+        {
+          "slot": 5,
+          "par": 4,
+          "effectiveDistanceFt": 359
+        },
+        {
+          "slot": 6,
+          "par": 4,
+          "effectiveDistanceFt": 564
+        },
+        {
+          "slot": 7,
+          "par": 4,
+          "effectiveDistanceFt": 373
+        },
+        {
+          "slot": 8,
+          "par": 3,
+          "effectiveDistanceFt": 255
+        },
+        {
+          "slot": 9,
+          "par": 3,
+          "effectiveDistanceFt": 280
+        },
+        {
+          "slot": 10,
+          "par": 3,
+          "effectiveDistanceFt": 266
+        },
+        {
+          "slot": 11,
+          "par": 3,
+          "effectiveDistanceFt": 252
+        },
+        {
+          "slot": 12,
+          "par": 3,
+          "effectiveDistanceFt": 301
+        },
+        {
+          "slot": 13,
+          "par": 4,
+          "effectiveDistanceFt": 344
+        },
+        {
+          "slot": 14,
+          "par": 3,
+          "effectiveDistanceFt": 344
+        },
+        {
+          "slot": 15,
+          "par": 4,
+          "effectiveDistanceFt": 570
+        },
+        {
+          "slot": 16,
+          "par": 4,
+          "effectiveDistanceFt": 837
+        },
+        {
+          "slot": 17,
+          "par": 3,
+          "effectiveDistanceFt": 286
+        },
+        {
+          "slot": 18,
+          "par": 3,
+          "effectiveDistanceFt": 417
+        }
+      ],
+      "referenceTotals": {
+        "par": 62,
+        "distanceMeters": 2109.21593250509,
+        "distanceFt": 6920
+      },
+      "serverTotals": {
+        "par": 61,
+        "distanceMeters": 2106.091938064642,
+        "distanceFt": 6910
+      }
+    },
+    {
+      "layoutId": 171978,
+      "holes": [
+        {
+          "slot": 1,
+          "par": 4,
+          "effectiveDistanceFt": 500
+        },
+        {
+          "slot": 2,
+          "par": 4,
+          "effectiveDistanceFt": 516
+        },
+        {
+          "slot": 3,
+          "par": 3,
+          "effectiveDistanceFt": 285
+        },
+        {
+          "slot": 4,
+          "par": 3,
+          "effectiveDistanceFt": 220
+        },
+        {
+          "slot": 5,
+          "par": 4,
+          "effectiveDistanceFt": 412
+        },
+        {
+          "slot": 6,
+          "par": 4,
+          "effectiveDistanceFt": 566
+        },
+        {
+          "slot": 7,
+          "par": 3,
+          "effectiveDistanceFt": 285
+        },
+        {
+          "slot": 8,
+          "par": 3,
+          "effectiveDistanceFt": 232
+        },
+        {
+          "slot": 9,
+          "par": 3,
+          "effectiveDistanceFt": 231
+        },
+        {
+          "slot": 10,
+          "par": 3,
+          "effectiveDistanceFt": 336
+        },
+        {
+          "slot": 11,
+          "par": 4,
+          "effectiveDistanceFt": 322
+        },
+        {
+          "slot": 12,
+          "par": 3,
+          "effectiveDistanceFt": 311
+        },
+        {
+          "slot": 13,
+          "par": 5,
+          "effectiveDistanceFt": 519
+        },
+        {
+          "slot": 14,
+          "par": 3,
+          "effectiveDistanceFt": 408
+        },
+        {
+          "slot": 15,
+          "par": 4,
+          "effectiveDistanceFt": 570
+        },
+        {
+          "slot": 16,
+          "par": 5,
+          "effectiveDistanceFt": 1000
+        },
+        {
+          "slot": 17,
+          "par": 3,
+          "effectiveDistanceFt": 318
+        },
+        {
+          "slot": 18,
+          "par": 4,
+          "effectiveDistanceFt": 615
+        }
+      ],
+      "referenceTotals": {
+        "par": 65,
+        "distanceMeters": 2330.5007254239767,
+        "distanceFt": 7646
+      },
+      "serverTotals": {
+        "par": 64,
+        "distanceMeters": 2327.3767309835284,
+        "distanceFt": 7636
+      }
+    },
+    {
+      "layoutId": 171979,
+      "holes": [
+        {
+          "slot": 1,
+          "par": 4,
+          "effectiveDistanceFt": 412
+        },
+        {
+          "slot": 2,
+          "par": 3,
+          "effectiveDistanceFt": 335
+        },
+        {
+          "slot": 3,
+          "par": 3,
+          "effectiveDistanceFt": 204
+        },
+        {
+          "slot": 4,
+          "par": 3,
+          "effectiveDistanceFt": 238
+        },
+        {
+          "slot": 5,
+          "par": 3,
+          "effectiveDistanceFt": 206
+        },
+        {
+          "slot": 6,
+          "par": 4,
+          "effectiveDistanceFt": 478
+        },
+        {
+          "slot": 7,
+          "par": 4,
+          "effectiveDistanceFt": 333
+        },
+        {
+          "slot": 8,
+          "par": 3,
+          "effectiveDistanceFt": 206
+        },
+        {
+          "slot": 9,
+          "par": 3,
+          "effectiveDistanceFt": 245
+        },
+        {
+          "slot": 10,
+          "par": 3,
+          "effectiveDistanceFt": 231
+        },
+        {
+          "slot": 11,
+          "par": 3,
+          "effectiveDistanceFt": 236
+        },
+        {
+          "slot": 12,
+          "par": 3,
+          "effectiveDistanceFt": 215
+        },
+        {
+          "slot": 13,
+          "par": 3,
+          "effectiveDistanceFt": 246
+        },
+        {
+          "slot": 14,
+          "par": 3,
+          "effectiveDistanceFt": 285
+        },
+        {
+          "slot": 15,
+          "par": 4,
+          "effectiveDistanceFt": 460
+        },
+        {
+          "slot": 16,
+          "par": 4,
+          "effectiveDistanceFt": 620
+        },
+        {
+          "slot": 17,
+          "par": 3,
+          "effectiveDistanceFt": 219
+        },
+        {
+          "slot": 18,
+          "par": 3,
+          "effectiveDistanceFt": 258
+        }
+      ],
+      "referenceTotals": {
+        "par": 59,
+        "distanceMeters": 1654.0897614635276,
+        "distanceFt": 5427
+      },
+      "serverTotals": {
+        "par": 58,
+        "distanceMeters": 1693.9177586349838,
+        "distanceFt": 5557
+      }
+    },
+    {
+      "layoutId": 171980,
+      "holes": [
+        {
+          "slot": 1,
+          "par": 4,
+          "effectiveDistanceFt": 420
+        },
+        {
+          "slot": 2,
+          "par": 3,
+          "effectiveDistanceFt": 417
+        },
+        {
+          "slot": 3,
+          "par": 3,
+          "effectiveDistanceFt": 204
+        },
+        {
+          "slot": 4,
+          "par": 3,
+          "effectiveDistanceFt": 236
+        },
+        {
+          "slot": 5,
+          "par": 3,
+          "effectiveDistanceFt": 234
+        },
+        {
+          "slot": 6,
+          "par": 4,
+          "effectiveDistanceFt": 480
+        },
+        {
+          "slot": 7,
+          "par": 4,
+          "effectiveDistanceFt": 312
+        },
+        {
+          "slot": 8,
+          "par": 3,
+          "effectiveDistanceFt": 216
+        },
+        {
+          "slot": 9,
+          "par": 3,
+          "effectiveDistanceFt": 192
+        },
+        {
+          "slot": 10,
+          "par": 3,
+          "effectiveDistanceFt": 303
+        },
+        {
+          "slot": 11,
+          "par": 4,
+          "effectiveDistanceFt": 306
+        },
+        {
+          "slot": 12,
+          "par": 3,
+          "effectiveDistanceFt": 225
+        },
+        {
+          "slot": 13,
+          "par": 4,
+          "effectiveDistanceFt": 400
+        },
+        {
+          "slot": 14,
+          "par": 3,
+          "effectiveDistanceFt": 339
+        },
+        {
+          "slot": 15,
+          "par": 4,
+          "effectiveDistanceFt": 460
+        },
+        {
+          "slot": 16,
+          "par": 4,
+          "effectiveDistanceFt": 750
+        },
+        {
+          "slot": 17,
+          "par": 3,
+          "effectiveDistanceFt": 261
+        },
+        {
+          "slot": 18,
+          "par": 3,
+          "effectiveDistanceFt": 430
+        }
+      ],
+      "referenceTotals": {
+        "par": 61,
+        "distanceMeters": 1885.187939673986,
+        "distanceFt": 6185
+      },
+      "serverTotals": {
+        "par": 60,
+        "distanceMeters": 1885.2999441606419,
+        "distanceFt": 6185
+      }
+    }
+  ]
+}

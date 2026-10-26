@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "courseName": "Fields of Dreams DGC",
+    "location": "Independence Township Recreation Complex, Hackettstown, NJ",
+    "sourceImages": {
+      "marked": { "filename": "Images/map with course markings.png", "width": 1141, "height": 982 },
+      "unmarked": { "filename": "Images/map with no markings.jpeg", "width": 1152, "height": 928 },
+      "stylized": { "filename": "Images/stylized map art.jpeg", "width": 1152, "height": 928 }
+    },
+    "cropDirectory": "research/crops/",
+    "coordinateNote": "All coordinates in source image pixels (1141x982). Traced from 2x enlarged crops."
+  },
+  "registration": {
+    "markedToClean": {
+      "method": "SIFT + Lowe ratio 0.7 + RANSAC",
+      "affine": [[0.9575, 0.00003, 21.65], [0.0003, 0.9517, -2.84]],
+      "inliers": 677,
+      "distribution": {"TL": 181, "TR": 105, "BL": 230, "BR": 161},
+      "reprojectionErrorPx": {"mean": 0.73, "rms": 0.87, "max": 2.79},
+      "verified": true,
+      "visualCheck": "research/sift_checkerboard_blend.png"
+    },
+    "cleanToStylized": {
+      "method": "manual_measurement",
+      "transform": "near-identity",
+      "note": "Provisional visual alignment only. SIFT failed (4 inliers). Local illustration distortion possible. Same dimensions does not guarantee exact terrain geometry.",
+      "visualCheck": "research/clean_vs_stylized_checkerboard.png",
+      "verified": false
+    },
+    "rejectedAttempts": [
+      {
+        "method": "manual_landmarks_affine",
+        "reason": "Control point pairs were mismatched landmarks (different structures in each image)",
+        "evidence": "research/registration_comparison.png"
+      },
+      {
+        "method": "ORB + RANSAC",
+        "reason": "97% inliers clustered in BL quadrant; implausible scale factors",
+        "evidence": "research/homography_analysis.json"
+      }
+    ]
+  },
+  "teeTypes": {
+    "short": { "label": "Short (Brown)", "color": "#8B4513" },
+    "long": { "label": "Long (Green)", "color": "#228B22" }
+  },
+  "basketTypes": {
+    "yellow": { "label": "Yellow", "color": "#FFD700" },
+    "orange": { "label": "Orange", "color": "#FF6B00" }
+  },
+  "layouts": {
+    "shortYellow": { "name": "Short Tee (Brown) to Yellow Basket", "totalDistance": 5427, "par": 59, "source": "UDisc public page", "verified": true },
+    "orangeUnknownTee": { "name": "Orange Basket (tee origin unknown)", "totalDistanceClaimed": 6012, "par": 61, "source": "old HTML", "verified": false, "note": "Cannot confirm if Short or Long tee" }
+  },
+  "holes": [
+    {
+      "number": 1, "zone": "woods_start", "direction": "E then NE",
+      "markedCoords": {
+        "shortTee": {"x": 550, "y": 335, "confidence": "source_anchored"},
+        "longTee": {"x": 524, "y": 320, "confidence": "source_anchored"},
+        "dogleg": {"x": 614, "y": 334, "confidence": "source_anchored", "note": "Number '1' visible here"},
+        "yellowBasket": {"x": 678, "y": 218, "confidence": "source_anchored", "note": "Cap position"},
+        "orangeBasket": {"x": 663, "y": 210, "confidence": "source_anchored", "note": "Cap position"}
+      },
+      "distances": {"yellow": 412, "orange": 445}, "par": 4
+    },
+    {
+      "number": 2, "zone": "woods_east", "direction": "NW",
+      "markedCoords": {
+        "shortTee": {"x": 816, "y": 285, "confidence": "source_anchored"},
+        "longTee": {"x": 841, "y": 318, "confidence": "source_anchored"},
+        "dogleg": {"x": 779, "y": 196, "confidence": "source_anchored"},
+        "yellowBasket": {"x": 739, "y": 202, "confidence": "source_anchored", "note": "Cap position"},
+        "orangeBasket": {"x": null, "y": null, "confidence": "unknown", "note": "Route obscured"}
+      },
+      "distances": {"yellow": 335, "orange": 365}, "par": 3,
+      "note": "Number '2' visible at (790, 235)"
+    },
+    {
+      "number": 3, "zone": "woods",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "longTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "yellowBasket": {"x": null, "y": null, "confidence": "needs_trace"},
+        "orangeBasket": {"x": null, "y": null, "confidence": "needs_trace"}
+      },
+      "distances": {"yellow": 204, "orange": 238}, "par": 3
+    },
+    {
+      "number": 4, "zone": "woods",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "longTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "yellowBasket": {"x": null, "y": null, "confidence": "needs_trace"},
+        "orangeBasket": {"x": null, "y": null, "confidence": "needs_trace"}
+      },
+      "distances": {"yellow": 238, "orange": 275}, "par": 3
+    },
+    {
+      "number": 5, "zone": "woods",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "longTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "yellowBasket": {"x": null, "y": null, "confidence": "needs_trace"},
+        "orangeBasket": {"x": null, "y": null, "confidence": "needs_trace"}
+      },
+      "distances": {"yellow": 206, "orange": 242}, "par": 3
+    },
+    {
+      "number": 6, "zone": "woods_north", "direction": "NW",
+      "markedCoords": {
+        "shortTee": {"x": 410, "y": 216, "confidence": "source_anchored"},
+        "longTee": {"x": 441, "y": 246, "confidence": "source_anchored"},
+        "dogleg": {"x": 320, "y": 190, "confidence": "source_anchored", "note": "Route bends here"},
+        "yellowBasket": {"x": 340, "y": 68, "confidence": "source_anchored", "note": "Cap position"},
+        "orangeBasket": {"x": 292, "y": 58, "confidence": "source_anchored", "note": "Cap position"}
+      },
+      "distances": {"yellow": 478, "orange": 520}, "par": 4
+    },
+    {
+      "number": 7, "zone": "woods",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "unknown"},
+        "longTee": {"x": 385, "y": 91, "confidence": "tentative"},
+        "yellowBasket": {"x": null, "y": null, "confidence": "unknown"},
+        "orangeBasket": {"x": 398, "y": 164, "confidence": "tentative", "note": "Cap position"}
+      },
+      "distances": {"yellow": 333, "orange": 372}, "par": 4
+    },
+    {
+      "number": 8, "zone": "woods",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "unknown"},
+        "longTee": {"x": 482, "y": 86, "confidence": "tentative"},
+        "yellowBasket": {"x": 545, "y": 106, "confidence": "tentative", "note": "Cap position"},
+        "orangeBasket": {"x": 504, "y": 91, "confidence": "tentative", "note": "Cap position"}
+      },
+      "distances": {"yellow": 206, "orange": 235}, "par": 3
+    },
+    {
+      "number": 9, "zone": "woods",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "longTee": {"x": null, "y": null, "confidence": "needs_trace"},
+        "yellowBasket": {"x": null, "y": null, "confidence": "needs_trace"},
+        "orangeBasket": {"x": null, "y": null, "confidence": "needs_trace"}
+      },
+      "distances": {"yellow": 245, "orange": 280}, "par": 3
+    },
+    {
+      "number": 10, "zone": "woods_east",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "unknown"},
+        "longTee": {"x": null, "y": null, "confidence": "unknown"},
+        "yellowBasket": {"x": null, "y": null, "confidence": "unknown"},
+        "orangeBasket": {"x": null, "y": null, "confidence": "unknown"}
+      },
+      "distances": {"yellow": 231, "orange": 268}, "par": 3
+    },
+    {
+      "number": 11, "zone": "woods_east",
+      "markedCoords": {
+        "shortTee": {"x": null, "y": null, "confidence": "unknown"},
+        "longTee": {"x": 753, "y": 102, "confidence": "source_anchored", "note": "G5 in north_right crop; number 11 visible"},
+        "yellowBasket": {"x": 851, "y": 141, "confidence": "source_anchored", "note": "Cap position"},
+        "orangeBasket": {"x": 808, "y": 56, "confidence": "source_anchored", "note": "Cap position"}
+      },
+      "distances": {"yellow": 236, "orange": 272}, "par": 3
+    },
+    {
+      "number": 12, "zone": "woods_edge",
+      "markedCoords": {
+        "shortTee": {"x": 861, "y": 120, "confidence": "tentative", "note": "White tee below long; uncertain"},
+        "longTee": {"x": 855, "y": 81, "confidence": "source_anchored", "note": "G1 in north_right crop; number 12 visible"},
+        "yellowBasket": {"x": 879, "y": 187, "confidence": "source_anchored", "note": "Cap position"},
+        "orangeBasket": {"x": 901, "y": 179, "confidence": "source_anchored", "note": "Cap position"}
+      },
+      "distances": {"yellow": 215, "orange": 248}, "par": 3
+    },
+    {
+      "number": 13, "zone": "orchard_edge", "direction": "E",
+      "markedCoords": {
+        "shortTee": {"x": 879, "y": 282, "confidence": "source_anchored", "note": "White diagonal in orchard_edge crop"},
+        "longTee": {"x": 886, "y": 232, "confidence": "source_anchored", "note": "Green above short tee"},
+        "yellowBasket": {"x": 930, "y": 337, "confidence": "source_anchored", "note": "Cap position"},
+        "orangeBasket": {"x": 914, "y": 395, "confidence": "source_anchored", "note": "Cap position"}
+      },
+      "distances": {"yellow": 246, "orange": 285}, "par": 3
+    },
+    {
+      "number": 14, "zone": "orchard_edge", "direction": "SE",
+      "markedCoords": {
+        "shortTee": {"x": 767, "y": 448, "confidence": "source_anchored", "note": "Orchard_edge crop"},
+        "longTee": {"x": 758, "y": 416, "confidence": "source_anchored"},
+        "yellowBasket": {"x": 884, "y": 461, "confidence": "source_anchored", "note": "Cap position"},
+        "orangeBasket": {"x": 900, "y": 486, "confidence": "source_anchored", "note": "Cap position"}
+      },
+      "distances": {"yellow": 285, "orange": 325}, "par": 3
+    },
+    {
+      "number": 15, "zone": "fields_right", "direction": "SOUTH",
+      "markedCoords": {
+        "shortTee": {"x": 900, "y": 630, "confidence": "source_anchored", "note": "FAR RIGHT, vertical route"},
+        "longTee": {"x": 895, "y": 582, "confidence": "source_anchored"},
+        "yellowBasket": {"x": 905, "y": 812, "confidence": "source_anchored"},
+        "orangeBasket": {"x": null, "y": null, "confidence": "not_visible", "note": "No orange icon visible at this hole; may share basket (34 total baskets)"}
+      },
+      "distances": {"yellow": 460, "orange": 502}, "par": 4
+    },
+    {
+      "number": 16, "zone": "fields_bottom", "direction": "WEST",
+      "markedCoords": {
+        "shortTee": {"x": 676, "y": 847, "confidence": "source_anchored", "note": "Bottom edge"},
+        "longTee": {"x": 777, "y": 907, "confidence": "source_anchored"},
+        "yellowBasket": {"x": 415, "y": 877, "confidence": "source_anchored"},
+        "orangeBasket": {"x": 359, "y": 842, "confidence": "source_anchored"}
+      },
+      "distances": {"yellow": 620, "orange": 685}, "par": 4
+    },
+    {
+      "number": 17, "zone": "fields_lower", "direction": "NE",
+      "markedCoords": {
+        "shortTee": {"x": 357, "y": 810, "confidence": "source_anchored", "note": "Lower left field"},
+        "longTee": {"x": 336, "y": 836, "confidence": "source_anchored"},
+        "yellowBasket": {"x": 414, "y": 717, "confidence": "source_anchored"},
+        "orangeBasket": {"x": 460, "y": 760, "confidence": "source_anchored"}
+      },
+      "distances": {"yellow": 219, "orange": 255}, "par": 3
+    },
+    {
+      "number": 18, "zone": "fields_return", "direction": "NORTH",
+      "markedCoords": {
+        "shortTee": {"x": 425, "y": 643, "confidence": "source_anchored", "note": "Returns toward start"},
+        "longTee": {"x": 440, "y": 668, "confidence": "medium"},
+        "yellowBasket": {"x": 435, "y": 520, "confidence": "source_anchored"},
+        "orangeBasket": {"x": 461, "y": 438, "confidence": "source_anchored"}
+      },
+      "distances": {"yellow": 258, "orange": 295}, "par": 3
+    }
+  ],
+  "routing": {
+    "proposedSplit": {
+      "mainPanel": {
+        "holes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+        "description": "Northern woods and orchard edge",
+        "geographicExtent": "Upper 2/3 of course"
+      },
+      "extensionPanel": {
+        "holes": [15, 16, 17, 18],
+        "description": "Lower athletic fields",
+        "geographicExtent": "Bottom portion, right edge to lower left"
+      }
+    }
+  },
+  "status": {
+    "sourceAnchored": [1, 2, 6, 11, 12, 13, 14],
+    "tentative": [7, 8],
+    "untraced": [3, 4, 5, 9, 10],
+    "fieldsSection": [15, 16, 17, 18],
+    "basketConvention": "Cap position (icon extends ~12px below)",
+    "missingOrangeBaskets": "Hole 15 orange not visible. 34 total = 2 holes share/lack second basket.",
+    "sources": "Codex visual review and OpenCV icon detection. Not user-confirmed.",
+    "confidenceLevels": {
+      "source_anchored": "Number visible on route, markers detected",
+      "tentative": "Partial detection, assignment not independently verified",
+      "unknown": "No detection"
+    }
+  }
+}

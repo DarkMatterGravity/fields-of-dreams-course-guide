@@ -1,0 +1,5787 @@
+{
+  "$schema": "fields-of-dreams-course-geometry-v1",
+  "metadata": {
+    "courseName": "Fields of Dreams DGC",
+    "courseId": 1645,
+    "shortId": "EEfT",
+    "source": "https://udisc.com/courses/fields-of-dreams-dgc-EEfT/v2/layouts/171979",
+    "capturedAt": "2026-10-25T19:39:45.825Z",
+    "isManageRoute": false,
+    "hasPendingMapManagerChanges": false,
+    "transform": {
+      "method": "affine_least_squares",
+      "nCorrespondences": 17,
+      "rmsErrorPx": 3.4954636857756376
+    },
+    "buildScript": "research/udisc/build-root-canonical.js",
+    "validation": {
+      "basis": "Reference layout checks; not a claim of matching the separate current published layout.",
+      "mainHoles": 18,
+      "totalPaths": 68,
+      "pathsWithVertices": 68,
+      "routes": 68
+    },
+    "referenceLayout": {
+      "basis": "User-provided marked satellite map",
+      "scope": "Restore right-edge hole 15, relabel cross-field hole as 16, exclude the added far-extension hole. Keep holes 1–14, 17 and 18 unchanged.",
+      "publishedSourcePreserved": "course-geometry.json",
+      "excludedHoleId": "tz8icmrfkmw0il5z6qt88gxh",
+      "buildScript": "research/build-reference-layout.mjs"
+    }
+  },
+  "bounds": {
+    "markedPx": {
+      "minX": 285.92,
+      "maxX": 937.45,
+      "minY": 74.55,
+      "maxY": 906.16
+    }
+  },
+  "main18": [
+    {
+      "slot": 1,
+      "holeId": "CSEx",
+      "holeName": "1",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "JhRp",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.868597968072436,
+            "lng": -74.90337884671024
+          },
+          "markedPx": {
+            "x": 543.27,
+            "y": 339.01
+          }
+        },
+        {
+          "teeId": "gXIN",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.8686240114842,
+            "lng": -74.9031592178859
+          },
+          "markedPx": {
+            "x": 523.08,
+            "y": 322.1
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "IuKX",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8675424,
+            "lng": -74.9035154
+          },
+          "markedPx": {
+            "x": 677.75,
+            "y": 242.6
+          }
+        },
+        {
+          "pinId": "8POd",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.8675854,
+            "lng": -74.9033884
+          },
+          "markedPx": {
+            "x": 662.8,
+            "y": 235.69
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "3NZc",
+          "name": "1",
+          "teeId": "JhRp",
+          "pinId": "IuKX",
+          "par": 4,
+          "distanceMeters": 130.349,
+          "customDistanceMeters": 125.57759598151694,
+          "effectiveDistanceMeters": 125.57759598151694,
+          "effectiveDistanceFt": 412,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.868597968072436,
+                "lng": -74.90337884671024
+              },
+              "markedPx": {
+                "x": 543.27,
+                "y": 339.01
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86824660781396,
+                "lng": -74.9037454649806
+              },
+              "markedPx": {
+                "x": 613.08,
+                "y": 335.57
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675424,
+                "lng": -74.9035154
+              },
+              "markedPx": {
+                "x": 677.75,
+                "y": 242.6
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "x2Wl",
+          "name": "1",
+          "teeId": "JhRp",
+          "pinId": "8POd",
+          "par": 4,
+          "distanceMeters": 131.951,
+          "customDistanceMeters": 128.01599590348812,
+          "effectiveDistanceMeters": 128.01599590348812,
+          "effectiveDistanceFt": 420,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.868597968072436,
+                "lng": -74.90337884671024
+              },
+              "markedPx": {
+                "x": 543.27,
+                "y": 339.01
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86840431027894,
+                "lng": -74.90363448858261
+              },
+              "markedPx": {
+                "x": 585.92,
+                "y": 341.89
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867650022583256,
+                "lng": -74.90357916802168
+              },
+              "markedPx": {
+                "x": 670.09,
+                "y": 259.36
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675854,
+                "lng": -74.9033884
+              },
+              "markedPx": {
+                "x": 662.8,
+                "y": 235.69
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "gXGb",
+          "name": "1",
+          "teeId": "gXIN",
+          "pinId": "IuKX",
+          "par": 4,
+          "distanceMeters": 145.268,
+          "customDistanceMeters": 149.96159520122896,
+          "effectiveDistanceMeters": 149.96159520122896,
+          "effectiveDistanceFt": 492,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8686240114842,
+                "lng": -74.9031592178859
+              },
+              "markedPx": {
+                "x": 523.08,
+                "y": 322.1
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86824666566801,
+                "lng": -74.90374420466593
+              },
+              "markedPx": {
+                "x": 612.97,
+                "y": 335.46
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675424,
+                "lng": -74.9035154
+              },
+              "markedPx": {
+                "x": 677.75,
+                "y": 242.6
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "1DK1",
+          "name": "1",
+          "teeId": "gXIN",
+          "pinId": "8POd",
+          "par": 4,
+          "distanceMeters": 150.197,
+          "customDistanceMeters": 152.39999512320017,
+          "effectiveDistanceMeters": 152.39999512320017,
+          "effectiveDistanceFt": 500,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8686240114842,
+                "lng": -74.9031592178859
+              },
+              "markedPx": {
+                "x": 523.08,
+                "y": 322.1
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.868249633105904,
+                "lng": -74.90374279135537
+              },
+              "markedPx": {
+                "x": 612.52,
+                "y": 335.64
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86765669057286,
+                "lng": -74.90358902501545
+              },
+              "markedPx": {
+                "x": 670.08,
+                "y": 260.93
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675854,
+                "lng": -74.9033884
+              },
+              "markedPx": {
+                "x": 662.8,
+                "y": 235.69
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "holeId": "dueJ",
+      "holeName": "2",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "UhCs",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.867061,
+            "lng": -74.9045718
+          },
+          "markedPx": {
+            "x": 816.61,
+            "y": 287.32
+          }
+        },
+        {
+          "teeId": "MVNh",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86707405936332,
+            "lng": -74.90488962473542
+          },
+          "markedPx": {
+            "x": 839.87,
+            "y": 317.02
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "yQAJ",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.867168,
+            "lng": -74.9037465
+          },
+          "markedPx": {
+            "x": 739.69,
+            "y": 224.7
+          }
+        },
+        {
+          "pinId": "yoDL",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86690134080411,
+            "lng": -74.90338962378566
+          },
+          "markedPx": {
+            "x": 743.14,
+            "y": 165.43
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "8CSD",
+          "name": "2",
+          "teeId": "UhCs",
+          "pinId": "yQAJ",
+          "par": 3,
+          "distanceMeters": 102.154,
+          "effectiveDistanceMeters": 102.154,
+          "effectiveDistanceFt": 335,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.867061,
+                "lng": -74.9045718
+              },
+              "markedPx": {
+                "x": 816.61,
+                "y": 287.32
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86686428653273,
+                "lng": -74.90380749106407
+              },
+              "markedPx": {
+                "x": 780.08,
+                "y": 198.9
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867168,
+                "lng": -74.9037465
+              },
+              "markedPx": {
+                "x": 739.69,
+                "y": 224.7
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "6hVb",
+          "name": "2",
+          "teeId": "UhCs",
+          "pinId": "yoDL",
+          "par": 3,
+          "distanceMeters": 106.47,
+          "customDistanceMeters": 127.10159593274894,
+          "effectiveDistanceMeters": 127.10159593274894,
+          "effectiveDistanceFt": 417,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.867061,
+                "lng": -74.9045718
+              },
+              "markedPx": {
+                "x": 816.61,
+                "y": 287.32
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866812680698246,
+                "lng": -74.90367620374276
+              },
+              "markedPx": {
+                "x": 775.89,
+                "y": 181.87
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86690134080411,
+                "lng": -74.90338962378566
+              },
+              "markedPx": {
+                "x": 743.14,
+                "y": 165.43
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "39WT",
+          "name": "2",
+          "teeId": "MVNh",
+          "pinId": "yQAJ",
+          "par": 4,
+          "distanceMeters": 126.23500000000001,
+          "customDistanceMeters": 139.59839553285136,
+          "effectiveDistanceMeters": 139.59839553285136,
+          "effectiveDistanceFt": 458,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86707405936332,
+                "lng": -74.90488962473542
+              },
+              "markedPx": {
+                "x": 839.87,
+                "y": 317.02
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86707478764903,
+                "lng": -74.90461161205079
+              },
+              "markedPx": {
+                "x": 818.1,
+                "y": 292.29
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866879201848874,
+                "lng": -74.90382077611633
+              },
+              "markedPx": {
+                "x": 779.36,
+                "y": 201.62
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867168,
+                "lng": -74.9037465
+              },
+              "markedPx": {
+                "x": 739.69,
+                "y": 224.7
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "TYOd",
+          "name": "2",
+          "teeId": "MVNh",
+          "pinId": "yoDL",
+          "par": 4,
+          "distanceMeters": 134.313,
+          "customDistanceMeters": 157.27679496714256,
+          "effectiveDistanceMeters": 157.27679496714256,
+          "effectiveDistanceFt": 516,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86707405936332,
+                "lng": -74.90488962473542
+              },
+              "markedPx": {
+                "x": 839.87,
+                "y": 317.02
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86707405845385,
+                "lng": -74.90459086074355
+              },
+              "markedPx": {
+                "x": 816.57,
+                "y": 290.36
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86680489574749,
+                "lng": -74.90367764431471
+              },
+              "markedPx": {
+                "x": 776.92,
+                "y": 181.2
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86690134080411,
+                "lng": -74.90338962378566
+              },
+              "markedPx": {
+                "x": 743.14,
+                "y": 165.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "holeId": "OZKO",
+      "holeName": "3",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "RiJa",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8673399,
+            "lng": -74.9036832
+          },
+          "markedPx": {
+            "x": 714.59,
+            "y": 236.74
+          }
+        },
+        {
+          "teeId": "jM70",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.8672633,
+            "lng": -74.903943
+          },
+          "markedPx": {
+            "x": 743.84,
+            "y": 252.03
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "A7bv",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8675402,
+            "lng": -74.9029934
+          },
+          "markedPx": {
+            "x": 637.29,
+            "y": 195.8
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "mdEt",
+          "name": "3",
+          "teeId": "RiJa",
+          "pinId": "A7bv",
+          "par": 3,
+          "distanceMeters": 62.262,
+          "customDistanceMeters": 62.179198010265665,
+          "effectiveDistanceMeters": 62.179198010265665,
+          "effectiveDistanceFt": 204,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8673399,
+                "lng": -74.9036832
+              },
+              "markedPx": {
+                "x": 714.59,
+                "y": 236.74
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675402,
+                "lng": -74.9029934
+              },
+              "markedPx": {
+                "x": 637.29,
+                "y": 195.8
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "52kb",
+          "name": "3",
+          "teeId": "jM70",
+          "pinId": "A7bv",
+          "par": 3,
+          "distanceMeters": 85.757,
+          "customDistanceMeters": 86.86799722022408,
+          "effectiveDistanceMeters": 86.86799722022408,
+          "effectiveDistanceFt": 285,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8672633,
+                "lng": -74.903943
+              },
+              "markedPx": {
+                "x": 743.84,
+                "y": 252.03
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675402,
+                "lng": -74.9029934
+              },
+              "markedPx": {
+                "x": 637.29,
+                "y": 195.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 4,
+      "holeId": "wS5o",
+      "holeName": "4",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "yFQq",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.86777298348773,
+            "lng": -74.90286320745369
+          },
+          "markedPx": {
+            "x": 599.83,
+            "y": 208.14
+          }
+        },
+        {
+          "teeId": "8DPO",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.8677684271029,
+            "lng": -74.90318370737002
+          },
+          "markedPx": {
+            "x": 625.36,
+            "y": 236.26
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "xjui",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8683531,
+            "lng": -74.9032745
+          },
+          "markedPx": {
+            "x": 563.85,
+            "y": 304.51
+          }
+        },
+        {
+          "pinId": "q9Qt",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86830199786408,
+            "lng": -74.90340699058486
+          },
+          "markedPx": {
+            "x": 580.18,
+            "y": 311.07
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "A4V0",
+          "name": "4",
+          "teeId": "8DPO",
+          "pinId": "xjui",
+          "par": 3,
+          "distanceMeters": 66.103,
+          "customDistanceMeters": 72.23759768839687,
+          "effectiveDistanceMeters": 72.23759768839687,
+          "effectiveDistanceFt": 237,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8677684271029,
+                "lng": -74.90318370737002
+              },
+              "markedPx": {
+                "x": 625.36,
+                "y": 236.26
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.868023062131755,
+                "lng": -74.90328100664998
+              },
+              "markedPx": {
+                "x": 603.08,
+                "y": 271.14
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86822679044445,
+                "lng": -74.90328060722742
+              },
+              "markedPx": {
+                "x": 579.15,
+                "y": 292.06
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8683531,
+                "lng": -74.9032745
+              },
+              "markedPx": {
+                "x": 563.85,
+                "y": 304.51
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "WNzn",
+          "name": "4",
+          "teeId": "yFQq",
+          "pinId": "xjui",
+          "par": 3,
+          "distanceMeters": 73.161,
+          "customDistanceMeters": 72.54239767864327,
+          "effectiveDistanceMeters": 72.54239767864327,
+          "effectiveDistanceFt": 238,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86777298348773,
+                "lng": -74.90286320745369
+              },
+              "markedPx": {
+                "x": 599.83,
+                "y": 208.14
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8683531,
+                "lng": -74.9032745
+              },
+              "markedPx": {
+                "x": 563.85,
+                "y": 304.51
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Pc4j",
+          "name": "4",
+          "teeId": "yFQq",
+          "pinId": "q9Qt",
+          "par": 3,
+          "distanceMeters": 74.517,
+          "customDistanceMeters": 71.93279769815048,
+          "effectiveDistanceMeters": 71.93279769815048,
+          "effectiveDistanceFt": 236,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86777298348773,
+                "lng": -74.90286320745369
+              },
+              "markedPx": {
+                "x": 599.83,
+                "y": 208.14
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86830199786408,
+                "lng": -74.90340699058486
+              },
+              "markedPx": {
+                "x": 580.18,
+                "y": 311.07
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "DQU7",
+          "name": "4",
+          "teeId": "8DPO",
+          "pinId": "q9Qt",
+          "par": 3,
+          "distanceMeters": 62.172000000000004,
+          "customDistanceMeters": 67.05599785420807,
+          "effectiveDistanceMeters": 67.05599785420807,
+          "effectiveDistanceFt": 220,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8677684271029,
+                "lng": -74.90318370737002
+              },
+              "markedPx": {
+                "x": 625.36,
+                "y": 236.26
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86830199786408,
+                "lng": -74.90340699058486
+              },
+              "markedPx": {
+                "x": 580.18,
+                "y": 311.07
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 5,
+      "holeId": "z7it",
+      "holeName": "5",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "TINr",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.868008,
+            "lng": -74.9024942
+          },
+          "markedPx": {
+            "x": 543.47,
+            "y": 199.4
+          }
+        },
+        {
+          "teeId": "QkDw",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86832975786723,
+            "lng": -74.9031781825115
+          },
+          "markedPx": {
+            "x": 559.08,
+            "y": 293.52
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "XFqd",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8685,
+            "lng": -74.9021666
+          },
+          "markedPx": {
+            "x": 460.21,
+            "y": 220.78
+          }
+        },
+        {
+          "pinId": "vxDt",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86856911148892,
+            "lng": -74.90234937518835
+          },
+          "markedPx": {
+            "x": 466.36,
+            "y": 244.2
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "FqEu",
+          "name": "5",
+          "teeId": "TINr",
+          "pinId": "XFqd",
+          "par": 3,
+          "distanceMeters": 62.686,
+          "customDistanceMeters": 62.78879799075847,
+          "effectiveDistanceMeters": 62.78879799075847,
+          "effectiveDistanceFt": 206,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.868008,
+                "lng": -74.9024942
+              },
+              "markedPx": {
+                "x": 543.47,
+                "y": 199.4
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.868363490223565,
+                "lng": -74.9021814018488
+              },
+              "markedPx": {
+                "x": 477.37,
+                "y": 208.06
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8685,
+                "lng": -74.9021666
+              },
+              "markedPx": {
+                "x": 460.21,
+                "y": 220.78
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Yr5t",
+          "name": "5",
+          "teeId": "TINr",
+          "pinId": "vxDt",
+          "par": 3,
+          "distanceMeters": 71.448,
+          "customDistanceMeters": 71.32319771765768,
+          "effectiveDistanceMeters": 71.32319771765768,
+          "effectiveDistanceFt": 234,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.868008,
+                "lng": -74.9024942
+              },
+              "markedPx": {
+                "x": 543.47,
+                "y": 199.4
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8683543627543,
+                "lng": -74.90221560001373
+              },
+              "markedPx": {
+                "x": 481.11,
+                "y": 210.17
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86856911148892,
+                "lng": -74.90234937518835
+              },
+              "markedPx": {
+                "x": 466.36,
+                "y": 244.2
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "bCZ4",
+          "name": "5",
+          "teeId": "QkDw",
+          "pinId": "XFqd",
+          "par": 4,
+          "distanceMeters": 121.191,
+          "customDistanceMeters": 109.42319649845771,
+          "effectiveDistanceMeters": 109.42319649845771,
+          "effectiveDistanceFt": 359,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86832975786723,
+                "lng": -74.9031781825115
+              },
+              "markedPx": {
+                "x": 559.08,
+                "y": 293.52
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86809074614562,
+                "lng": -74.902386401798
+              },
+              "markedPx": {
+                "x": 525.36,
+                "y": 198.29
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86838084914129,
+                "lng": -74.9022007467161
+              },
+              "markedPx": {
+                "x": 476.85,
+                "y": 211.57
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8685,
+                "lng": -74.9021666
+              },
+              "markedPx": {
+                "x": 460.21,
+                "y": 220.78
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "57qi",
+          "name": "5",
+          "teeId": "QkDw",
+          "pinId": "vxDt",
+          "par": 4,
+          "distanceMeters": 129.719,
+          "customDistanceMeters": 125.57759598151694,
+          "effectiveDistanceMeters": 125.57759598151694,
+          "effectiveDistanceFt": 412,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86832975786723,
+                "lng": -74.9031781825115
+              },
+              "markedPx": {
+                "x": 559.08,
+                "y": 293.52
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86810517064353,
+                "lng": -74.90239038158704
+              },
+              "markedPx": {
+                "x": 523.98,
+                "y": 200.13
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86835781341976,
+                "lng": -74.90220216716052
+              },
+              "markedPx": {
+                "x": 479.66,
+                "y": 209.33
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86856911148892,
+                "lng": -74.90234937518835
+              },
+              "markedPx": {
+                "x": 466.36,
+                "y": 244.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 6,
+      "holeId": "347q",
+      "holeName": "6",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "MWZy",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8687278,
+            "lng": -74.9018713
+          },
+          "markedPx": {
+            "x": 410.45,
+            "y": 217.88
+          }
+        },
+        {
+          "teeId": "Mqfj",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86869867983049,
+            "lng": -74.90219904264391
+          },
+          "markedPx": {
+            "x": 439.43,
+            "y": 244.12
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "T2a0",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8685339,
+            "lng": -74.9006176
+          },
+          "markedPx": {
+            "x": 335.41,
+            "y": 86.08
+          }
+        },
+        {
+          "pinId": "EiCs",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86873086981618,
+            "lng": -74.90027938038111
+          },
+          "markedPx": {
+            "x": 285.92,
+            "y": 76.17
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "KUhx",
+          "name": "6",
+          "teeId": "MWZy",
+          "pinId": "T2a0",
+          "par": 4,
+          "distanceMeters": 145.732,
+          "customDistanceMeters": 145.69439533777935,
+          "effectiveDistanceMeters": 145.69439533777935,
+          "effectiveDistanceFt": 478,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8687278,
+                "lng": -74.9018713
+              },
+              "markedPx": {
+                "x": 410.45,
+                "y": 217.88
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86906985111051,
+                "lng": -74.90117590874434
+              },
+              "markedPx": {
+                "x": 316.09,
+                "y": 191.03
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8685339,
+                "lng": -74.9006176
+              },
+              "markedPx": {
+                "x": 335.41,
+                "y": 86.08
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "xA8b",
+          "name": "6",
+          "teeId": "MWZy",
+          "pinId": "EiCs",
+          "par": 4,
+          "distanceMeters": 146.99,
+          "customDistanceMeters": 146.30399531827214,
+          "effectiveDistanceMeters": 146.30399531827214,
+          "effectiveDistanceFt": 480,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8687278,
+                "lng": -74.9018713
+              },
+              "markedPx": {
+                "x": 410.45,
+                "y": 217.88
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86899835333045,
+                "lng": -74.90114506334066
+              },
+              "markedPx": {
+                "x": 322.07,
+                "y": 180.92
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86873086981618,
+                "lng": -74.90027938038111
+              },
+              "markedPx": {
+                "x": 285.92,
+                "y": 76.17
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "XH3Y",
+          "name": "6",
+          "teeId": "Mqfj",
+          "pinId": "T2a0",
+          "par": 4,
+          "distanceMeters": 169.221,
+          "customDistanceMeters": 171.90719449896977,
+          "effectiveDistanceMeters": 171.90719449896977,
+          "effectiveDistanceFt": 564,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86869867983049,
+                "lng": -74.90219904264391
+              },
+              "markedPx": {
+                "x": 439.43,
+                "y": 244.12
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86905359652973,
+                "lng": -74.90117936976745
+              },
+              "markedPx": {
+                "x": 318.26,
+                "y": 189.66
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8685339,
+                "lng": -74.9006176
+              },
+              "markedPx": {
+                "x": 335.41,
+                "y": 86.08
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "cbxL",
+          "name": "6",
+          "teeId": "Mqfj",
+          "pinId": "EiCs",
+          "par": 4,
+          "distanceMeters": 174.995,
+          "customDistanceMeters": 172.5167944794626,
+          "effectiveDistanceMeters": 172.5167944794626,
+          "effectiveDistanceFt": 566,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86869867983049,
+                "lng": -74.90219904264391
+              },
+              "markedPx": {
+                "x": 439.43,
+                "y": 244.12
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.869014358970446,
+                "lng": -74.90114848781808
+              },
+              "markedPx": {
+                "x": 320.46,
+                "y": 182.87
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86873086981618,
+                "lng": -74.90027938038111
+              },
+              "markedPx": {
+                "x": 285.92,
+                "y": 76.17
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 7,
+      "holeId": "ue0k",
+      "holeName": "7",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "gJWC",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8681647,
+            "lng": -74.9009512
+          },
+          "markedPx": {
+            "x": 404.74,
+            "y": 77.86
+          }
+        },
+        {
+          "teeId": "mXU0",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.8683243604149,
+            "lng": -74.90088555880028
+          },
+          "markedPx": {
+            "x": 380.89,
+            "y": 88.43
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "RRnz",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8685139,
+            "lng": -74.9018717
+          },
+          "markedPx": {
+            "x": 435.57,
+            "y": 195.91
+          }
+        },
+        {
+          "pinId": "wTMf",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86866596370099,
+            "lng": -74.90160271525383
+          },
+          "markedPx": {
+            "x": 396.76,
+            "y": 187.55
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "TBh7",
+          "name": "7",
+          "teeId": "gJWC",
+          "pinId": "RRnz",
+          "par": 4,
+          "distanceMeters": 101.585,
+          "customDistanceMeters": 101.4983967520513,
+          "effectiveDistanceMeters": 101.4983967520513,
+          "effectiveDistanceFt": 333,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8681647,
+                "lng": -74.9009512
+              },
+              "markedPx": {
+                "x": 404.74,
+                "y": 77.86
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86826942652185,
+                "lng": -74.90181896835566
+              },
+              "markedPx": {
+                "x": 460.14,
+                "y": 166.05
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8685139,
+                "lng": -74.9018717
+              },
+              "markedPx": {
+                "x": 435.57,
+                "y": 195.91
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "7Cql",
+          "name": "7",
+          "teeId": "gJWC",
+          "pinId": "wTMf",
+          "par": 4,
+          "distanceMeters": 97.254,
+          "customDistanceMeters": 95.0975969568769,
+          "effectiveDistanceMeters": 95.0975969568769,
+          "effectiveDistanceFt": 312,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8681647,
+                "lng": -74.9009512
+              },
+              "markedPx": {
+                "x": 404.74,
+                "y": 77.86
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.868340514274195,
+                "lng": -74.90163670377743
+              },
+              "markedPx": {
+                "x": 437.59,
+                "y": 157.1
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86866596370099,
+                "lng": -74.90160271525383
+              },
+              "markedPx": {
+                "x": 396.76,
+                "y": 187.55
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "1gCh",
+          "name": "7",
+          "teeId": "mXU0",
+          "pinId": "RRnz",
+          "par": 4,
+          "distanceMeters": 110.687,
+          "customDistanceMeters": 113.69039636190732,
+          "effectiveDistanceMeters": 113.69039636190732,
+          "effectiveDistanceFt": 373,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8683243604149,
+                "lng": -74.90088555880028
+              },
+              "markedPx": {
+                "x": 380.89,
+                "y": 88.43
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86820017906382,
+                "lng": -74.90138405427598
+              },
+              "markedPx": {
+                "x": 434.34,
+                "y": 120.13
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86825547483532,
+                "lng": -74.90182239390936
+              },
+              "markedPx": {
+                "x": 462.04,
+                "y": 164.92
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8685139,
+                "lng": -74.9018717
+              },
+              "markedPx": {
+                "x": 435.57,
+                "y": 195.91
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "q1gD",
+          "name": "7",
+          "teeId": "mXU0",
+          "pinId": "wTMf",
+          "par": 3,
+          "distanceMeters": 72.15,
+          "customDistanceMeters": 86.86799722022408,
+          "effectiveDistanceMeters": 86.86799722022408,
+          "effectiveDistanceFt": 285,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8683243604149,
+                "lng": -74.90088555880028
+              },
+              "markedPx": {
+                "x": 380.89,
+                "y": 88.43
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86842439614197,
+                "lng": -74.90121136768516
+              },
+              "markedPx": {
+                "x": 394.57,
+                "y": 127.79
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86866596370099,
+                "lng": -74.90160271525383
+              },
+              "markedPx": {
+                "x": 396.76,
+                "y": 187.55
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 8,
+      "holeId": "TLcY",
+      "holeName": "8",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "0E6w",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.86814699977693,
+            "lng": -74.90203411723229
+          },
+          "markedPx": {
+            "x": 491.28,
+            "y": 172.65
+          }
+        },
+        {
+          "teeId": "oJpQ",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86824055491812,
+            "lng": -74.9020829244975
+          },
+          "markedPx": {
+            "x": 484.12,
+            "y": 186.63
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "rA8K",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8676936,
+            "lng": -74.9020346
+          },
+          "markedPx": {
+            "x": 544.51,
+            "y": 126.05
+          }
+        },
+        {
+          "pinId": "D1AM",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86783079887098,
+            "lng": -74.901700951159
+          },
+          "markedPx": {
+            "x": 502.39,
+            "y": 110.4
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "7mZ6",
+          "name": "8",
+          "teeId": "0E6w",
+          "pinId": "rA8K",
+          "par": 3,
+          "distanceMeters": 57.067,
+          "customDistanceMeters": 62.78879799075847,
+          "effectiveDistanceMeters": 62.78879799075847,
+          "effectiveDistanceFt": 206,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86814699977693,
+                "lng": -74.90203411723229
+              },
+              "markedPx": {
+                "x": 491.28,
+                "y": 172.65
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867798435250904,
+                "lng": -74.90191063118604
+              },
+              "markedPx": {
+                "x": 522.54,
+                "y": 125.77
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867732247789775,
+                "lng": -74.90193653459306
+              },
+              "markedPx": {
+                "x": 532.33,
+                "y": 121.28
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8676936,
+                "lng": -74.9020346
+              },
+              "markedPx": {
+                "x": 544.51,
+                "y": 126.05
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "oCqC",
+          "name": "8",
+          "teeId": "0E6w",
+          "pinId": "D1AM",
+          "par": 3,
+          "distanceMeters": 44.966,
+          "customDistanceMeters": 65.83679789322247,
+          "effectiveDistanceMeters": 65.83679789322247,
+          "effectiveDistanceFt": 216,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86814699977693,
+                "lng": -74.90203411723229
+              },
+              "markedPx": {
+                "x": 491.28,
+                "y": 172.65
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86783079887098,
+                "lng": -74.901700951159
+              },
+              "markedPx": {
+                "x": 502.39,
+                "y": 110.4
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "lz3i",
+          "name": "8",
+          "teeId": "oJpQ",
+          "pinId": "rA8K",
+          "par": 3,
+          "distanceMeters": 70.356,
+          "customDistanceMeters": 77.72399751283209,
+          "effectiveDistanceMeters": 77.72399751283209,
+          "effectiveDistanceFt": 255,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86824055491812,
+                "lng": -74.9020829244975
+              },
+              "markedPx": {
+                "x": 484.12,
+                "y": 186.63
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867794004043446,
+                "lng": -74.90189458668719
+              },
+              "markedPx": {
+                "x": 521.81,
+                "y": 123.89
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867721874473375,
+                "lng": -74.90192287488242
+              },
+              "markedPx": {
+                "x": 532.48,
+                "y": 118.99
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8676936,
+                "lng": -74.9020346
+              },
+              "markedPx": {
+                "x": 544.51,
+                "y": 126.05
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "4wbU",
+          "name": "8",
+          "teeId": "oJpQ",
+          "pinId": "D1AM",
+          "par": 3,
+          "distanceMeters": 55.745000000000005,
+          "customDistanceMeters": 70.71359773716487,
+          "effectiveDistanceMeters": 70.71359773716487,
+          "effectiveDistanceFt": 232,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86824055491812,
+                "lng": -74.9020829244975
+              },
+              "markedPx": {
+                "x": 484.12,
+                "y": 186.63
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86783079887098,
+                "lng": -74.901700951159
+              },
+              "markedPx": {
+                "x": 502.39,
+                "y": 110.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 9,
+      "holeId": "FCOh",
+      "holeName": "9",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "N1tJ",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8677238,
+            "lng": -74.9015809
+          },
+          "markedPx": {
+            "x": 505.58,
+            "y": 88.68
+          }
+        },
+        {
+          "teeId": "KJv2",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86781286328974,
+            "lng": -74.90137195456283
+          },
+          "markedPx": {
+            "x": 478.83,
+            "y": 79.2
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "8NYm",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8674056,
+            "lng": -74.9023625
+          },
+          "markedPx": {
+            "x": 603.87,
+            "y": 125.67
+          }
+        },
+        {
+          "pinId": "b9T7",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.867338670400606,
+            "lng": -74.90214116871357
+          },
+          "markedPx": {
+            "x": 594.46,
+            "y": 99.04
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "NgxC",
+          "name": "9",
+          "teeId": "N1tJ",
+          "pinId": "8NYm",
+          "par": 3,
+          "distanceMeters": 74.769,
+          "customDistanceMeters": 74.67599761036807,
+          "effectiveDistanceMeters": 74.67599761036807,
+          "effectiveDistanceFt": 245,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8677238,
+                "lng": -74.9015809
+              },
+              "markedPx": {
+                "x": 505.58,
+                "y": 88.68
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8674056,
+                "lng": -74.9023625
+              },
+              "markedPx": {
+                "x": 603.87,
+                "y": 125.67
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "9ZmG",
+          "name": "9",
+          "teeId": "N1tJ",
+          "pinId": "b9T7",
+          "par": 3,
+          "distanceMeters": 69.62899999999999,
+          "customDistanceMeters": 58.52159812730886,
+          "effectiveDistanceMeters": 58.52159812730886,
+          "effectiveDistanceFt": 192,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8677238,
+                "lng": -74.9015809
+              },
+              "markedPx": {
+                "x": 505.58,
+                "y": 88.68
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86756432481582,
+                "lng": -74.9020516499877
+              },
+              "markedPx": {
+                "x": 561,
+                "y": 114.27
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867338670400606,
+                "lng": -74.90214116871357
+              },
+              "markedPx": {
+                "x": 594.46,
+                "y": 99.04
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "NKMI",
+          "name": "9",
+          "teeId": "KJv2",
+          "pinId": "8NYm",
+          "par": 3,
+          "distanceMeters": 94.967,
+          "customDistanceMeters": 85.34399726899208,
+          "effectiveDistanceMeters": 85.34399726899208,
+          "effectiveDistanceFt": 280,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86781286328974,
+                "lng": -74.90137195456283
+              },
+              "markedPx": {
+                "x": 478.83,
+                "y": 79.2
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8674056,
+                "lng": -74.9023625
+              },
+              "markedPx": {
+                "x": 603.87,
+                "y": 125.67
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "5FlU",
+          "name": "9",
+          "teeId": "KJv2",
+          "pinId": "b9T7",
+          "par": 3,
+          "distanceMeters": 90.617,
+          "customDistanceMeters": 70.40879774691847,
+          "effectiveDistanceMeters": 70.40879774691847,
+          "effectiveDistanceFt": 231,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86781286328974,
+                "lng": -74.90137195456283
+              },
+              "markedPx": {
+                "x": 478.83,
+                "y": 79.2
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86756712951912,
+                "lng": -74.90206431258564
+              },
+              "markedPx": {
+                "x": 561.66,
+                "y": 115.69
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867338670400606,
+                "lng": -74.90214116871357
+              },
+              "markedPx": {
+                "x": 594.46,
+                "y": 99.04
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 10,
+      "holeId": "ngzW",
+      "holeName": "10",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "LuoC",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8672553,
+            "lng": -74.9023923
+          },
+          "markedPx": {
+            "x": 623.83,
+            "y": 112.87
+          }
+        },
+        {
+          "teeId": "weLE",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86721399476107,
+            "lng": -74.90223204340654
+          },
+          "markedPx": {
+            "x": 616.17,
+            "y": 94.32
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "NIdH",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8669578,
+            "lng": -74.9031279
+          },
+          "markedPx": {
+            "x": 716.1,
+            "y": 147.89
+          }
+        },
+        {
+          "pinId": "8QY4",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86702334766292,
+            "lng": -74.90335672615558
+          },
+          "markedPx": {
+            "x": 726.26,
+            "y": 175.05
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "O6gm",
+          "name": "10",
+          "teeId": "LuoC",
+          "pinId": "NIdH",
+          "par": 3,
+          "distanceMeters": 70.265,
+          "customDistanceMeters": 70.40879774691847,
+          "effectiveDistanceMeters": 70.40879774691847,
+          "effectiveDistanceFt": 231,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8672553,
+                "lng": -74.9023923
+              },
+              "markedPx": {
+                "x": 623.83,
+                "y": 112.87
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8669578,
+                "lng": -74.9031279
+              },
+              "markedPx": {
+                "x": 716.1,
+                "y": 147.89
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "BNUN",
+          "name": "10",
+          "teeId": "LuoC",
+          "pinId": "8QY4",
+          "par": 3,
+          "distanceMeters": 89.245,
+          "customDistanceMeters": 92.3543970446593,
+          "effectiveDistanceMeters": 92.3543970446593,
+          "effectiveDistanceFt": 303,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8672553,
+                "lng": -74.9023923
+              },
+              "markedPx": {
+                "x": 623.83,
+                "y": 112.87
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866975857663796,
+                "lng": -74.9031459311161
+              },
+              "markedPx": {
+                "x": 715.39,
+                "y": 151.35
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86702334766292,
+                "lng": -74.90335672615558
+              },
+              "markedPx": {
+                "x": 726.26,
+                "y": 175.05
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Vhze",
+          "name": "10",
+          "teeId": "weLE",
+          "pinId": "NIdH",
+          "par": 3,
+          "distanceMeters": 80.705,
+          "customDistanceMeters": 81.07679740554248,
+          "effectiveDistanceMeters": 81.07679740554248,
+          "effectiveDistanceFt": 266,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86721399476107,
+                "lng": -74.90223204340654
+              },
+              "markedPx": {
+                "x": 616.17,
+                "y": 94.32
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8669578,
+                "lng": -74.9031279
+              },
+              "markedPx": {
+                "x": 716.1,
+                "y": 147.89
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "UYxV",
+          "name": "10",
+          "teeId": "weLE",
+          "pinId": "8QY4",
+          "par": 3,
+          "distanceMeters": 100.851,
+          "customDistanceMeters": 102.4127967227905,
+          "effectiveDistanceMeters": 102.4127967227905,
+          "effectiveDistanceFt": 336,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86721399476107,
+                "lng": -74.90223204340654
+              },
+              "markedPx": {
+                "x": 616.17,
+                "y": 94.32
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86708052666633,
+                "lng": -74.90276155248459
+              },
+              "markedPx": {
+                "x": 673.13,
+                "y": 127.83
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8669643478482,
+                "lng": -74.90315906553013
+              },
+              "markedPx": {
+                "x": 717.76,
+                "y": 151.34
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86702334766292,
+                "lng": -74.90335672615558
+              },
+              "markedPx": {
+                "x": 726.26,
+                "y": 175.05
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 11,
+      "holeId": "2Gkm",
+      "holeName": "11",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "RtJy",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8666955,
+            "lng": -74.903253
+          },
+          "markedPx": {
+            "x": 756.63,
+            "y": 132.06
+          }
+        },
+        {
+          "teeId": "wgwj",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86656516238321,
+            "lng": -74.90302103065194
+          },
+          "markedPx": {
+            "x": 753.82,
+            "y": 97.96
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "NB83",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8663536,
+            "lng": -74.9039781
+          },
+          "markedPx": {
+            "x": 853.29,
+            "y": 161.58
+          }
+        },
+        {
+          "pinId": "e2O7",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.8661914,
+            "lng": -74.9031896
+          },
+          "markedPx": {
+            "x": 810.82,
+            "y": 74.55
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "Ddpg",
+          "name": "11",
+          "teeId": "RtJy",
+          "pinId": "NB83",
+          "par": 3,
+          "distanceMeters": 71.961,
+          "effectiveDistanceMeters": 71.961,
+          "effectiveDistanceFt": 236,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8666955,
+                "lng": -74.903253
+              },
+              "markedPx": {
+                "x": 756.63,
+                "y": 132.06
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8663536,
+                "lng": -74.9039781
+              },
+              "markedPx": {
+                "x": 853.29,
+                "y": 161.58
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "atLi",
+          "name": "11",
+          "teeId": "RtJy",
+          "pinId": "e2O7",
+          "par": 4,
+          "distanceMeters": 76.725,
+          "customDistanceMeters": 93.26879701539849,
+          "effectiveDistanceMeters": 93.26879701539849,
+          "effectiveDistanceFt": 306,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8666955,
+                "lng": -74.903253
+              },
+              "markedPx": {
+                "x": 756.63,
+                "y": 132.06
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8664703681107,
+                "lng": -74.9035324771833
+              },
+              "markedPx": {
+                "x": 804.84,
+                "y": 133.84
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8661914,
+                "lng": -74.9031896
+              },
+              "markedPx": {
+                "x": 810.82,
+                "y": 74.55
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "d6aK",
+          "name": "11",
+          "teeId": "wgwj",
+          "pinId": "NB83",
+          "par": 3,
+          "distanceMeters": 87.20500000000001,
+          "customDistanceMeters": 76.80959754209287,
+          "effectiveDistanceMeters": 76.80959754209287,
+          "effectiveDistanceFt": 252,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86656516238321,
+                "lng": -74.90302103065194
+              },
+              "markedPx": {
+                "x": 753.82,
+                "y": 97.96
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86651791869731,
+                "lng": -74.9037008276389
+              },
+              "markedPx": {
+                "x": 812.39,
+                "y": 153.75
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8663536,
+                "lng": -74.9039781
+              },
+              "markedPx": {
+                "x": 853.29,
+                "y": 161.58
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Eo4L",
+          "name": "11",
+          "teeId": "wgwj",
+          "pinId": "e2O7",
+          "par": 4,
+          "distanceMeters": 84.662,
+          "customDistanceMeters": 98.1455968593409,
+          "effectiveDistanceMeters": 98.1455968593409,
+          "effectiveDistanceFt": 322,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86656516238321,
+                "lng": -74.90302103065194
+              },
+              "markedPx": {
+                "x": 753.82,
+                "y": 97.96
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86647168928599,
+                "lng": -74.90351684847548
+              },
+              "markedPx": {
+                "x": 803.46,
+                "y": 132.58
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8661914,
+                "lng": -74.9031896
+              },
+              "markedPx": {
+                "x": 810.82,
+                "y": 74.55
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 12,
+      "holeId": "1Mt6",
+      "holeName": "12",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "CK37",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.866111,
+            "lng": -74.9037642
+          },
+          "markedPx": {
+            "x": 865.07,
+            "y": 117.54
+          }
+        },
+        {
+          "teeId": "U28K",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.865974251714135,
+            "lng": -74.90346371753124
+          },
+          "markedPx": {
+            "x": 857.67,
+            "y": 76.66
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "56S8",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8664122,
+            "lng": -74.9044338
+          },
+          "markedPx": {
+            "x": 881.96,
+            "y": 208.26
+          }
+        },
+        {
+          "pinId": "4pep",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86626388561599,
+            "lng": -74.90451123565435
+          },
+          "markedPx": {
+            "x": 905.4,
+            "y": 199.91
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "bj3g",
+          "name": "12",
+          "teeId": "CK37",
+          "pinId": "56S8",
+          "par": 3,
+          "distanceMeters": 65.616,
+          "customDistanceMeters": 65.53199790297607,
+          "effectiveDistanceMeters": 65.53199790297607,
+          "effectiveDistanceFt": 215,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.866111,
+                "lng": -74.9037642
+              },
+              "markedPx": {
+                "x": 865.07,
+                "y": 117.54
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8664122,
+                "lng": -74.9044338
+              },
+              "markedPx": {
+                "x": 881.96,
+                "y": 208.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Jpr1",
+          "name": "12",
+          "teeId": "CK37",
+          "pinId": "4pep",
+          "par": 3,
+          "distanceMeters": 70.158,
+          "customDistanceMeters": 68.57999780544007,
+          "effectiveDistanceMeters": 68.57999780544007,
+          "effectiveDistanceFt": 225,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.866111,
+                "lng": -74.9037642
+              },
+              "markedPx": {
+                "x": 865.07,
+                "y": 117.54
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86632664202129,
+                "lng": -74.90434257318826
+              },
+              "markedPx": {
+                "x": 884.88,
+                "y": 191.32
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86626388561599,
+                "lng": -74.90451123565435
+              },
+              "markedPx": {
+                "x": 905.4,
+                "y": 199.91
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "1Ehx",
+          "name": "12",
+          "teeId": "U28K",
+          "pinId": "56S8",
+          "par": 3,
+          "distanceMeters": 95.151,
+          "customDistanceMeters": 91.74479706416649,
+          "effectiveDistanceMeters": 91.74479706416649,
+          "effectiveDistanceFt": 301,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.865974251714135,
+                "lng": -74.90346371753124
+              },
+              "markedPx": {
+                "x": 857.67,
+                "y": 76.66
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8664122,
+                "lng": -74.9044338
+              },
+              "markedPx": {
+                "x": 881.96,
+                "y": 208.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Iqdc",
+          "name": "12",
+          "teeId": "U28K",
+          "pinId": "4pep",
+          "par": 3,
+          "distanceMeters": 101.986,
+          "customDistanceMeters": 94.7927969666305,
+          "effectiveDistanceMeters": 94.7927969666305,
+          "effectiveDistanceFt": 311,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.865974251714135,
+                "lng": -74.90346371753124
+              },
+              "markedPx": {
+                "x": 857.67,
+                "y": 76.66
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866348373252755,
+                "lng": -74.90434410747007
+              },
+              "markedPx": {
+                "x": 882.45,
+                "y": 193.69
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86626388561599,
+                "lng": -74.90451123565435
+              },
+              "markedPx": {
+                "x": 905.4,
+                "y": 199.91
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 13,
+      "holeId": "bMZy",
+      "holeName": "13",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "T2QL",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8667419,
+            "lng": -74.9049137
+          },
+          "markedPx": {
+            "x": 880.72,
+            "y": 284.99
+          }
+        },
+        {
+          "teeId": "GTcv",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.8664748471769,
+            "lng": -74.9046163049016
+          },
+          "markedPx": {
+            "x": 888.85,
+            "y": 230.99
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "1MZe",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8668356,
+            "lng": -74.905672
+          },
+          "markedPx": {
+            "x": 928.87,
+            "y": 362.28
+          }
+        },
+        {
+          "pinId": "AF0h",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.867157385678595,
+            "lng": -74.90594655275343
+          },
+          "markedPx": {
+            "x": 912.54,
+            "y": 419.88
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "B1Yg",
+          "name": "13",
+          "teeId": "T2QL",
+          "pinId": "1MZe",
+          "par": 3,
+          "distanceMeters": 74.87700000000001,
+          "customDistanceMeters": 74.98079760061448,
+          "effectiveDistanceMeters": 74.98079760061448,
+          "effectiveDistanceFt": 246,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8667419,
+                "lng": -74.9049137
+              },
+              "markedPx": {
+                "x": 880.72,
+                "y": 284.99
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86666525220361,
+                "lng": -74.90552578121424
+              },
+              "markedPx": {
+                "x": 937.45,
+                "y": 331.71
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8668356,
+                "lng": -74.905672
+              },
+              "markedPx": {
+                "x": 928.87,
+                "y": 362.28
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "JpDc",
+          "name": "13",
+          "teeId": "T2QL",
+          "pinId": "AF0h",
+          "par": 4,
+          "distanceMeters": 123.061,
+          "customDistanceMeters": 121.91999609856012,
+          "effectiveDistanceMeters": 121.91999609856012,
+          "effectiveDistanceFt": 400,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8667419,
+                "lng": -74.9049137
+              },
+              "markedPx": {
+                "x": 880.72,
+                "y": 284.99
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866721982390196,
+                "lng": -74.90548785833418
+              },
+              "markedPx": {
+                "x": 927.84,
+                "y": 334.17
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866835513197174,
+                "lng": -74.90561594164097
+              },
+              "markedPx": {
+                "x": 924.51,
+                "y": 357.27
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8670869000163,
+                "lng": -74.90560222417116
+              },
+              "markedPx": {
+                "x": 893.95,
+                "y": 381.91
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867157385678595,
+                "lng": -74.90594655275343
+              },
+              "markedPx": {
+                "x": 912.54,
+                "y": 419.88
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "o0J4",
+          "name": "13",
+          "teeId": "GTcv",
+          "pinId": "1MZe",
+          "par": 4,
+          "distanceMeters": 104.583,
+          "customDistanceMeters": 104.85119664476171,
+          "effectiveDistanceMeters": 104.85119664476171,
+          "effectiveDistanceFt": 344,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8664748471769,
+                "lng": -74.9046163049016
+              },
+              "markedPx": {
+                "x": 888.85,
+                "y": 230.99
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86672286413358,
+                "lng": -74.90518178885819
+              },
+              "markedPx": {
+                "x": 903.86,
+                "y": 306.95
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86668682210342,
+                "lng": -74.90551437886461
+              },
+              "markedPx": {
+                "x": 934.03,
+                "y": 332.91
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8668356,
+                "lng": -74.905672
+              },
+              "markedPx": {
+                "x": 928.87,
+                "y": 362.28
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "WuL3",
+          "name": "13",
+          "teeId": "GTcv",
+          "pinId": "AF0h",
+          "par": 5,
+          "distanceMeters": 157.525,
+          "customDistanceMeters": 158.19119493788176,
+          "effectiveDistanceMeters": 158.19119493788176,
+          "effectiveDistanceFt": 519,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8664748471769,
+                "lng": -74.9046163049016
+              },
+              "markedPx": {
+                "x": 888.85,
+                "y": 230.99
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866739011800355,
+                "lng": -74.90519490901184
+              },
+              "markedPx": {
+                "x": 902.99,
+                "y": 309.78
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.866708645776455,
+                "lng": -74.90550256699478
+              },
+              "markedPx": {
+                "x": 930.55,
+                "y": 334.11
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86684004952012,
+                "lng": -74.90565264113731
+              },
+              "markedPx": {
+                "x": 926.84,
+                "y": 361.01
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86707312951113,
+                "lng": -74.90561967668677
+              },
+              "markedPx": {
+                "x": 896.92,
+                "y": 382.05
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.867157385678595,
+                "lng": -74.90594655275343
+              },
+              "markedPx": {
+                "x": 912.54,
+                "y": 419.88
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 14,
+      "holeId": "qT0b",
+      "holeName": "14",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "Oq3z",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8679882,
+            "lng": -74.9053239
+          },
+          "markedPx": {
+            "x": 766.51,
+            "y": 449.8
+          }
+        },
+        {
+          "teeId": "M8CR",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.86790401900666,
+            "lng": -74.9050601829317
+          },
+          "markedPx": {
+            "x": 755.81,
+            "y": 417.62
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "3QSn",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8675747,
+            "lng": -74.906198
+          },
+          "markedPx": {
+            "x": 883.19,
+            "y": 485.24
+          }
+        },
+        {
+          "pinId": "KdIx",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.86760463827643,
+            "lng": -74.90644477307796
+          },
+          "markedPx": {
+            "x": 898.93,
+            "y": 510.34
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "xiyS",
+          "name": "14",
+          "teeId": "Oq3z",
+          "pinId": "3QSn",
+          "par": 3,
+          "distanceMeters": 86.82600000000001,
+          "effectiveDistanceMeters": 86.82600000000001,
+          "effectiveDistanceFt": 285,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8679882,
+                "lng": -74.9053239
+              },
+              "markedPx": {
+                "x": 766.51,
+                "y": 449.8
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675747,
+                "lng": -74.906198
+              },
+              "markedPx": {
+                "x": 883.19,
+                "y": 485.24
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "9Phx",
+          "name": "14",
+          "teeId": "Oq3z",
+          "pinId": "KdIx",
+          "par": 3,
+          "distanceMeters": 104.047,
+          "customDistanceMeters": 103.3271966935297,
+          "effectiveDistanceMeters": 103.3271966935297,
+          "effectiveDistanceFt": 339,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8679882,
+                "lng": -74.9053239
+              },
+              "markedPx": {
+                "x": 766.51,
+                "y": 449.8
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86762441468212,
+                "lng": -74.90630328655243
+              },
+              "markedPx": {
+                "x": 885.57,
+                "y": 499.75
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86760463827643,
+                "lng": -74.90644477307796
+              },
+              "markedPx": {
+                "x": 898.93,
+                "y": 510.34
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "tqLL",
+          "name": "14",
+          "teeId": "M8CR",
+          "pinId": "3QSn",
+          "par": 3,
+          "distanceMeters": 102.657,
+          "customDistanceMeters": 104.85119664476171,
+          "effectiveDistanceMeters": 104.85119664476171,
+          "effectiveDistanceFt": 344,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86790401900666,
+                "lng": -74.9050601829317
+              },
+              "markedPx": {
+                "x": 755.81,
+                "y": 417.62
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8675747,
+                "lng": -74.906198
+              },
+              "markedPx": {
+                "x": 883.19,
+                "y": 485.24
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "05or",
+          "name": "14",
+          "teeId": "M8CR",
+          "pinId": "KdIx",
+          "par": 3,
+          "distanceMeters": 121.36800000000001,
+          "customDistanceMeters": 124.35839602053133,
+          "effectiveDistanceMeters": 124.35839602053133,
+          "effectiveDistanceFt": 408,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86790401900666,
+                "lng": -74.9050601829317
+              },
+              "markedPx": {
+                "x": 755.81,
+                "y": 417.62
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86760463827643,
+                "lng": -74.90644477307796
+              },
+              "markedPx": {
+                "x": 898.93,
+                "y": 510.34
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 15,
+      "holeId": "nPJL",
+      "holeName": "15",
+      "status": "reference-selected",
+      "sourceStatus": "removed",
+      "referenceNote": "Restored to match the user-supplied satellite map: vertical right-edge hole, yellow basket only.",
+      "tees": [
+        {
+          "teeId": "Z5It",
+          "type": "Short",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8681097,
+            "lng": -74.9072122
+          },
+          "markedPx": {
+            "x": 899.54,
+            "y": 630.76
+          }
+        },
+        {
+          "teeId": "o3wA",
+          "type": "Long",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.867945713863094,
+            "lng": -74.9069049807848
+          },
+          "markedPx": {
+            "x": 894.81,
+            "y": 586.48
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "8gAC",
+          "type": "Yellow",
+          "labels": [
+            "Yellow"
+          ],
+          "labelSource": "User-confirmed satellite reference",
+          "geo": {
+            "lat": 40.8689281,
+            "lng": -74.9084765
+          },
+          "markedPx": {
+            "x": 902.14,
+            "y": 827.75
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "75kq",
+          "name": "15",
+          "teeId": "Z5It",
+          "pinId": "8gAC",
+          "par": 4,
+          "distanceMeters": 140.071,
+          "customDistanceMeters": 140.20799551334414,
+          "effectiveDistanceMeters": 140.20799551334414,
+          "effectiveDistanceFt": 460,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8681097,
+                "lng": -74.9072122
+              },
+              "markedPx": {
+                "x": 899.54,
+                "y": 630.76
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8689281,
+                "lng": -74.9084765
+              },
+              "markedPx": {
+                "x": 902.14,
+                "y": 827.75
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "AB3t",
+          "name": "15",
+          "teeId": "o3wA",
+          "pinId": "8gAC",
+          "par": 4,
+          "distanceMeters": 171.62,
+          "customDistanceMeters": 173.73599444044817,
+          "effectiveDistanceMeters": 173.73599444044817,
+          "effectiveDistanceFt": 570,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.867945713863094,
+                "lng": -74.9069049807848
+              },
+              "markedPx": {
+                "x": 894.81,
+                "y": 586.48
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8689281,
+                "lng": -74.9084765
+              },
+              "markedPx": {
+                "x": 902.14,
+                "y": 827.75
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 16,
+      "holeId": "ESEj",
+      "holeName": "16",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "4M3L",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8701035,
+            "lng": -74.9073379
+          },
+          "markedPx": {
+            "x": 675.45,
+            "y": 847.09
+          }
+        },
+        {
+          "teeId": "57YZ",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.8698753,
+            "lng": -74.9082632
+          },
+          "markedPx": {
+            "x": 774.39,
+            "y": 906.16
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "KHG8",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8715517,
+            "lng": -74.9061735
+          },
+          "markedPx": {
+            "x": 414.74,
+            "y": 892.2
+          }
+        },
+        {
+          "pinId": "QJ8j",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.87167705244625,
+            "lng": -74.90567035883042
+          },
+          "markedPx": {
+            "x": 360.79,
+            "y": 860.21
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "KBkQ",
+          "name": "16",
+          "teeId": "4M3L",
+          "pinId": "KHG8",
+          "par": 4,
+          "distanceMeters": 188.88400000000001,
+          "effectiveDistanceMeters": 188.88400000000001,
+          "effectiveDistanceFt": 620,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8701035,
+                "lng": -74.9073379
+              },
+              "markedPx": {
+                "x": 675.45,
+                "y": 847.09
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87146650330331,
+                "lng": -74.90628954023123
+              },
+              "markedPx": {
+                "x": 433.79,
+                "y": 893.79
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8715517,
+                "lng": -74.9061735
+              },
+              "markedPx": {
+                "x": 414.74,
+                "y": 892.2
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "csni",
+          "name": "16",
+          "teeId": "4M3L",
+          "pinId": "QJ8j",
+          "par": 4,
+          "distanceMeters": 229.93300000000002,
+          "customDistanceMeters": 228.59999268480024,
+          "effectiveDistanceMeters": 228.59999268480024,
+          "effectiveDistanceFt": 750,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8701035,
+                "lng": -74.9073379
+              },
+              "markedPx": {
+                "x": 675.45,
+                "y": 847.09
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87149515206434,
+                "lng": -74.90565653890371
+              },
+              "markedPx": {
+                "x": 381.05,
+                "y": 840.26
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87167705244625,
+                "lng": -74.90567035883042
+              },
+              "markedPx": {
+                "x": 360.79,
+                "y": 860.21
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "HBHY",
+          "name": "16",
+          "teeId": "57YZ",
+          "pinId": "KHG8",
+          "par": 4,
+          "distanceMeters": 260.589,
+          "customDistanceMeters": 255.11759183623707,
+          "effectiveDistanceMeters": 255.11759183623707,
+          "effectiveDistanceFt": 837,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8698753,
+                "lng": -74.9082632
+              },
+              "markedPx": {
+                "x": 774.39,
+                "y": 906.16
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8710995426399,
+                "lng": -74.90653454003522
+              },
+              "markedPx": {
+                "x": 495.94,
+                "y": 877.89
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87140028363978,
+                "lng": -74.90641505449858
+              },
+              "markedPx": {
+                "x": 451.35,
+                "y": 898.17
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8715517,
+                "lng": -74.9061735
+              },
+              "markedPx": {
+                "x": 414.74,
+                "y": 892.2
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Z8xV",
+          "name": "16",
+          "teeId": "57YZ",
+          "pinId": "QJ8j",
+          "par": 5,
+          "distanceMeters": 305.063,
+          "customDistanceMeters": 304.79999024640034,
+          "effectiveDistanceMeters": 304.79999024640034,
+          "effectiveDistanceFt": 1000,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8698753,
+                "lng": -74.9082632
+              },
+              "markedPx": {
+                "x": 774.39,
+                "y": 906.16
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.871482880185525,
+                "lng": -74.90565160309892
+              },
+              "markedPx": {
+                "x": 382.11,
+                "y": 838.56
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87167705244625,
+                "lng": -74.90567035883042
+              },
+              "markedPx": {
+                "x": 360.79,
+                "y": 860.21
+              }
+            }
+          ]
+        }
+      ],
+      "referenceNote": "Cross-field hole shown as 16 in the user-supplied satellite map; previously displayed as 15 in the published-layout proof."
+    },
+    {
+      "slot": 17,
+      "holeId": "hoc3",
+      "holeName": "17",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "yMlk",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8714789,
+            "lng": -74.9053484
+          },
+          "markedPx": {
+            "x": 358.93,
+            "y": 811.1
+          }
+        },
+        {
+          "teeId": "FoE5",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.87165772316911,
+            "lng": -74.90537188577228
+          },
+          "markedPx": {
+            "x": 339.78,
+            "y": 831.59
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "cNgs",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8708912,
+            "lng": -74.9051895
+          },
+          "markedPx": {
+            "x": 415.48,
+            "y": 736.46
+          }
+        },
+        {
+          "pinId": "Qj0g",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.8708298189403,
+            "lng": -74.90568467570395
+          },
+          "markedPx": {
+            "x": 461.3,
+            "y": 774.33
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "DXnL",
+          "name": "17",
+          "teeId": "yMlk",
+          "pinId": "cNgs",
+          "par": 3,
+          "distanceMeters": 66.625,
+          "customDistanceMeters": 66.75119786396166,
+          "effectiveDistanceMeters": 66.75119786396166,
+          "effectiveDistanceFt": 219,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8714789,
+                "lng": -74.9053484
+              },
+              "markedPx": {
+                "x": 358.93,
+                "y": 811.1
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8708912,
+                "lng": -74.9051895
+              },
+              "markedPx": {
+                "x": 415.48,
+                "y": 736.46
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "GBjd",
+          "name": "17",
+          "teeId": "yMlk",
+          "pinId": "Qj0g",
+          "par": 3,
+          "distanceMeters": 77.455,
+          "customDistanceMeters": 79.55279745431048,
+          "effectiveDistanceMeters": 79.55279745431048,
+          "effectiveDistanceFt": 261,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8714789,
+                "lng": -74.9053484
+              },
+              "markedPx": {
+                "x": 358.93,
+                "y": 811.1
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8708298189403,
+                "lng": -74.90568467570395
+              },
+              "markedPx": {
+                "x": 461.3,
+                "y": 774.33
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "rySR",
+          "name": "17",
+          "teeId": "FoE5",
+          "pinId": "cNgs",
+          "par": 3,
+          "distanceMeters": 86.501,
+          "customDistanceMeters": 87.17279721047049,
+          "effectiveDistanceMeters": 87.17279721047049,
+          "effectiveDistanceFt": 286,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.87165772316911,
+                "lng": -74.90537188577228
+              },
+              "markedPx": {
+                "x": 339.78,
+                "y": 831.59
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8708912,
+                "lng": -74.9051895
+              },
+              "markedPx": {
+                "x": 415.48,
+                "y": 736.46
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "WCkd",
+          "name": "17",
+          "teeId": "FoE5",
+          "pinId": "Qj0g",
+          "par": 3,
+          "distanceMeters": 95.646,
+          "customDistanceMeters": 96.92639689835529,
+          "effectiveDistanceMeters": 96.92639689835529,
+          "effectiveDistanceFt": 318,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.87165772316911,
+                "lng": -74.90537188577228
+              },
+              "markedPx": {
+                "x": 339.78,
+                "y": 831.59
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8708298189403,
+                "lng": -74.90568467570395
+              },
+              "markedPx": {
+                "x": 461.3,
+                "y": 774.33
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": 18,
+      "holeId": "XaEX",
+      "holeName": "18",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "hWSv",
+          "type": "Short",
+          "labelId": "4b8u",
+          "labels": [
+            "Short (Brown)"
+          ],
+          "geo": {
+            "lat": 40.8704427,
+            "lng": -74.9046544
+          },
+          "markedPx": {
+            "x": 426.35,
+            "y": 642.59
+          }
+        },
+        {
+          "teeId": "7wJZ",
+          "type": "Long",
+          "labelId": "yRf1",
+          "labels": [
+            "Long (Green)"
+          ],
+          "geo": {
+            "lat": 40.87077312213731,
+            "lng": -74.90496754192662
+          },
+          "markedPx": {
+            "x": 412.01,
+            "y": 704.52
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "mgG9",
+          "type": "Yellow",
+          "labelId": "zS7Y",
+          "labels": [
+            "Yellow"
+          ],
+          "geo": {
+            "lat": 40.8699618,
+            "lng": -74.9040395
+          },
+          "markedPx": {
+            "x": 434.81,
+            "y": 538.26
+          }
+        },
+        {
+          "pinId": "H2zq",
+          "type": "Orange",
+          "labelId": "NRbk",
+          "labels": [
+            "Orange"
+          ],
+          "geo": {
+            "lat": 40.869469933008254,
+            "lng": -74.90363415330647
+          },
+          "markedPx": {
+            "x": 460.89,
+            "y": 451.49
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "w2eB",
+          "name": "18",
+          "teeId": "hWSv",
+          "pinId": "mgG9",
+          "par": 3,
+          "distanceMeters": 78.726,
+          "customDistanceMeters": 78.63839748357128,
+          "effectiveDistanceMeters": 78.63839748357128,
+          "effectiveDistanceFt": 258,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8704427,
+                "lng": -74.9046544
+              },
+              "markedPx": {
+                "x": 426.35,
+                "y": 642.59
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86996610219399,
+                "lng": -74.90419574081898
+              },
+              "markedPx": {
+                "x": 446.49,
+                "y": 552.64
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8699618,
+                "lng": -74.9040395
+              },
+              "markedPx": {
+                "x": 434.81,
+                "y": 538.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "perp",
+          "name": "18",
+          "teeId": "hWSv",
+          "pinId": "H2zq",
+          "par": 3,
+          "distanceMeters": 138.084,
+          "customDistanceMeters": 131.06399580595215,
+          "effectiveDistanceMeters": 131.06399580595215,
+          "effectiveDistanceFt": 430,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8704427,
+                "lng": -74.9046544
+              },
+              "markedPx": {
+                "x": 426.35,
+                "y": 642.59
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.869469933008254,
+                "lng": -74.90363415330647
+              },
+              "markedPx": {
+                "x": 460.89,
+                "y": 451.49
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "UzYW",
+          "name": "18",
+          "teeId": "7wJZ",
+          "pinId": "mgG9",
+          "par": 3,
+          "distanceMeters": 123.166,
+          "customDistanceMeters": 127.10159593274894,
+          "effectiveDistanceMeters": 127.10159593274894,
+          "effectiveDistanceFt": 417,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.87077312213731,
+                "lng": -74.90496754192662
+              },
+              "markedPx": {
+                "x": 412.01,
+                "y": 704.52
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87038635604636,
+                "lng": -74.90460425910766
+              },
+              "markedPx": {
+                "x": 429.05,
+                "y": 632.32
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86997355271093,
+                "lng": -74.90419095821213
+              },
+              "markedPx": {
+                "x": 445.24,
+                "y": 552.98
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8699618,
+                "lng": -74.9040395
+              },
+              "markedPx": {
+                "x": 434.81,
+                "y": 538.26
+              }
+            }
+          ]
+        },
+        {
+          "pathId": "Za7E",
+          "name": "18",
+          "teeId": "7wJZ",
+          "pinId": "H2zq",
+          "par": 4,
+          "distanceMeters": 183.292,
+          "customDistanceMeters": 187.4519940015362,
+          "effectiveDistanceMeters": 187.4519940015362,
+          "effectiveDistanceFt": 615,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.87077312213731,
+                "lng": -74.90496754192662
+              },
+              "markedPx": {
+                "x": 412.01,
+                "y": 704.52
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.870438481386024,
+                "lng": -74.90465201626601
+              },
+              "markedPx": {
+                "x": 426.66,
+                "y": 641.94
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.870115998212796,
+                "lng": -74.90431155201112
+              },
+              "markedPx": {
+                "x": 437.94,
+                "y": 578.39
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.869469933008254,
+                "lng": -74.90363415330647
+              },
+              "markedPx": {
+                "x": 460.89,
+                "y": 451.49
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "alternates": [
+    {
+      "holeId": "xclz8445w3s8sb3x01gxe2ku",
+      "holeName": "15A",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "mkf7dgv103vt92794sl2chqh",
+          "type": "Long",
+          "labelId": "brrpsa3ey18fg2s8z7ipguec",
+          "labels": [
+            "Temp"
+          ],
+          "geo": {
+            "lat": 40.86916667740388,
+            "lng": -74.90345175878223
+          },
+          "markedPx": {
+            "x": 482.24,
+            "y": 404.02
+          }
+        }
+      ],
+      "baskets": [],
+      "routes": [
+        {
+          "pathId": "s2g8nifk5a8frao0jegsq7b1",
+          "name": "",
+          "teeId": "mkf7dgv103vt92794sl2chqh",
+          "pinId": "bps4c0jhz6tmn0920uww09w8",
+          "par": 3,
+          "distanceMeters": 80.636,
+          "effectiveDistanceMeters": 80.636,
+          "effectiveDistanceFt": 265,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.86916667740388,
+                "lng": -74.90345175878223
+              },
+              "markedPx": {
+                "x": 482.24,
+                "y": 404.02
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8688348,
+                "lng": -74.902601
+              },
+              "markedPx": {
+                "x": 454.81,
+                "y": 293.98
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "holeId": "zvye96fu22l160q1juqizwp1",
+      "holeName": "16A",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "ssdfx63dt8h14i81pkwocjjx",
+          "type": "Long",
+          "labelId": "brrpsa3ey18fg2s8z7ipguec",
+          "labels": [
+            "Temp"
+          ],
+          "geo": {
+            "lat": 40.8722546,
+            "lng": -74.9052515
+          },
+          "markedPx": {
+            "x": 260.37,
+            "y": 882.26
+          }
+        }
+      ],
+      "baskets": [],
+      "routes": [
+        {
+          "pathId": "nftcxset4b0dcw5kg29xxbz2",
+          "name": "",
+          "teeId": "ssdfx63dt8h14i81pkwocjjx",
+          "pinId": "QJ8j",
+          "par": 3,
+          "distanceMeters": 75.361,
+          "effectiveDistanceMeters": 75.361,
+          "effectiveDistanceFt": 247,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8722546,
+                "lng": -74.9052515
+              },
+              "markedPx": {
+                "x": 260.37,
+                "y": 882.26
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87213586991405,
+                "lng": -74.9054452075953
+              },
+              "markedPx": {
+                "x": 289.41,
+                "y": 887.32
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.87167705244625,
+                "lng": -74.90567035883042
+              },
+              "markedPx": {
+                "x": 360.79,
+                "y": 860.21
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "holeId": "x012h2ir9fxo18a6rmku8eph",
+      "holeName": "1A",
+      "status": "active",
+      "tees": [
+        {
+          "teeId": "tv8i79xxjr1i0089u8e6xdqm",
+          "type": "Long",
+          "labelId": "brrpsa3ey18fg2s8z7ipguec",
+          "labels": [
+            "Temp"
+          ],
+          "geo": {
+            "lat": 40.8686172,
+            "lng": -74.9033441
+          },
+          "markedPx": {
+            "x": 538.3,
+            "y": 337.89
+          }
+        }
+      ],
+      "baskets": [
+        {
+          "pinId": "bps4c0jhz6tmn0920uww09w8",
+          "type": "Orange",
+          "labelId": "eRAJ",
+          "labels": [
+            "PracticeBasket"
+          ],
+          "geo": {
+            "lat": 40.8688348,
+            "lng": -74.902601
+          },
+          "markedPx": {
+            "x": 454.81,
+            "y": 293.98
+          }
+        }
+      ],
+      "routes": [
+        {
+          "pathId": "djq89nu8okrdssw7qepirdyt",
+          "name": "",
+          "teeId": "tv8i79xxjr1i0089u8e6xdqm",
+          "pinId": "bps4c0jhz6tmn0920uww09w8",
+          "par": 3,
+          "distanceMeters": 73.245,
+          "customDistanceMeters": 67.05599785420807,
+          "effectiveDistanceMeters": 67.05599785420807,
+          "effectiveDistanceFt": 220,
+          "vertices": [
+            {
+              "geo": {
+                "lat": 40.8686172,
+                "lng": -74.9033441
+              },
+              "markedPx": {
+                "x": 538.3,
+                "y": 337.89
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.86887588412492,
+                "lng": -74.90292590830356
+              },
+              "markedPx": {
+                "x": 475.34,
+                "y": 327.19
+              }
+            },
+            {
+              "geo": {
+                "lat": 40.8688348,
+                "lng": -74.902601
+              },
+              "markedPx": {
+                "x": 454.81,
+                "y": 293.98
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "layoutId": 171977,
+      "name": "Long Tee (Green) to Yellow Basket",
+      "status": "active",
+      "defaultTee": "Long (Green)",
+      "defaultTarget": "Yellow",
+      "areLayoutSelectionsValid": true,
+      "serverTotals": {
+        "par": 61,
+        "distanceMeters": 2106.091938064642,
+        "distanceFt": 6910
+      },
+      "calculatedTotals": {
+        "par": 62,
+        "distanceMeters": 2109.21593250509,
+        "distanceFt": 6920
+      },
+      "holes": [
+        {
+          "slot": 1,
+          "holeId": "CSEx",
+          "holeName": "1",
+          "selectedTeeId": "gXIN",
+          "selectedTeeType": "Long",
+          "selectedPinId": "IuKX",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "gXGb",
+          "par": 4,
+          "effectiveDistanceMeters": 149.96159520122896,
+          "effectiveDistanceFt": 492,
+          "hasOverride": false
+        },
+        {
+          "slot": 2,
+          "holeId": "dueJ",
+          "holeName": "2",
+          "selectedTeeId": "MVNh",
+          "selectedTeeType": "Long",
+          "selectedPinId": "yQAJ",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "39WT",
+          "par": 4,
+          "effectiveDistanceMeters": 139.59839553285136,
+          "effectiveDistanceFt": 458,
+          "hasOverride": false
+        },
+        {
+          "slot": 3,
+          "holeId": "OZKO",
+          "holeName": "3",
+          "selectedTeeId": "jM70",
+          "selectedTeeType": "Long",
+          "selectedPinId": "A7bv",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "52kb",
+          "par": 3,
+          "effectiveDistanceMeters": 86.86799722022408,
+          "effectiveDistanceFt": 285,
+          "hasOverride": false
+        },
+        {
+          "slot": 4,
+          "holeId": "wS5o",
+          "holeName": "4",
+          "selectedTeeId": "8DPO",
+          "selectedTeeType": "Long",
+          "selectedPinId": "xjui",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "A4V0",
+          "par": 3,
+          "effectiveDistanceMeters": 72.23759768839687,
+          "effectiveDistanceFt": 237,
+          "hasOverride": false
+        },
+        {
+          "slot": 5,
+          "holeId": "z7it",
+          "holeName": "5",
+          "selectedTeeId": "QkDw",
+          "selectedTeeType": "Long",
+          "selectedPinId": "XFqd",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "bCZ4",
+          "par": 4,
+          "effectiveDistanceMeters": 109.42319649845771,
+          "effectiveDistanceFt": 359,
+          "hasOverride": false
+        },
+        {
+          "slot": 6,
+          "holeId": "347q",
+          "holeName": "6",
+          "selectedTeeId": "Mqfj",
+          "selectedTeeType": "Long",
+          "selectedPinId": "T2a0",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "XH3Y",
+          "par": 4,
+          "effectiveDistanceMeters": 171.90719449896977,
+          "effectiveDistanceFt": 564,
+          "hasOverride": false
+        },
+        {
+          "slot": 7,
+          "holeId": "ue0k",
+          "holeName": "7",
+          "selectedTeeId": "mXU0",
+          "selectedTeeType": "Long",
+          "selectedPinId": "RRnz",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "1gCh",
+          "par": 4,
+          "effectiveDistanceMeters": 113.69039636190732,
+          "effectiveDistanceFt": 373,
+          "hasOverride": false
+        },
+        {
+          "slot": 8,
+          "holeId": "TLcY",
+          "holeName": "8",
+          "selectedTeeId": "oJpQ",
+          "selectedTeeType": "Long",
+          "selectedPinId": "rA8K",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "lz3i",
+          "par": 3,
+          "effectiveDistanceMeters": 77.72399751283209,
+          "effectiveDistanceFt": 255,
+          "hasOverride": false
+        },
+        {
+          "slot": 9,
+          "holeId": "FCOh",
+          "holeName": "9",
+          "selectedTeeId": "KJv2",
+          "selectedTeeType": "Long",
+          "selectedPinId": "8NYm",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "NKMI",
+          "par": 3,
+          "effectiveDistanceMeters": 85.34399726899208,
+          "effectiveDistanceFt": 280,
+          "hasOverride": false
+        },
+        {
+          "slot": 10,
+          "holeId": "ngzW",
+          "holeName": "10",
+          "selectedTeeId": "weLE",
+          "selectedTeeType": "Long",
+          "selectedPinId": "NIdH",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Vhze",
+          "par": 3,
+          "effectiveDistanceMeters": 81.07679740554248,
+          "effectiveDistanceFt": 266,
+          "hasOverride": false
+        },
+        {
+          "slot": 11,
+          "holeId": "2Gkm",
+          "holeName": "11",
+          "selectedTeeId": "wgwj",
+          "selectedTeeType": "Long",
+          "selectedPinId": "NB83",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "d6aK",
+          "par": 3,
+          "effectiveDistanceMeters": 76.80959754209287,
+          "effectiveDistanceFt": 252,
+          "hasOverride": false
+        },
+        {
+          "slot": 12,
+          "holeId": "1Mt6",
+          "holeName": "12",
+          "selectedTeeId": "U28K",
+          "selectedTeeType": "Long",
+          "selectedPinId": "56S8",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "1Ehx",
+          "par": 3,
+          "effectiveDistanceMeters": 91.74479706416649,
+          "effectiveDistanceFt": 301,
+          "hasOverride": false
+        },
+        {
+          "slot": 13,
+          "holeId": "bMZy",
+          "holeName": "13",
+          "selectedTeeId": "GTcv",
+          "selectedTeeType": "Long",
+          "selectedPinId": "1MZe",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "o0J4",
+          "par": 4,
+          "effectiveDistanceMeters": 104.85119664476171,
+          "effectiveDistanceFt": 344,
+          "hasOverride": false
+        },
+        {
+          "slot": 14,
+          "holeId": "qT0b",
+          "holeName": "14",
+          "selectedTeeId": "M8CR",
+          "selectedTeeType": "Long",
+          "selectedPinId": "3QSn",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "tqLL",
+          "par": 3,
+          "effectiveDistanceMeters": 104.85119664476171,
+          "effectiveDistanceFt": 344,
+          "hasOverride": false
+        },
+        {
+          "slot": 15,
+          "holeId": "nPJL",
+          "holeName": "15",
+          "selectedTeeId": "o3wA",
+          "selectedTeeType": "Long",
+          "selectedPinId": "8gAC",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "AB3t",
+          "par": 4,
+          "effectiveDistanceMeters": 173.73599444044817,
+          "effectiveDistanceFt": 570,
+          "hasOverride": false,
+          "sourceSelection": {
+            "slot": 15,
+            "holeId": "ESEj",
+            "holeName": "15",
+            "selectedTeeId": "57YZ",
+            "selectedTeeType": "Long",
+            "selectedPinId": "KHG8",
+            "selectedPinType": "Yellow",
+            "borrowedTargetFrom": null,
+            "selectedPathId": "HBHY",
+            "par": 4,
+            "effectiveDistanceMeters": 255.11759183623707,
+            "effectiveDistanceFt": 837,
+            "hasOverride": false
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 16,
+          "holeId": "ESEj",
+          "holeName": "16",
+          "selectedTeeId": "57YZ",
+          "selectedTeeType": "Long",
+          "selectedPinId": "KHG8",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "HBHY",
+          "par": 4,
+          "effectiveDistanceMeters": 255.11759183623707,
+          "effectiveDistanceFt": 837,
+          "hasOverride": false,
+          "sourceSelection": {
+            "slot": 16,
+            "holeId": "tz8icmrfkmw0il5z6qt88gxh",
+            "holeName": "16",
+            "selectedTeeId": "pn72f0dznpctyflel2iimnzr",
+            "selectedTeeType": "Long",
+            "selectedPinId": "QJ8j",
+            "selectedPinType": "Orange",
+            "borrowedTargetFrom": "ESEj",
+            "selectedPathId": "fg75l9yvq1zfwcqqim1nyvaq",
+            "par": 3,
+            "effectiveDistanceMeters": 170.612,
+            "effectiveDistanceFt": 560,
+            "hasOverride": true
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 17,
+          "holeId": "hoc3",
+          "holeName": "17",
+          "selectedTeeId": "FoE5",
+          "selectedTeeType": "Long",
+          "selectedPinId": "cNgs",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "rySR",
+          "par": 3,
+          "effectiveDistanceMeters": 87.17279721047049,
+          "effectiveDistanceFt": 286,
+          "hasOverride": false
+        },
+        {
+          "slot": 18,
+          "holeId": "XaEX",
+          "holeName": "18",
+          "selectedTeeId": "7wJZ",
+          "selectedTeeType": "Long",
+          "selectedPinId": "mgG9",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "UzYW",
+          "par": 3,
+          "effectiveDistanceMeters": 127.10159593274894,
+          "effectiveDistanceFt": 417,
+          "hasOverride": false
+        }
+      ],
+      "referenceTotals": {
+        "par": 62,
+        "distanceMeters": 2109.21593250509,
+        "distanceFt": 6920
+      },
+      "totalsBasis": "User-selected satellite reference; published server totals retained separately for provenance."
+    },
+    {
+      "layoutId": 171978,
+      "name": "Long Tee (Green) To Orange Basket",
+      "status": "active",
+      "defaultTee": "Long (Green)",
+      "defaultTarget": "Orange",
+      "areLayoutSelectionsValid": true,
+      "serverTotals": {
+        "par": 64,
+        "distanceMeters": 2327.3767309835284,
+        "distanceFt": 7636
+      },
+      "calculatedTotals": {
+        "par": 65,
+        "distanceMeters": 2330.5007254239767,
+        "distanceFt": 7646
+      },
+      "holes": [
+        {
+          "slot": 1,
+          "holeId": "CSEx",
+          "holeName": "1",
+          "selectedTeeId": "gXIN",
+          "selectedTeeType": "Long",
+          "selectedPinId": "8POd",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "1DK1",
+          "par": 4,
+          "effectiveDistanceMeters": 152.39999512320017,
+          "effectiveDistanceFt": 500,
+          "hasOverride": false
+        },
+        {
+          "slot": 2,
+          "holeId": "dueJ",
+          "holeName": "2",
+          "selectedTeeId": "MVNh",
+          "selectedTeeType": "Long",
+          "selectedPinId": "yoDL",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "TYOd",
+          "par": 4,
+          "effectiveDistanceMeters": 157.27679496714256,
+          "effectiveDistanceFt": 516,
+          "hasOverride": false
+        },
+        {
+          "slot": 3,
+          "holeId": "OZKO",
+          "holeName": "3",
+          "selectedTeeId": "jM70",
+          "selectedTeeType": "Long",
+          "selectedPinId": "A7bv",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "52kb",
+          "par": 3,
+          "effectiveDistanceMeters": 86.86799722022408,
+          "effectiveDistanceFt": 285,
+          "hasOverride": true
+        },
+        {
+          "slot": 4,
+          "holeId": "wS5o",
+          "holeName": "4",
+          "selectedTeeId": "8DPO",
+          "selectedTeeType": "Long",
+          "selectedPinId": "q9Qt",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "DQU7",
+          "par": 3,
+          "effectiveDistanceMeters": 67.05599785420807,
+          "effectiveDistanceFt": 220,
+          "hasOverride": false
+        },
+        {
+          "slot": 5,
+          "holeId": "z7it",
+          "holeName": "5",
+          "selectedTeeId": "QkDw",
+          "selectedTeeType": "Long",
+          "selectedPinId": "vxDt",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "57qi",
+          "par": 4,
+          "effectiveDistanceMeters": 125.57759598151694,
+          "effectiveDistanceFt": 412,
+          "hasOverride": false
+        },
+        {
+          "slot": 6,
+          "holeId": "347q",
+          "holeName": "6",
+          "selectedTeeId": "Mqfj",
+          "selectedTeeType": "Long",
+          "selectedPinId": "EiCs",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "cbxL",
+          "par": 4,
+          "effectiveDistanceMeters": 172.5167944794626,
+          "effectiveDistanceFt": 566,
+          "hasOverride": false
+        },
+        {
+          "slot": 7,
+          "holeId": "ue0k",
+          "holeName": "7",
+          "selectedTeeId": "mXU0",
+          "selectedTeeType": "Long",
+          "selectedPinId": "wTMf",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "q1gD",
+          "par": 3,
+          "effectiveDistanceMeters": 86.86799722022408,
+          "effectiveDistanceFt": 285,
+          "hasOverride": false
+        },
+        {
+          "slot": 8,
+          "holeId": "TLcY",
+          "holeName": "8",
+          "selectedTeeId": "oJpQ",
+          "selectedTeeType": "Long",
+          "selectedPinId": "D1AM",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "4wbU",
+          "par": 3,
+          "effectiveDistanceMeters": 70.71359773716487,
+          "effectiveDistanceFt": 232,
+          "hasOverride": false
+        },
+        {
+          "slot": 9,
+          "holeId": "FCOh",
+          "holeName": "9",
+          "selectedTeeId": "KJv2",
+          "selectedTeeType": "Long",
+          "selectedPinId": "b9T7",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "5FlU",
+          "par": 3,
+          "effectiveDistanceMeters": 70.40879774691847,
+          "effectiveDistanceFt": 231,
+          "hasOverride": false
+        },
+        {
+          "slot": 10,
+          "holeId": "ngzW",
+          "holeName": "10",
+          "selectedTeeId": "weLE",
+          "selectedTeeType": "Long",
+          "selectedPinId": "8QY4",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "UYxV",
+          "par": 3,
+          "effectiveDistanceMeters": 102.4127967227905,
+          "effectiveDistanceFt": 336,
+          "hasOverride": false
+        },
+        {
+          "slot": 11,
+          "holeId": "2Gkm",
+          "holeName": "11",
+          "selectedTeeId": "wgwj",
+          "selectedTeeType": "Long",
+          "selectedPinId": "e2O7",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Eo4L",
+          "par": 4,
+          "effectiveDistanceMeters": 98.1455968593409,
+          "effectiveDistanceFt": 322,
+          "hasOverride": false
+        },
+        {
+          "slot": 12,
+          "holeId": "1Mt6",
+          "holeName": "12",
+          "selectedTeeId": "U28K",
+          "selectedTeeType": "Long",
+          "selectedPinId": "4pep",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Iqdc",
+          "par": 3,
+          "effectiveDistanceMeters": 94.7927969666305,
+          "effectiveDistanceFt": 311,
+          "hasOverride": false
+        },
+        {
+          "slot": 13,
+          "holeId": "bMZy",
+          "holeName": "13",
+          "selectedTeeId": "GTcv",
+          "selectedTeeType": "Long",
+          "selectedPinId": "AF0h",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "WuL3",
+          "par": 5,
+          "effectiveDistanceMeters": 158.19119493788176,
+          "effectiveDistanceFt": 519,
+          "hasOverride": false
+        },
+        {
+          "slot": 14,
+          "holeId": "qT0b",
+          "holeName": "14",
+          "selectedTeeId": "M8CR",
+          "selectedTeeType": "Long",
+          "selectedPinId": "KdIx",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "05or",
+          "par": 3,
+          "effectiveDistanceMeters": 124.35839602053133,
+          "effectiveDistanceFt": 408,
+          "hasOverride": false
+        },
+        {
+          "slot": 15,
+          "holeId": "nPJL",
+          "holeName": "15",
+          "selectedTeeId": "o3wA",
+          "selectedTeeType": "Long",
+          "selectedPinId": "8gAC",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "AB3t",
+          "par": 4,
+          "effectiveDistanceMeters": 173.73599444044817,
+          "effectiveDistanceFt": 570,
+          "hasOverride": true,
+          "sourceSelection": {
+            "slot": 15,
+            "holeId": "ESEj",
+            "holeName": "15",
+            "selectedTeeId": "57YZ",
+            "selectedTeeType": "Long",
+            "selectedPinId": "QJ8j",
+            "selectedPinType": "Orange",
+            "borrowedTargetFrom": null,
+            "selectedPathId": "Z8xV",
+            "par": 5,
+            "effectiveDistanceMeters": 304.79999024640034,
+            "effectiveDistanceFt": 1000,
+            "hasOverride": false
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 16,
+          "holeId": "ESEj",
+          "holeName": "16",
+          "selectedTeeId": "57YZ",
+          "selectedTeeType": "Long",
+          "selectedPinId": "QJ8j",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Z8xV",
+          "par": 5,
+          "effectiveDistanceMeters": 304.79999024640034,
+          "effectiveDistanceFt": 1000,
+          "hasOverride": false,
+          "sourceSelection": {
+            "slot": 16,
+            "holeId": "tz8icmrfkmw0il5z6qt88gxh",
+            "holeName": "16",
+            "selectedTeeId": "pn72f0dznpctyflel2iimnzr",
+            "selectedTeeType": "Long",
+            "selectedPinId": "QJ8j",
+            "selectedPinType": "Orange",
+            "borrowedTargetFrom": "ESEj",
+            "selectedPathId": "fg75l9yvq1zfwcqqim1nyvaq",
+            "par": 3,
+            "effectiveDistanceMeters": 170.612,
+            "effectiveDistanceFt": 560,
+            "hasOverride": true
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 17,
+          "holeId": "hoc3",
+          "holeName": "17",
+          "selectedTeeId": "FoE5",
+          "selectedTeeType": "Long",
+          "selectedPinId": "Qj0g",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "WCkd",
+          "par": 3,
+          "effectiveDistanceMeters": 96.92639689835529,
+          "effectiveDistanceFt": 318,
+          "hasOverride": false
+        },
+        {
+          "slot": 18,
+          "holeId": "XaEX",
+          "holeName": "18",
+          "selectedTeeId": "7wJZ",
+          "selectedTeeType": "Long",
+          "selectedPinId": "H2zq",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Za7E",
+          "par": 4,
+          "effectiveDistanceMeters": 187.4519940015362,
+          "effectiveDistanceFt": 615,
+          "hasOverride": false
+        }
+      ],
+      "referenceTotals": {
+        "par": 65,
+        "distanceMeters": 2330.5007254239767,
+        "distanceFt": 7646
+      },
+      "totalsBasis": "User-selected satellite reference; published server totals retained separately for provenance."
+    },
+    {
+      "layoutId": 171979,
+      "name": "Short Tee (Brown) to Yellow Basket",
+      "status": "active",
+      "defaultTee": "Short (Brown)",
+      "defaultTarget": "Yellow",
+      "areLayoutSelectionsValid": true,
+      "serverTotals": {
+        "par": 58,
+        "distanceMeters": 1693.9177586349838,
+        "distanceFt": 5557
+      },
+      "calculatedTotals": {
+        "par": 59,
+        "distanceMeters": 1654.0897614635276,
+        "distanceFt": 5427
+      },
+      "holes": [
+        {
+          "slot": 1,
+          "holeId": "CSEx",
+          "holeName": "1",
+          "selectedTeeId": "JhRp",
+          "selectedTeeType": "Short",
+          "selectedPinId": "IuKX",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "3NZc",
+          "par": 4,
+          "effectiveDistanceMeters": 125.57759598151694,
+          "effectiveDistanceFt": 412,
+          "hasOverride": false
+        },
+        {
+          "slot": 2,
+          "holeId": "dueJ",
+          "holeName": "2",
+          "selectedTeeId": "UhCs",
+          "selectedTeeType": "Short",
+          "selectedPinId": "yQAJ",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "8CSD",
+          "par": 3,
+          "effectiveDistanceMeters": 102.154,
+          "effectiveDistanceFt": 335,
+          "hasOverride": false
+        },
+        {
+          "slot": 3,
+          "holeId": "OZKO",
+          "holeName": "3",
+          "selectedTeeId": "RiJa",
+          "selectedTeeType": "Short",
+          "selectedPinId": "A7bv",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "mdEt",
+          "par": 3,
+          "effectiveDistanceMeters": 62.179198010265665,
+          "effectiveDistanceFt": 204,
+          "hasOverride": false
+        },
+        {
+          "slot": 4,
+          "holeId": "wS5o",
+          "holeName": "4",
+          "selectedTeeId": "yFQq",
+          "selectedTeeType": "Short",
+          "selectedPinId": "xjui",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "WNzn",
+          "par": 3,
+          "effectiveDistanceMeters": 72.54239767864327,
+          "effectiveDistanceFt": 238,
+          "hasOverride": false
+        },
+        {
+          "slot": 5,
+          "holeId": "z7it",
+          "holeName": "5",
+          "selectedTeeId": "TINr",
+          "selectedTeeType": "Short",
+          "selectedPinId": "XFqd",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "FqEu",
+          "par": 3,
+          "effectiveDistanceMeters": 62.78879799075847,
+          "effectiveDistanceFt": 206,
+          "hasOverride": false
+        },
+        {
+          "slot": 6,
+          "holeId": "347q",
+          "holeName": "6",
+          "selectedTeeId": "MWZy",
+          "selectedTeeType": "Short",
+          "selectedPinId": "T2a0",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "KUhx",
+          "par": 4,
+          "effectiveDistanceMeters": 145.69439533777935,
+          "effectiveDistanceFt": 478,
+          "hasOverride": false
+        },
+        {
+          "slot": 7,
+          "holeId": "ue0k",
+          "holeName": "7",
+          "selectedTeeId": "gJWC",
+          "selectedTeeType": "Short",
+          "selectedPinId": "RRnz",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "TBh7",
+          "par": 4,
+          "effectiveDistanceMeters": 101.4983967520513,
+          "effectiveDistanceFt": 333,
+          "hasOverride": false
+        },
+        {
+          "slot": 8,
+          "holeId": "TLcY",
+          "holeName": "8",
+          "selectedTeeId": "0E6w",
+          "selectedTeeType": "Short",
+          "selectedPinId": "rA8K",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "7mZ6",
+          "par": 3,
+          "effectiveDistanceMeters": 62.78879799075847,
+          "effectiveDistanceFt": 206,
+          "hasOverride": false
+        },
+        {
+          "slot": 9,
+          "holeId": "FCOh",
+          "holeName": "9",
+          "selectedTeeId": "N1tJ",
+          "selectedTeeType": "Short",
+          "selectedPinId": "8NYm",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "NgxC",
+          "par": 3,
+          "effectiveDistanceMeters": 74.67599761036807,
+          "effectiveDistanceFt": 245,
+          "hasOverride": false
+        },
+        {
+          "slot": 10,
+          "holeId": "ngzW",
+          "holeName": "10",
+          "selectedTeeId": "LuoC",
+          "selectedTeeType": "Short",
+          "selectedPinId": "NIdH",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "O6gm",
+          "par": 3,
+          "effectiveDistanceMeters": 70.40879774691847,
+          "effectiveDistanceFt": 231,
+          "hasOverride": false
+        },
+        {
+          "slot": 11,
+          "holeId": "2Gkm",
+          "holeName": "11",
+          "selectedTeeId": "RtJy",
+          "selectedTeeType": "Short",
+          "selectedPinId": "NB83",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Ddpg",
+          "par": 3,
+          "effectiveDistanceMeters": 71.961,
+          "effectiveDistanceFt": 236,
+          "hasOverride": false
+        },
+        {
+          "slot": 12,
+          "holeId": "1Mt6",
+          "holeName": "12",
+          "selectedTeeId": "CK37",
+          "selectedTeeType": "Short",
+          "selectedPinId": "56S8",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "bj3g",
+          "par": 3,
+          "effectiveDistanceMeters": 65.53199790297607,
+          "effectiveDistanceFt": 215,
+          "hasOverride": false
+        },
+        {
+          "slot": 13,
+          "holeId": "bMZy",
+          "holeName": "13",
+          "selectedTeeId": "T2QL",
+          "selectedTeeType": "Short",
+          "selectedPinId": "1MZe",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "B1Yg",
+          "par": 3,
+          "effectiveDistanceMeters": 74.98079760061448,
+          "effectiveDistanceFt": 246,
+          "hasOverride": false
+        },
+        {
+          "slot": 14,
+          "holeId": "qT0b",
+          "holeName": "14",
+          "selectedTeeId": "Oq3z",
+          "selectedTeeType": "Short",
+          "selectedPinId": "3QSn",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "xiyS",
+          "par": 3,
+          "effectiveDistanceMeters": 86.82600000000001,
+          "effectiveDistanceFt": 285,
+          "hasOverride": false
+        },
+        {
+          "slot": 15,
+          "holeId": "nPJL",
+          "holeName": "15",
+          "selectedTeeId": "Z5It",
+          "selectedTeeType": "Short",
+          "selectedPinId": "8gAC",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "75kq",
+          "par": 4,
+          "effectiveDistanceMeters": 140.20799551334414,
+          "effectiveDistanceFt": 460,
+          "hasOverride": false,
+          "sourceSelection": {
+            "slot": 15,
+            "holeId": "ESEj",
+            "holeName": "15",
+            "selectedTeeId": "4M3L",
+            "selectedTeeType": "Short",
+            "selectedPinId": "QJ8j",
+            "selectedPinType": "Orange",
+            "borrowedTargetFrom": null,
+            "selectedPathId": "csni",
+            "par": 4,
+            "effectiveDistanceMeters": 228.59999268480024,
+            "effectiveDistanceFt": 750,
+            "hasOverride": true
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 16,
+          "holeId": "ESEj",
+          "holeName": "16",
+          "selectedTeeId": "4M3L",
+          "selectedTeeType": "Short",
+          "selectedPinId": "KHG8",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "KBkQ",
+          "par": 4,
+          "effectiveDistanceMeters": 188.88400000000001,
+          "effectiveDistanceFt": 620,
+          "hasOverride": false,
+          "sourceSelection": {
+            "slot": 16,
+            "holeId": "tz8icmrfkmw0il5z6qt88gxh",
+            "holeName": "16",
+            "selectedTeeId": "qji99cu46xx42983w9anyz60",
+            "selectedTeeType": "Short",
+            "selectedPinId": "QJ8j",
+            "selectedPinType": "Orange",
+            "borrowedTargetFrom": "ESEj",
+            "selectedPathId": "a0rd989nfljt5bw0hfg4xrjm",
+            "par": 3,
+            "effectiveDistanceMeters": 140.32,
+            "effectiveDistanceFt": 460,
+            "hasOverride": true
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 17,
+          "holeId": "hoc3",
+          "holeName": "17",
+          "selectedTeeId": "yMlk",
+          "selectedTeeType": "Short",
+          "selectedPinId": "cNgs",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "DXnL",
+          "par": 3,
+          "effectiveDistanceMeters": 66.75119786396166,
+          "effectiveDistanceFt": 219,
+          "hasOverride": false
+        },
+        {
+          "slot": 18,
+          "holeId": "XaEX",
+          "holeName": "18",
+          "selectedTeeId": "hWSv",
+          "selectedTeeType": "Short",
+          "selectedPinId": "mgG9",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "w2eB",
+          "par": 3,
+          "effectiveDistanceMeters": 78.63839748357128,
+          "effectiveDistanceFt": 258,
+          "hasOverride": false
+        }
+      ],
+      "referenceTotals": {
+        "par": 59,
+        "distanceMeters": 1654.0897614635276,
+        "distanceFt": 5427
+      },
+      "totalsBasis": "User-selected satellite reference; published server totals retained separately for provenance."
+    },
+    {
+      "layoutId": 171980,
+      "name": "Short Tee (Brown) to Orange Basket",
+      "status": "active",
+      "defaultTee": "Short (Brown)",
+      "defaultTarget": "Orange",
+      "areLayoutSelectionsValid": true,
+      "serverTotals": {
+        "par": 60,
+        "distanceMeters": 1885.2999441606419,
+        "distanceFt": 6185
+      },
+      "calculatedTotals": {
+        "par": 61,
+        "distanceMeters": 1885.187939673986,
+        "distanceFt": 6185
+      },
+      "holes": [
+        {
+          "slot": 1,
+          "holeId": "CSEx",
+          "holeName": "1",
+          "selectedTeeId": "JhRp",
+          "selectedTeeType": "Short",
+          "selectedPinId": "8POd",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "x2Wl",
+          "par": 4,
+          "effectiveDistanceMeters": 128.01599590348812,
+          "effectiveDistanceFt": 420,
+          "hasOverride": false
+        },
+        {
+          "slot": 2,
+          "holeId": "dueJ",
+          "holeName": "2",
+          "selectedTeeId": "UhCs",
+          "selectedTeeType": "Short",
+          "selectedPinId": "yoDL",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "6hVb",
+          "par": 3,
+          "effectiveDistanceMeters": 127.10159593274894,
+          "effectiveDistanceFt": 417,
+          "hasOverride": false
+        },
+        {
+          "slot": 3,
+          "holeId": "OZKO",
+          "holeName": "3",
+          "selectedTeeId": "RiJa",
+          "selectedTeeType": "Short",
+          "selectedPinId": "A7bv",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "mdEt",
+          "par": 3,
+          "effectiveDistanceMeters": 62.179198010265665,
+          "effectiveDistanceFt": 204,
+          "hasOverride": true
+        },
+        {
+          "slot": 4,
+          "holeId": "wS5o",
+          "holeName": "4",
+          "selectedTeeId": "yFQq",
+          "selectedTeeType": "Short",
+          "selectedPinId": "q9Qt",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Pc4j",
+          "par": 3,
+          "effectiveDistanceMeters": 71.93279769815048,
+          "effectiveDistanceFt": 236,
+          "hasOverride": false
+        },
+        {
+          "slot": 5,
+          "holeId": "z7it",
+          "holeName": "5",
+          "selectedTeeId": "TINr",
+          "selectedTeeType": "Short",
+          "selectedPinId": "vxDt",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Yr5t",
+          "par": 3,
+          "effectiveDistanceMeters": 71.32319771765768,
+          "effectiveDistanceFt": 234,
+          "hasOverride": false
+        },
+        {
+          "slot": 6,
+          "holeId": "347q",
+          "holeName": "6",
+          "selectedTeeId": "MWZy",
+          "selectedTeeType": "Short",
+          "selectedPinId": "EiCs",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "xA8b",
+          "par": 4,
+          "effectiveDistanceMeters": 146.30399531827214,
+          "effectiveDistanceFt": 480,
+          "hasOverride": false
+        },
+        {
+          "slot": 7,
+          "holeId": "ue0k",
+          "holeName": "7",
+          "selectedTeeId": "gJWC",
+          "selectedTeeType": "Short",
+          "selectedPinId": "wTMf",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "7Cql",
+          "par": 4,
+          "effectiveDistanceMeters": 95.0975969568769,
+          "effectiveDistanceFt": 312,
+          "hasOverride": false
+        },
+        {
+          "slot": 8,
+          "holeId": "TLcY",
+          "holeName": "8",
+          "selectedTeeId": "0E6w",
+          "selectedTeeType": "Short",
+          "selectedPinId": "D1AM",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "oCqC",
+          "par": 3,
+          "effectiveDistanceMeters": 65.83679789322247,
+          "effectiveDistanceFt": 216,
+          "hasOverride": false
+        },
+        {
+          "slot": 9,
+          "holeId": "FCOh",
+          "holeName": "9",
+          "selectedTeeId": "N1tJ",
+          "selectedTeeType": "Short",
+          "selectedPinId": "b9T7",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "9ZmG",
+          "par": 3,
+          "effectiveDistanceMeters": 58.52159812730886,
+          "effectiveDistanceFt": 192,
+          "hasOverride": false
+        },
+        {
+          "slot": 10,
+          "holeId": "ngzW",
+          "holeName": "10",
+          "selectedTeeId": "LuoC",
+          "selectedTeeType": "Short",
+          "selectedPinId": "8QY4",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "BNUN",
+          "par": 3,
+          "effectiveDistanceMeters": 92.3543970446593,
+          "effectiveDistanceFt": 303,
+          "hasOverride": false
+        },
+        {
+          "slot": 11,
+          "holeId": "2Gkm",
+          "holeName": "11",
+          "selectedTeeId": "RtJy",
+          "selectedTeeType": "Short",
+          "selectedPinId": "e2O7",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "atLi",
+          "par": 4,
+          "effectiveDistanceMeters": 93.26879701539849,
+          "effectiveDistanceFt": 306,
+          "hasOverride": false
+        },
+        {
+          "slot": 12,
+          "holeId": "1Mt6",
+          "holeName": "12",
+          "selectedTeeId": "CK37",
+          "selectedTeeType": "Short",
+          "selectedPinId": "4pep",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "Jpr1",
+          "par": 3,
+          "effectiveDistanceMeters": 68.57999780544007,
+          "effectiveDistanceFt": 225,
+          "hasOverride": false
+        },
+        {
+          "slot": 13,
+          "holeId": "bMZy",
+          "holeName": "13",
+          "selectedTeeId": "T2QL",
+          "selectedTeeType": "Short",
+          "selectedPinId": "AF0h",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "JpDc",
+          "par": 4,
+          "effectiveDistanceMeters": 121.91999609856012,
+          "effectiveDistanceFt": 400,
+          "hasOverride": false
+        },
+        {
+          "slot": 14,
+          "holeId": "qT0b",
+          "holeName": "14",
+          "selectedTeeId": "Oq3z",
+          "selectedTeeType": "Short",
+          "selectedPinId": "KdIx",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "9Phx",
+          "par": 3,
+          "effectiveDistanceMeters": 103.3271966935297,
+          "effectiveDistanceFt": 339,
+          "hasOverride": false
+        },
+        {
+          "slot": 15,
+          "holeId": "nPJL",
+          "holeName": "15",
+          "selectedTeeId": "Z5It",
+          "selectedTeeType": "Short",
+          "selectedPinId": "8gAC",
+          "selectedPinType": "Yellow",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "75kq",
+          "par": 4,
+          "effectiveDistanceMeters": 140.20799551334414,
+          "effectiveDistanceFt": 460,
+          "hasOverride": true,
+          "sourceSelection": {
+            "slot": 15,
+            "holeId": "ESEj",
+            "holeName": "15",
+            "selectedTeeId": "4M3L",
+            "selectedTeeType": "Short",
+            "selectedPinId": "QJ8j",
+            "selectedPinType": "Orange",
+            "borrowedTargetFrom": null,
+            "selectedPathId": "csni",
+            "par": 4,
+            "effectiveDistanceMeters": 228.59999268480024,
+            "effectiveDistanceFt": 750,
+            "hasOverride": false
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 16,
+          "holeId": "ESEj",
+          "holeName": "16",
+          "selectedTeeId": "4M3L",
+          "selectedTeeType": "Short",
+          "selectedPinId": "QJ8j",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "csni",
+          "par": 4,
+          "effectiveDistanceMeters": 228.59999268480024,
+          "effectiveDistanceFt": 750,
+          "hasOverride": false,
+          "sourceSelection": {
+            "slot": 16,
+            "holeId": "tz8icmrfkmw0il5z6qt88gxh",
+            "holeName": "16",
+            "selectedTeeId": "qji99cu46xx42983w9anyz60",
+            "selectedTeeType": "Short",
+            "selectedPinId": "QJ8j",
+            "selectedPinType": "Orange",
+            "borrowedTargetFrom": "ESEj",
+            "selectedPathId": "a0rd989nfljt5bw0hfg4xrjm",
+            "par": 3,
+            "effectiveDistanceMeters": 140.32,
+            "effectiveDistanceFt": 460,
+            "hasOverride": true
+          },
+          "referenceOverride": true
+        },
+        {
+          "slot": 17,
+          "holeId": "hoc3",
+          "holeName": "17",
+          "selectedTeeId": "yMlk",
+          "selectedTeeType": "Short",
+          "selectedPinId": "Qj0g",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "GBjd",
+          "par": 3,
+          "effectiveDistanceMeters": 79.55279745431048,
+          "effectiveDistanceFt": 261,
+          "hasOverride": false
+        },
+        {
+          "slot": 18,
+          "holeId": "XaEX",
+          "holeName": "18",
+          "selectedTeeId": "hWSv",
+          "selectedTeeType": "Short",
+          "selectedPinId": "H2zq",
+          "selectedPinType": "Orange",
+          "borrowedTargetFrom": null,
+          "selectedPathId": "perp",
+          "par": 3,
+          "effectiveDistanceMeters": 131.06399580595215,
+          "effectiveDistanceFt": 430,
+          "hasOverride": false
+        }
+      ],
+      "referenceTotals": {
+        "par": 61,
+        "distanceMeters": 1885.187939673986,
+        "distanceFt": 6185
+      },
+      "totalsBasis": "User-selected satellite reference; published server totals retained separately for provenance."
+    }
+  ]
+}
