@@ -4,6 +4,7 @@
 
 - **GitHub**: https://github.com/DarkMatterGravity/fields-of-dreams-course-guide
 - **Public URL**: https://darkmattergravity.github.io/fields-of-dreams-course-guide/
+- **Status**: Deployed and verified 2026-10-26
 
 ## Files
 

@@ -166,7 +166,7 @@ outputHtml = outputHtml.replace(
 );
 
 // Remove the old scaleProof function completely
-outputHtml = outputHtml.replace(/function scaleProof\(\)\{[^}]+\}/, '');
+outputHtml = outputHtml.replace(/^function scaleProof\(\)[^\r\n]*\r?\n/m, '');
 
 // Replace scaleProof() call inside load() with fitToViewport()
 outputHtml = outputHtml.replace(/;scaleProof\(\);document\.documentElement\.dataset\.ready/, ';fitToViewport();document.documentElement.dataset.ready');
